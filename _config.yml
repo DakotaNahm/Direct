@@ -177,5 +177,4 @@ plugins:
 - jekyll-redirect-from
 - jekyll-feed
 - jekyll-wikilinks
-- jekyll-last-modified-at
-- jekyll-graph
+# - jekyll-graph
