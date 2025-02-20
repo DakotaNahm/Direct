@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "150da4a0f98492af",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a6d7b65dfe24a65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68bdb0177a6320a6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3aa1ea3782e80e19",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22d926cb2abf128e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d02e7500b377dc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e509f202f4abd033",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf91471a0053b065",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "edda9e9b7c04de0d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296
+  },
+  "right": {
+    "id": "fa5c2b51a2ba60c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f4884f40f957bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ed0ef8d7e095b52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a501e8b62ac40d8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f504780cf020cd31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "528fa5a3a1750465",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "aba8275b4914b122",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3aa1ea3782e80e19",
+  "lastOpenFiles": [
+    "_daily/2022-10-29.md",
+    "_daily/2022-10-27.md",
+    "_articles/table test.md",
+    "_daily/2022-10-25.md",
+    "_articles/Exocore Installation Instructions.md",
+    "_articles/Writing with Exocore Syntax.md",
+    "assets/imgs/bg-yotsuba.gif",
+    "_articles/Configure Exocore for Personal Use.md",
+    "_daily/2022-10-23.md",
+    "_daily/2022-05-11.md"
+  ]
+}
