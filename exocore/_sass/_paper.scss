@@ -10,10 +10,10 @@ $color-items: #fffdfb;
 
 
 /* --- Text Colors --- */
-$color-text: Red;
+$color-text: rgb(0, 20, 131);
 $color-subtext: black;
-$internal-links: brown;
-$external-links: brown;
+$internal-links: blue;
+$external-links: blue;
 $invalid-links: $internal-links;
 $color-primary: black;
 $color-box-shadow: none;
@@ -21,7 +21,6 @@ $color-box-shadow: none;
 
 /* --- Borders --- */
 $article-border: 2px solid blue;
-$sidebar-border: 2px solid brown;
 $prev-next-border: none;
 $color-item-border: none;
 $border-radius: 5px;
@@ -29,19 +28,19 @@ $border-radius: 5px;
 /* --- Embeds, Sidenote and Footnote Colors --- */
 $embed-border: 2px solid brown;
 $color-embed-background: white;
-$color-embed-title: black;
+$color-embed-title: red;
 $color-embed-text: black;
 
-$footnote-border: 2px solid brown;
+$footnote-border: none;
 $color-footnote-background: white;
-$color-footnote-text: black;
+$color-footnote-text: rgb(138, 138, 138);
 
 $sidenote-border: thin solid $color-primary;
 $color-sidenote-background: none;
 $color-sidenote-text: brown;
 
 $color-code-text: white;
-$color-code-highlight: brown;
+$color-code-highlight: green;
 $color-code-background: $color-code-highlight;
 
 
@@ -80,16 +79,22 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration:underline;
     text-align:center;
     font-weight:bold;
-    margin:0em;
+    margin:1em;
     line-height:1em;
     font-size: 1.8em;
+    color: red;
+}
+
+.title .title-text{
+    font-size: 1.3em;
+    text-align: center;
 }
 
 .post-content{
     
 h1 { text-align:center;font-weight:bold; text-decoration: underline; font-size: 1.4em;}
 
-h2 { text-align:left;font-weight:bold; font-size: 1.4em}
+h2 { text-align:left;font-weight:bold; font-size: 1.4em; color: #0066CC }
 
 h3 {font-weight:normal; text-decoration:underline;text-align:left; font-size:1.3em;}
 
@@ -170,7 +175,7 @@ a {
 
 index-grid a:hover {
 
-      background-color: $background;
+      background-color: yellow;
       cursor: alias;
 }
 
@@ -260,10 +265,22 @@ h6:hover > a.anchor {
     margin-bottom: 0em;
     float: left;
     clear: both;
-    background-color: $background;
+    // background-color: white;
     padding: 0.5em 1em;
     box-sizing: border-box;
     width: 100%;
+}
+
+.index-card{
+    // padding: 0.5em 1em;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    border: none;
+}
+
+.index-grid:first-child {
+    border-top: 1px solid black;
 }
 
 .container-lg {
@@ -290,7 +307,7 @@ h6:hover > a.anchor {
     margin: auto
 }}
 
-.midcolumn > :nth-child(1){
+.midcolumn > article:nth-child(1){
     background-color: yellow;
 }
 
@@ -375,22 +392,33 @@ article {
     text-align: center;
     width: 100%;
 }
-
-.sidebar-link-box, .index-grid {
+.sidebar-link-box{
     display: grid;
     grid-template-columns: auto;
-//    border: 2px brown solid; 
+    border: $color-item-border; 
     box-shadow: 1px 1px 0px $color-box-shadow;
-    // background-color: $color-inner-divs;
     margin-bottom: 0.5em;
     max-width: 100%;
     padding: 0.5em;
     font-size: 0.9em;
+}
+
+.index-grid {
+    display: block;
+    margin: auto;
+    grid-template-columns: auto;
+//    border: 2px brown solid; 
+    box-shadow: 1px 1px 0px white;
+    // background-color: $color-inner-divs;
+    // margin-bottom: 0.5em;
+    max-width: 100%;
+    // padding: 0.5em;
+    font-size: 0.9em;
     justify-content: end;
     justify-items: end;
-    // align-items: end;
+    align-items: end;
     
-    @media (max-width: 900px)
+    @media (max-width: 1000px)
      {margin: auto;
       display: block;
 }}
@@ -460,9 +488,9 @@ article {
 (use this to style the formatting of your posts)
 ================================================== */
 .post-content {
-    line-height: 1.5em;
-      margin-left:2em; 
-  margin-right:1em; 
+    line-height: 1.3em;
+      margin-left:0.3em; 
+  margin-right:0.3em; 
   padding-top:0.5em;
 }
 
@@ -477,7 +505,7 @@ article {
 
 
 .post-content blockquote {
-  padding: 1em;
+  padding: 0.3em;
   margin: 0;
   font-size: 1em;
   font-family: $font-family-serif;
@@ -506,12 +534,10 @@ img+em {
 
 .backlinks-container {
     max-width:28em; margin: 0 auto;
-    background-color: $color-inner-divs;
+    background-color: none;
     padding: 1em;
     margin: 1em auto;
-    border: 2px solid brown;
-    border-radius: 5px;
-    
+    border: none;
 }
 
 .backlinks-container h1{
@@ -522,9 +548,9 @@ img+em {
     padding:1em;
     margin-bottom: 0.5em;
     line-height:1em;
-    background-color: $color-items;
-    border: 2px solid $color-primary;
-    border-radius: $border-radius;
+    background-color: none;
+    border: 2px solid blue;
+    border-radius: 0px;
     line-height:1em;
 }
 
@@ -559,6 +585,7 @@ img+em {
 ================================================== */
 
 .sidenote {
+    display: none;
     padding-left: 5px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -596,13 +623,32 @@ img+em {
     top: -25px;
 } 
 
-// *Shell //
+/* SHELL
+=====================================================*/
 .shell-container{
     border: 2px solid blue;
     padding: 10px;
     margin: auto;
+    float: left;
+    width: 100%;
+    margin: 1em 1em 1em 0;
 }
 
+/* Wissensorte
+=====================================================*/
+.w-list{
+    float: left;
+    width: 50%;
+    margin: 1em;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+}
+
+.w-list li {
+    list-style-type: none;
+    margin: 1em;
+}
 
 
 /* FOOTNOTES
@@ -634,41 +680,47 @@ img+em {
 ================================================== */
 
 .index-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    text-align: left;
-    grid-gap: flex;
-    padding: 1em;
-        border: 2px solid brown;
-    border-radius: 5px;
-
-    
-     @media (max-width: 1000px)
-     {grid-template-columns: auto;}
+    // display: grid;
+    // flex-wrap: wrap;
+    // // flex-direction: column;
+    // // text-align: left;
+    // // padding: 1em;
+    // // width: 100%;
+    // //     border: none;
+    // //     @media (max-width: 1000px)
+    // //  {grid-template-columns: auto;}
+    padding: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 .index-anchor {
         text-decoration: none !important;
+        width: 100%;
 
 }
 .index-item, .archive-item, .library-item {
-    width: 95%;
+    width: 100%;
     margin: auto;
-    background-color: $color-items;
+    background-color: white;
     text-align: left;
-    margin-bottom: 1em;
+    // margin-bottom: 1em;
     padding: 0.5em;
-    border: 2px solid $color-primary;
+    border: 1px solid black;
+    border-top: none;
     box-sizing: border-box;
-    border-radius: 5px;
     
     &:hover {
         box-shadow: 0px 0px 0px 1px $color-primary;
+        background-color: yellow;
+        color: red;
     }
 }
 
 .index-item {
-    height: 8em;
+    height: auto;
     overflow: hidden;
 }
 
@@ -691,11 +743,7 @@ font-weight: normal;
 }
 
 .index-item-excerpt {
-font-weight: normal;
-    height: 5em;
-    width: 85%;
-    overflow: hidden;
-    float: left;
+display: none;
 
 }
 
@@ -747,15 +795,21 @@ font-weight: normal;
     // position: absolute;
   }
 
+  .new-date {
+    margin-left: 1.3em;
+  }
+
 .library-grid-container {
     width: 90%;
     margin: auto;
+    background-color: white;
 }
     
 .library-grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33% ;
     width: 100%;
+    background-color: white;
 }
 
 .library-image {
@@ -979,7 +1033,7 @@ table, tr, td {
 ================================================== */
 
 // Border around your posts
- article, .index-card {
+ article {
     border: $article-border;
     box-sizing: border-box;
 }

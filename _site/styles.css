@@ -291,17 +291,19 @@ template { display: none; }
 /* --- Borders --- */
 /* --- Embeds, Sidenote and Footnote Colors --- */
 /* --- Font Family --- */
-body { font-family: Times New Roman, Times, serif; padding: 4vh 6vw; overflow-x: hidden; color: Red; font-size: 1.2rem; background-color: white; }
+body { font-family: Times New Roman, Times, serif; padding: 4vh 6vw; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-color: white; }
 
 /* TITLES
 ================================================== */
 h1, h2, h3, h4, h5, h6 { line-height: 1.4; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; }
 
-.title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: 0em; line-height: 1em; font-size: 1.8em; }
+.title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: 1em; line-height: 1em; font-size: 1.8em; color: red; }
+
+.title .title-text { font-size: 1.3em; text-align: center; }
 
 .post-content h1 { text-align: center; font-weight: bold; text-decoration: underline; font-size: 1.4em; }
 
-.post-content h2 { text-align: left; font-weight: bold; font-size: 1.4em; }
+.post-content h2 { text-align: left; font-weight: bold; font-size: 1.4em; color: #0066CC; }
 
 .post-content h3 { font-weight: normal; text-decoration: underline; text-align: left; font-size: 1.3em; }
 
@@ -313,31 +315,31 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: brown; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: white; }
+code { color: white; background-color: green; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: white; }
 
-.highlight { background-color: brown; }
+.highlight { background-color: green; }
 
 /* LINKS
 ================================================== */
-a { color: brown; text-decoration: underline; }
+a { color: blue; text-decoration: underline; }
 
 a:hover { text-decoration: underline; cursor: pointer; }
 
-a.internal-link { color: brown; text-decoration: underline; cursor: pointer; }
+a.internal-link { color: blue; text-decoration: underline; cursor: pointer; }
 
 .notes-entry-container a.internal-link::before { content: "»"; }
 
-.invalid-link, .invalid-link-brackets { color: brown; cursor: help; }
+.invalid-link, .invalid-link-brackets { color: blue; cursor: help; }
 
 .web-link:hover { cursor: alias; }
 
-.anchor a { color: Red; cursor: pointer; }
+.anchor a { color: #001483; cursor: pointer; }
 
-.anchor a:hover { color: brown; cursor: pointer; background-color: #fffcf7; }
+.anchor a:hover { color: blue; cursor: pointer; background-color: #fffcf7; }
 
 .toc-container a { cursor: pointer; }
 
-index-grid a:hover { background-color: #fffcf7; cursor: alias; }
+index-grid a:hover { background-color: yellow; cursor: alias; }
 
 .sidebar-link-box a:hover, .post-content a:hover { background-color: Yellow; color: Red; }
 
@@ -375,7 +377,11 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 /* STRUCTURE
 ================================================== */
-.sidebar-card, .index-card, .archive-cardi { margin-bottom: 0em; float: left; clear: both; background-color: #fffcf7; padding: 0.5em 1em; box-sizing: border-box; width: 100%; }
+.sidebar-card, .index-card, .archive-cardi { margin-bottom: 0em; float: left; clear: both; padding: 0.5em 1em; box-sizing: border-box; width: 100%; }
+
+.index-card { padding: 0; margin: auto; width: 100%; border: none; }
+
+.index-grid:first-child { border-top: 1px solid black; }
 
 .container-lg { max-width: 80em; margin: auto; }
 
@@ -387,7 +393,7 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 @media (max-width: 900px) { .midcolumn { width: 100%; margin: auto; } }
 
-.midcolumn > :nth-child(1) { background-color: yellow; }
+.midcolumn > article:nth-child(1) { background-color: yellow; }
 
 .midcolumn-small { width: 40%; margin: auto; }
 
@@ -415,11 +421,13 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 
 .profile { margin-bottom: 0.5em; font-weight: bold; text-align: center; }
 
-.user-name { color: brown; text-decoration: underline; margin: auto; margin-top: 0; margin-bottom: 0; text-align: center; width: 100%; }
+.user-name { color: blue; text-decoration: underline; margin: auto; margin-top: 0; margin-bottom: 0; text-align: center; width: 100%; }
 
-.sidebar-link-box, .index-grid { display: grid; grid-template-columns: auto; box-shadow: 1px 1px 0px none; margin-bottom: 0.5em; max-width: 100%; padding: 0.5em; font-size: 0.9em; justify-content: end; justify-items: end; }
+.sidebar-link-box { display: grid; grid-template-columns: auto; border: none; box-shadow: 1px 1px 0px none; margin-bottom: 0.5em; max-width: 100%; padding: 0.5em; font-size: 0.9em; }
 
-@media (max-width: 900px) { .sidebar-link-box, .index-grid { margin: auto; display: block; } }
+.index-grid { display: block; margin: auto; grid-template-columns: auto; box-shadow: 1px 1px 0px white; max-width: 100%; font-size: 0.9em; justify-content: end; justify-items: end; align-items: end; }
+
+@media (max-width: 1000px) { .index-grid { margin: auto; display: block; } }
 
 .sidebar-link-box h2 { font-size: 1.3em; }
 
@@ -429,7 +437,7 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 
 .sidebar-link-box ul li { list-style: none; list-style-position: inside; }
 
-.silent-link { color: Red; }
+.silent-link { color: #001483; }
 
 /* HOME 
 =============*/
@@ -446,23 +454,23 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 /* POST CONTENT
 (use this to style the formatting of your posts)
 ================================================== */
-.post-content { line-height: 1.5em; margin-left: 2em; margin-right: 1em; padding-top: 0.5em; }
+.post-content { line-height: 1.3em; margin-left: 0.3em; margin-right: 0.3em; padding-top: 0.5em; }
 
 .post-content img { max-width: 70%; display: block; margin: auto; margin-bottom: 2em; max-height: 75vh; border-radius: 5px; }
 
-.post-content blockquote { padding: 1em; margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
+.post-content blockquote { padding: 0.3em; margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
 
 .notes-entry-container { border: none; padding: 1em; padding-top: 0em; }
 
-img + em { display: block; color: brown; text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 0.9em; margin-top: -1.5em; }
+img + em { display: block; color: blue; text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 0.9em; margin-top: -1.5em; }
 
 /* BACKLINKS
 ================================================== */
-.backlinks-container { max-width: 28em; margin: 0 auto; background-color: #fffdfb; padding: 1em; margin: 1em auto; border: 2px solid brown; border-radius: 5px; }
+.backlinks-container { max-width: 28em; margin: 0 auto; background-color: none; padding: 1em; margin: 1em auto; border: none; }
 
 .backlinks-container h1 { margin-bottom: 1em; }
 
-.backlink-box { padding: 1em; margin-bottom: 0.5em; line-height: 1em; background-color: #fffdfb; border: 2px solid black; border-radius: 5px; line-height: 1em; }
+.backlink-box { padding: 1em; margin-bottom: 0.5em; line-height: 1em; background-color: none; border: 2px solid blue; border-radius: 0px; line-height: 1em; }
 
 /* EMBEDDED NOTES
 ================================================== */
@@ -476,45 +484,51 @@ img + em { display: block; color: brown; text-align: center; width: 50%; margin-
 
 /* SIDENOTES
 ================================================== */
-.sidenote { padding-left: 5px; padding-top: 3px; padding-bottom: 3px; margin-left: 1em; font-style: italic; font-size: 0.8em; line-height: 1.1em; box-sizing: border-box; color: brown; }
+.sidenote { display: none; padding-left: 5px; padding-top: 3px; padding-bottom: 3px; margin-left: 1em; font-style: italic; font-size: 0.8em; line-height: 1.1em; box-sizing: border-box; color: brown; }
 
-.sidenote-hover { color: black; z-index: 1; box-sizing: border-box; color: brown; background: white; border: 1px solid brown; }
+.sidenote-hover { color: black; z-index: 1; box-sizing: border-box; color: blue; background: white; border: 1px solid brown; }
 
-.sidenote:hover { z-index: 1; color: brown; }
+.sidenote:hover { z-index: 1; color: blue; }
 
 .footnote web-link { position: relative; }
 
 .bigger:after { content: ""; padding: 50px; position: absolute; left: -25px; top: -25px; }
 
-.shell-container { border: 2px solid blue; padding: 10px; margin: auto; }
+/* SHELL
+=====================================================*/
+.shell-container { border: 2px solid blue; padding: 10px; margin: auto; float: left; width: 100%; margin: 1em 1em 1em 0; }
+
+/* Wissensorte
+=====================================================*/
+.w-list { float: left; width: 50%; margin: 1em; display: grid; display: flex; flex-direction: row; }
+
+.w-list li { list-style-type: none; margin: 1em; }
 
 /* FOOTNOTES
 ================================================== */
-.footnotes { border: 2px solid brown; padding: 1em 0; background-color: white; color: black; border-radius: 5px; }
+.footnotes { border: none; padding: 1em 0; background-color: white; color: #8a8a8a; border-radius: 5px; }
 
-.license { font-family: monospace; line-height: 1.1em; color: Red; font-size: 1rem; border: none; background-color: white; display: block; padding: 1em; max-width: 28em; margin: 2em auto; text-align: center; }
+.license { font-family: monospace; line-height: 1.1em; color: #001483; font-size: 1rem; border: none; background-color: white; display: block; padding: 1em; max-width: 28em; margin: 2em auto; text-align: center; }
 
 /* INDEX
 ================================================== */
-.index-grid { display: grid; grid-template-columns: 50% 50%; text-align: left; grid-gap: flex; padding: 1em; border: 2px solid brown; border-radius: 5px; }
+.index-grid { padding: 0; margin: auto; height: 100%; width: 100%; border: none; }
 
-@media (max-width: 1000px) { .index-grid { grid-template-columns: auto; } }
+.index-anchor { text-decoration: none !important; width: 100%; }
 
-.index-anchor { text-decoration: none !important; }
+.index-item, .archive-item, .library-item { width: 100%; margin: auto; background-color: white; text-align: left; padding: 0.5em; border: 1px solid black; border-top: none; box-sizing: border-box; }
 
-.index-item, .archive-item, .library-item { width: 95%; margin: auto; background-color: #fffdfb; text-align: left; margin-bottom: 1em; padding: 0.5em; border: 2px solid black; box-sizing: border-box; border-radius: 5px; }
+.index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 1px black; background-color: yellow; color: red; }
 
-.index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 1px black; }
+.index-item { height: auto; overflow: hidden; }
 
-.index-item { height: 8em; overflow: hidden; }
-
-.index-item-title, .library-item-title { font-weight: bold; text-decoration: underline; color: Red; overflow: hidden; }
+.index-item-title, .library-item-title { font-weight: bold; text-decoration: underline; color: #001483; overflow: hidden; }
 
 .index-item-date, .library-item-filetype { font-weight: normal; float: right; }
 
 .index-item-topic { font-weight: normal; font-weight: bold; }
 
-.index-item-excerpt { font-weight: normal; height: 5em; width: 85%; overflow: hidden; float: left; }
+.index-item-excerpt { display: none; }
 
 /* ARCHIVE
 ================================================== */
@@ -530,9 +544,11 @@ img + em { display: block; color: brown; text-align: center; width: 50%; margin-
 
 .post-date { padding: 0.5em; width: fit-content; }
 
-.library-grid-container { width: 90%; margin: auto; }
+.new-date { margin-left: 1.3em; }
 
-.library-grid { display: grid; grid-template-columns: 25% 25% 25% 25%; width: 100%; }
+.library-grid-container { width: 90%; margin: auto; background-color: white; }
+
+.library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; background-color: white; }
 
 .library-image { background: white; }
 
@@ -606,7 +622,7 @@ table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; m
 
 /* BORDERS
 ================================================== */
-article, .index-card { border: 2px solid blue; box-sizing: border-box; }
+article { border: 2px solid blue; box-sizing: border-box; }
 
 .sidebar-card, .border { border: none; box-sizing: border-box; margin-bottom: 1em; border-radius: 5px; }
 
@@ -638,7 +654,7 @@ article, .index-card { border: 2px solid blue; box-sizing: border-box; }
 
 body { overflow-wrap: break-word; }
 
-@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 75%; } .leftcolumn { width: 20%; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
+@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 75%; margin: auto; } .leftcolumn { width: 20%; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
 @media (max-width: 800px) { .midcolumn, .leftcolumn { width: 100%; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: #fffcf7; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 

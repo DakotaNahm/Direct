@@ -10,3 +10,8 @@ tags:
 Mobile test!
 
 Lets try this
+
+add image
+![test](/images/mouse.jpg)
+
+![test2](/images/girl.jpg)

@@ -14,9 +14,9 @@ type:
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Daily Notes</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.articles.size }} posts</p>
-        <p style=" width: 100%; text-align: center"><a href="/pages/all-daily/">View Index</a></p>
+        <h1 class="title-text">Log</h1>
+        <p style=" width: 100%; text-align: center"></p>
+        <p style=" width: 100%; text-align: center"><a href="/pages/all-daily/"></a></p>
       </article>
 <br>
       {% assign items = site.daily | sort: 'date' | reverse %}
@@ -36,7 +36,7 @@ type:
         </div>
           {% endunless %}
           {% endfor %}
-          <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
+          <div class="new-date"> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
 
         <div class="notes-entry-container note">
           <div class="content post-content">

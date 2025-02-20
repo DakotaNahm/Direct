@@ -9,15 +9,17 @@ type:
 <section class="container-lg">
 
   <div class="leftcolumn">
-
-    
     {% include profile-card.html %}
   </div>
 
   <div class="midcolumn">
+    <article>
+      <h1 class="title-text">Essays</h1>
+      <p style=" width: 100%; text-align: center">Showing {{ site.articles.size }} items</p>
+      <p style=" width: 100%; text-align: center"></p>
+    </article>
+    <br>
   <div class="index-card">
-    <p style="float: right">Showing {{ site.articles.size }} items</p>
-    <h1 class="index-title">Index of Articles (By most recent)</h1>
   <div class="index-grid">
   {% assign topic_sort = site.articles | sort: 'topic'%}
   {% for item in topic_sort %}	
@@ -27,11 +29,8 @@ type:
         <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
 
       {% if item.topic %}
-      <br>
        <span class="index-item-topic">Topic: {{ item.topic }}</span>	
       {% endif %}
-
-       <span class="index-item-excerpt">{{ item.content | strip_html | truncate: 150 -}} </span>
 
       </div>
           </a>
