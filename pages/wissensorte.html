@@ -1,37 +1,41 @@
 ---
 layout: page
-title: Library
+title: Wissensorte
 ---
 
 <main>
 <section class="container-lg">
 
   <div class="leftcolumn">
-
-    
     {% include profile-card.html %}
   </div>
 
   <div class="midcolumn">
   <div class="index-card">
 <div>
-    <h1>Image Gallery</h1>
-  </div>
-
-<div class="library-grid-container">
-<div class="library-grid">
-{% for image in site.static_files %} 
-{% if image.path contains '/images' %}
-<a href="{{ image.path }}">
-<div class="library-image-container" style="background-image: url({{ image.path }});"></div>
-</a>
-{% endif %}
-{% endfor %}
+    <h1>Wissensorte</h1>
 </div>
 </div>
-
-
-</div>
+<ul>
+    <li>
+         <a href="/pages/archive" >::Index::</a>
+    </li>
+    <li>
+        <a href="/pages/gallery" >::Tags::</a>
+    </li>
+    <li>
+        <a href="/pages/gallery" >::Links::</a>
+    </li>
+    <li>
+        <a href="/pages/wissensorte/site-graph.html">::Site Graph::</a>
+    </li>
+    <li>
+        <a href="/pages/wissensorte/library.html" >::PDF's::</a>
+    </li>
+    <li>
+        <a href="/ring">::Webring::</a>
+    </li>
+</ul>
 </div>  
 </div>
 </div>

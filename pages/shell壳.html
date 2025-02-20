@@ -1,0 +1,73 @@
+---
+layout: page
+title: Shell壳
+date:
+type:
+
+---
+<main>
+    <section class="container-lg">
+
+        <div class="leftcolumn">
+          {% include profile-card.html %}
+        </div>
+      
+        <div class="midcolumn">
+        <div class="index-card">
+            <div>
+                <h1>Shell壳</h1>
+            </div>
+        </div>
+        <div class="main shell-container">
+          <div><div class="" ><h2>Contents</h2></div>
+          <!-- <ul class="x">
+          <li><a href="#Timeline"><span class="tocnumber">1</span> <span class="toctext">Timeline</span></a>
+          <ul>
+          <li><a href="#2020"><span class="tocnumber">1.1</span> <span class="toctext">2020</span></a>
+          </ul>
+          </ul>
+          
+          <ul class="x">
+            <li><a href="#Timeline"><span class="tocnumber">1</span> <span class="toctext">Timeline</span></a>
+            <ul>
+            <li><a href="#2020"><span class="tocnumber">1.1</span> <span class="toctext">2020</span></a>
+            </ul>
+            </ul>
+          
+          <ul class="x">
+            <li><a href="#Timeline"><span class="tocnumber">1</span> <span class="toctext">Timeline</span></a>
+            <ul>
+            <li><a href="#2020"><span class="tocnumber">1.1</span> <span class="toctext">2020</span></a>
+            </ul>
+            </ul>
+          
+          <ul class="x">
+            <li><a href="#Timeline"><span class="tocnumber">1</span> <span class="toctext">Timeline</span></a>
+            <ul>
+            <li><a href="#2020"><span class="tocnumber">1.1</span> <span class="toctext">2020</span></a>
+            </ul>
+            </ul>
+          
+          <ul class="x">
+            <li><a href="#Timeline"><span class="tocnumber">1</span> <span class="toctext">Timeline</span></a>
+            <ul>
+            <li><a href="#2020"><span class="tocnumber">1.1</span> <span class="toctext">2020</span></a>
+            </ul>
+            </ul> -->
+        </div>
+        </div>
+        </div>
+    </section>
+</main>       
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>
