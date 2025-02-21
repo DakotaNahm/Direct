@@ -841,9 +841,10 @@ display: none;
   }
 
 .library-grid-container {
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: white;
+    border: 2px solid blue;
 }
     
 .library-grid {
@@ -901,12 +902,12 @@ display: none;
     margin-top: 10px;
     margin-bottom: 10px;
     &:hover {
-    background-color: $color-items;}
+    background-color: none;}
 }
 
 .tag-grid {
     display: block;
-    border: 1px solid blue;
+    border: 2px solid blue;
     text-align: start;
 }
 
@@ -921,14 +922,16 @@ display: none;
     text-align:left;
     height: auto;
     background-color: white;
+    &:hover {
+        background: white; }
 }
 
-.tag-grid div p{
+.tag-grid div p a {
     padding: 0;
-    height: 15px;
     border: none;
     text-align:left;
-    padding-top: 0px;
+    padding: 3px;
+    color: darkblue;
 
     &:hover {
         background: yellow;

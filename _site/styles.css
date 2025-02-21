@@ -550,7 +550,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .new-date { margin-left: 1.3em; }
 
-.library-grid-container { width: 90%; margin: auto; background-color: white; }
+.library-grid-container { width: 100%; margin: auto; background-color: white; border: 2px solid blue; }
 
 .library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; background-color: white; }
 
@@ -570,17 +570,19 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .tile, .home-link-button { background-color: #fffdfb; border: 2px solid black; border-radius: 5px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
 
-.tile:hover, .home-link-button:hover { background-color: #fffdfb; }
+.tile:hover, .home-link-button:hover { background-color: none; }
 
-.tag-grid { display: block; border: 1px solid blue; text-align: start; }
+.tag-grid { display: block; border: 2px solid blue; text-align: start; }
 
 .tag-grid h1 { font-size: 21px; }
 
 .tag-grid div { padding: 0; margin: 0; border: none; text-align: left; height: auto; background-color: white; }
 
-.tag-grid div p { padding: 0; height: 15px; border: none; text-align: left; padding-top: 0px; }
+.tag-grid div:hover { background: white; }
 
-.tag-grid div p:hover { background: yellow; color: red; }
+.tag-grid div p a { padding: 0; border: none; text-align: left; padding: 3px; color: darkblue; }
+
+.tag-grid div p a:hover { background: yellow; color: red; }
 
 /* PREVIOUS / NEXT BUTTONS
 ================================================== */

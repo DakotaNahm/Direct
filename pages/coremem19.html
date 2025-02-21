@@ -1,0 +1,69 @@
+---
+layout: page
+title: Coremem19
+date:
+type:
+
+---
+<main>
+<section class="container-lg">
+
+  <div class="leftcolumn">
+    {% include profile-card.html %}
+  </div>
+
+  <div class="midcolumn">
+    <article>
+      <h1 class="title-text">Core Mem 19</h1>
+      <p style=" width: 100%; text-align: center">Showing {{ site.daily.size }} items</p>
+      <p style=" width: 100%; text-align: center"></p>
+    </article>
+    <br>
+    <article class="yellow">
+      <p style=" width: auto; text-align: center; padding:10px; color:red;">Core mem are core memories post 2019. 2019 was the last year before a great conscious
+        shift. Read my essay on it here. I don’t really know why, covid was in my optinion about
+        10% of this equation, but that was the year that most people complain of time warp. Here
+        Are some sore mems that Make me feel good to read them. I think it is also good for others
+        To hear of there listeners core memories because there are reasons these things were
+        Invested into a core memory they can serve lessons to readers. I was a gaping teen.</p>
+    </article>
+    <br>
+  <div class="index-card">
+  <div class="index-grid">
+  {% assign topic_sort = site.daily | sort: 'topic'%}
+  {% for item in topic_sort %}	
+    <a class="index-anchor" href="{{ item.url }}">
+      <div class="index-item">
+        <span class="index-item-title">{{ item.title | truncate: 55 }}</span>
+        <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
+
+      {% if item.topic %}
+       <span class="index-item-topic">Topic: {{ item.topic }}</span>	
+      {% endif %}
+
+      </div>
+          </a>
+       {% endfor %}
+       
+    </div>
+  </div>
+  {% include license.html %}
+
+</div>
+
+</section>
+</main>
+
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

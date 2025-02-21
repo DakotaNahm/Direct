@@ -3,39 +3,41 @@ layout: default
 category: archive
 title: tags
 ---
-<div class="leftcolumn">
-  {% include profile-card.html %}
-</div>
-<div class="midcolumn">
-<div class="index-card">
-<br>
-<div class="side-card">
-  <article class="yellow">
-    <h1 class="title-text"><a href="/pages/wissensorte.html">Wissensorte</a>/Tags</h1>
-    <p style=" width: 100%; text-align: center"></p>
-  </article>
-</div>
-<br>
-<div class="tag-grid">
-  {% assign tags =  site.documents | map: 'tags' | join: ','  | split: ',' | uniq %}
-  {% for tag in tags %}
-  <div style="padding: 1em; font-size: 13px; padding: 7px;" id="{{tag}}" class="tile">
-    
-    <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px;">{{ tag | capitalize }}</h1>
-    
-    {% for document in site.documents %}
-      {% if document.tags contains tag %}
-      <p><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a></p>
-     
-      
-      {% endif %}
-    {% endfor %}
-  </div>
-  {% endfor %}
-  </div>
 
-</div>
-</div>
+<section class="container-lg">
+
+  <div class="leftcolumn">
+    {% include profile-card.html %}
+  </div>
+  <div class="midcolumn">
+    <article>
+      <h1 class="title-text">Wissensorte</h1>
+      <p style=" width: 100%; text-align: center">Showing {{ site.journal.size }} items</p>
+      <p style=" width: 100%; text-align: center"></p>
+    </article>
+  <div class="index-card">
+  <br>
+  <div class="tag-grid">
+    {% assign tags =  site.documents | map: 'tags' | join: ','  | split: ',' | uniq %}
+    {% for tag in tags %}
+    <div style="padding: 1em; font-size: 13px; padding: 7px;" id="{{tag}}" class="tile">
+      
+      <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px;">{{ tag | capitalize }}</h1>
+      
+      {% for document in site.documents %}
+        {% if document.tags contains tag %}
+        <p><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a></p>
+       
+        
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+    </div>
+  
+  </div>
+  </div>
+</section>
 
 <script type="text/javascript">
   // Hack: Replace page-link with "Page Title"

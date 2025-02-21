@@ -8,17 +8,14 @@ type:
 
 <div class="container-lg">
 
-    <div class="leftcolumn">
-      {% include profile-card.html %}
-    </div>
-    {% assign items = site.articles | sort: 'date' | reverse %}
-    {% assign posts_displayed = site.articles.size | at_most: 10 %}
-    {% assign posts_total  = site.articles.size %}
+  <div class="leftcolumn">
+    {% include profile-card.html %}
+  </div>
 
     <div class="midcolumn">
       <article>
         <h1 class="title-text">Shell壳</h1>
-        <p style=" width: 100%; text-align: center"></p>
+        <p style=" width: 100%; text-align: center">Life shell for hardening and Protection</p>
         <p style=" width: 100%; text-align: center"></p>
       </article>
     <br>

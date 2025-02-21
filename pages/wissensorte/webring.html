@@ -1,0 +1,58 @@
+---
+layout: default
+title: Webring
+---
+<main>
+<section class="container-lg">
+
+  <div class="leftcolumn">
+    {% include profile-card.html %}
+  </div>
+
+  <div class="midcolumn">
+    <article>
+      <h1 class="title-text">Wissensorte/webring</h1>
+      <p style=" width: 100%; text-align: center">Showing {{ site.journal.size }} items</p>
+      <p style=" width: 100%; text-align: center"></p>
+    </article>
+    <br>
+  <div class="index-card">
+  <div class="index-grid">
+    <a class="index-anchor" href="https://edith.reisen/">
+      <div class="index-item">
+        <span class="index-item-title">Edith Reisen</span>
+        <span class="index-item-topic">Para-academic knowledge repository and power hikikomori optimization manual</span>	
+      </div>
+    </a>
+    <a class="index-anchor" href="http://dons.directory/">
+        <div class="index-item">
+          <span class="index-item-title">Dons Directory</span>
+          <span class="index-item-topic">شارع بدون تبخير ساخ</span>	
+        </div>
+      </a>
+      <a class="index-anchor" href="https://leili.netlify.app">
+        <div class="index-item">
+          <span class="index-item-title">Leili Laternapoiss</span>
+          <span class="index-item-topic">Your entry into the magical Enlightenment of Lanternland!</span>	
+        </div>
+      </a>
+    </div>
+  </div>
+  {% include license.html %}
+
+</div>
+
+</section>
+</main>
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>
