@@ -315,9 +315,9 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: green; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: white; }
+code { color: white; background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: black; }
 
-.highlight { background-color: green; }
+.highlight { background-color: white; }
 
 /* LINKS
 ================================================== */
@@ -389,11 +389,11 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 @media (max-width: 900px) { .leftcolumn { width: 100%; margin: auto; } }
 
-.midcolumn { float: left; width: 50%; margin: 1em; }
+.midcolumn { float: left; width: 600px; margin: 1em; }
 
 @media (max-width: 900px) { .midcolumn { width: 100%; margin: auto; } }
 
-.midcolumn > article:nth-child(1) { background-color: yellow; }
+.midcolumn > article:nth-child(1) { background-color: yellow; border: 2px solid blue; }
 
 .midcolumn-small { width: 40%; margin: auto; }
 
@@ -423,7 +423,7 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 
 .user-name { color: blue; text-decoration: underline; margin: auto; margin-top: 0; margin-bottom: 0; text-align: center; width: 100%; }
 
-.sidebar-link-box { display: grid; grid-template-columns: auto; border: none; box-shadow: 1px 1px 0px none; margin-bottom: 0.5em; max-width: 100%; padding: 0.5em; font-size: 0.9em; }
+.sidebar-link-box { display: grid; grid-template-columns: auto; text-align: end; border: none; box-shadow: 1px 1px 0px none; margin-bottom: 0.5em; max-width: 100%; padding: 0.5em; font-size: 0.9em; }
 
 .index-grid { display: block; margin: auto; grid-template-columns: auto; box-shadow: 1px 1px 0px white; max-width: 100%; font-size: 0.9em; justify-content: end; justify-items: end; align-items: end; }
 
@@ -441,7 +441,7 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 
 /* HOME 
 =============*/
-.home-card { width: 400px; margin: auto; padding: 25px; background-color: #fffcf7; border: 2px solid blue; }
+.home-card { width: 400px; margin: auto; padding: 25px; background-color: #fffcf7; border: 1px solid blue; }
 
 .container-sml { width: 400px; margin: auto; }
 
@@ -470,7 +470,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .backlinks-container h1 { margin-bottom: 1em; }
 
-.backlink-box { padding: 1em; margin-bottom: 0.5em; line-height: 1em; background-color: none; border: 2px solid blue; border-radius: 0px; line-height: 1em; }
+.backlink-box { padding: 1em; margin-bottom: 0.5em; line-height: 1em; background-color: yellow; border: 2px solid blue; border-radius: 0px; line-height: 1em; }
 
 /* EMBEDDED NOTES
 ================================================== */
@@ -500,7 +500,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* Wissensorte
 =====================================================*/
-.w-list { float: left; width: 50%; margin: 1em; display: grid; display: flex; flex-direction: row; }
+.w-list { width: 100%; display: grid; display: flex; flex-direction: row; justify-content: center; margin-block-start: 0em; margin-block-end: 0em; padding: 0; }
 
 .w-list li { list-style-type: none; margin: 1em; }
 
@@ -542,7 +542,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .draft-badge { padding: 0.5em; width: fit-content; float: right; background-color: red; color: white; }
 
-.post-date { padding: 0.5em; width: fit-content; }
+.post-date { padding: 0.5em; width: fit-content; margin: auto; }
 
 .new-date { margin-left: 1.3em; }
 
@@ -572,17 +572,17 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* PREVIOUS / NEXT BUTTONS
 ================================================== */
-.prev-next { background-color: #fffcf7; width: 100%; height: 3.5em; }
+.prev-next { background-color: None; width: 100%; height: 3.5em; }
 
 .prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; }
 
-.prev { float: left; border: 2px solid brown; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
+.prev { float: left; border: none; box-sizing: border-box; padding: 0.5em; border-radius: 5px; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
 
-.prev:hover { background: brown; color: white; }
+.prev:hover { background: yellow; color: red; }
 
-.next { float: right; border: 2px solid brown; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
+.next { float: right; border: none; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
 
-.next:hover { background: brown; color: white; }
+.next:hover { background: yellow; color: red; }
 
 .subtitle-text { width: 100%; text-align: center !important; margin: 0.5em auto; }
 
@@ -592,7 +592,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* NETWORK GRAPH (BACKLINK VISUAL REPRESENTATION)
 ================================================== */
-.network-graph-container { clear: both; margin-top: 1em; display: block; background: #fffcf7; border: 2px solid blue; padding: 2em; height: 45em; }
+.network-graph-container { clear: both; margin-top: 1em; display: block; background: #fffcf7; border: 1px solid blue; padding: 2em; height: 45em; }
 
 .network-graph-container h1 { text-align: center; margin-bottom: 1em; }
 
@@ -622,7 +622,7 @@ table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; m
 
 /* BORDERS
 ================================================== */
-article { border: 2px solid blue; box-sizing: border-box; }
+article { border: 1px solid blue; box-sizing: border-box; }
 
 .sidebar-card, .border { border: none; box-sizing: border-box; margin-bottom: 1em; border-radius: 5px; }
 
@@ -654,9 +654,9 @@ article { border: 2px solid blue; box-sizing: border-box; }
 
 body { overflow-wrap: break-word; }
 
-@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 75%; margin: auto; } .leftcolumn { width: 20%; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
+@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 600px; margin: auto; } .leftcolumn { width: 20%; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
-@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 100%; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: #fffcf7; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: #fffcf7; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */

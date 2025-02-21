@@ -9,7 +9,7 @@ body {
          display: none;
      }
      .midcolumn, {
-         width: 75%;
+         width:600px;
          margin:auto;
      }
       .leftcolumn, {
@@ -26,7 +26,7 @@ body {
 @media (max-width: 800px){
      
     .midcolumn, .leftcolumn {
-        width: 100%;
+        width: 600px;
         margin: auto
     }
     .sidebar-link-box  {
