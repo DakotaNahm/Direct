@@ -11,14 +11,12 @@
             "id": "2ce42a7f714aa402",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_daily/Untitled.md",
-                "mode": "source",
-                "source": true
+                "file": "images/IMG_4190.JPG"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "lucide-image",
+              "title": "IMG_4190"
             }
           }
         ]
@@ -190,8 +188,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ce42a7f714aa402",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
+    "_daily/2025-02-20.md",
+    "_daily/Untitled.md",
     "_site/journal/untitled.html",
     "_journal/Untitled.md",
     "_site/journal/new-test-journal.html",
@@ -199,7 +199,6 @@
     "_journal/New test journal.md",
     "_journal/Journal mobile test.md",
     "_site/styles.css.map",
-    "_daily/2025-02-20.md",
     "_site/(i)Schedule/To-Do ( Pre-Schedule).md",
     "_site/(i)Schedule/To-Do ( Pre-Schedule).html",
     "_site/(i)Schedule",
@@ -212,8 +211,6 @@
     "(i)Bubbling/Things to Watch-Read.md",
     "(i)Bubbling/HN Insp.md",
     "(i)Lifecore",
-    "(i)Expenses",
-    "_daily/Untitled.md",
     "images/girl-online.png",
     "images/girl.jpg",
     "images.md",
