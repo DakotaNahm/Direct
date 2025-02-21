@@ -16,10 +16,15 @@ title: Latest
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Posts</h1>
-        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} posts</p>
+        <h1 class="title-text">Welcome to Dakota Direct</h1>
+        <p style=" width: 100%; text-align: center">If your not sure where to start hear are some good reads</p>
       </article>
 <br>
+<div class="home-img-container">
+  <img src="/images/caughtup.png" alt="" class="home-img">
+</div>
+<br>
+
       {% assign items = site.documents | sort: 'date' | reverse %}
       {% for item in items %}	
 

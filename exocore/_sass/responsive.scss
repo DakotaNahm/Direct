@@ -5,15 +5,14 @@ body {
 }
 
  @media (max-width: 1350px) {
-     .sidenote, {
+    .sidenote, {
          display: none;
      }
      .midcolumn, {
-         width:600px;
-         margin:auto;
+         width: 600px;
      }
       .leftcolumn, {
-         width: 20%;
+         width: auto;
      }
      .sidebar-link-box {
     overflow-x: hidden;

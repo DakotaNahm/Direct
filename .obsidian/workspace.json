@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a295b3362721655",
+        "id": "da83acfb4029f3db",
         "type": "tabs",
         "children": [
           {
-            "id": "2ce42a7f714aa402",
+            "id": "7b80575f9ae2a2ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2025-02-20.md",
+                "file": "( i )Calendar/2025-W08.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-02-20"
+              "title": "2025-W08"
             }
           }
         ]
@@ -170,6 +170,16 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "67e0da128b552812",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 4
@@ -190,28 +200,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ce42a7f714aa402",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
-    "_site/daily/untitled.html",
+    "( i )Lifecore/Lifecore 1.0.md",
+    "( i )Calendar/2025-W08.md",
+    "( i )Projects/Tuck Inu",
+    "( i )Projects/Murphy",
+    "( i )Projects/Toss-A-Toad",
+    "( i )Projects/David Nash",
+    "( i )Projects/Capsules",
+    "( i )Projects/Untitled.md",
+    "( i )Expenses/Things I want-Links.md",
+    "( i )Projects/Sheza",
+    "( i )Projects/M8",
+    "( i )Bubbling/AHFL.md",
     "_daily/2025-02-21.md",
+    "_daily/2025-02-20.md",
+    "_site/daily/untitled.html",
     "( i )Lifecore",
     "New folder",
-    "( i )Expenses",
-    "( i )Calendar",
-    "( i )Projects",
-    "( i )Bubbling",
-    "_site/daily/2025-02-21.html",
     "Untitled.md",
-    "Untitled",
     "(i)Schedule/To-Do ( Pre-Schedule).md",
     "(i)Bubbling/Things to Watch-Read.md",
     "(i)Bubbling/HN Insp.md",
     "images/IMG_4190.JPG",
-    "_daily/2025-02-20.md",
     "_daily/Untitled.md",
-    "_site/journal/untitled.html",
     "_journal/Untitled.md",
-    "_site/journal/new-test-journal.html",
     "_journal/New test journal.md",
     "_journal/Journal mobile test.md",
     "_site/(i)Schedule/To-Do ( Pre-Schedule).md",
@@ -230,10 +244,6 @@
     "_articles/table test.md",
     "_daily/2022-10-25.md",
     "_articles/Exocore Installation Instructions.md",
-    "_articles/Writing with Exocore Syntax.md",
-    "assets/imgs/bg-yotsuba.gif",
-    "_articles/Configure Exocore for Personal Use.md",
-    "_daily/2022-10-23.md",
-    "_daily/2022-05-11.md"
+    "assets/imgs/bg-yotsuba.gif"
   ]
 }

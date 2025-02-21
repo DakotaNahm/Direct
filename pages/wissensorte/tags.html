@@ -10,21 +10,24 @@ title: tags
 <div class="index-card">
 <br>
 <div class="side-card">
-<h1 id="article">All Posts by Tag</h1>
+  <article class="yellow">
+    <h1 class="title-text"><a href="/pages/wissensorte.html">Wissensorte</a>/Tags</h1>
+    <p style=" width: 100%; text-align: center"></p>
+  </article>
 </div>
 <br>
 <div class="tag-grid">
   {% assign tags =  site.documents | map: 'tags' | join: ','  | split: ',' | uniq %}
   {% for tag in tags %}
-  <div style="padding: 1em; text-align: center" id="{{tag}}" class="tile">
+  <div style="padding: 1em; font-size: 13px; padding: 7px;" id="{{tag}}" class="tile">
     
-    <h1>{{ tag | capitalize }}</h1>
-    <br>
+    <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px;">{{ tag | capitalize }}</h1>
+    
     {% for document in site.documents %}
       {% if document.tags contains tag %}
-      <a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
-      <br>
-      <br>
+      <p><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a></p>
+     
+      
       {% endif %}
     {% endfor %}
   </div>
