@@ -40,7 +40,7 @@ $color-sidenote-background: none;
 $color-sidenote-text: brown;
 
 $color-code-text: black;
-$color-code-highlight: white;
+$color-code-highlight: yellow;
 $color-code-background: $color-code-highlight;
 
 
@@ -67,12 +67,17 @@ body {
 ================================================== */
 
 h1,h2,h3,h4,h5,h6 {
-  line-height: 1.4;
+  line-height: 1.3;
   padding-bottom: 0;
   font-size:1.15em;
   margin:1em;
   margin-left:0em;
     font-variant: small-caps;
+}
+
+p{
+    line-height: 1.25em;
+    font-size: .93em;
 }
 
 .title-text {
@@ -126,6 +131,7 @@ code {
 
 .highlight {
     background-color: $color-code-highlight;
+    border-radius: 0px;
 }
 
 
@@ -233,15 +239,18 @@ h6:hover > a.anchor {
   padding: 1em;
   padding-bottom: 0em;
   margin: 1em;
-  margin: 0 auto;
-  display: block;
-  max-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
     @media (max-width: 700px) {
   max-width:100%;
   }
 }
 .toc-container h1 {
-  margin:0em;
+  margin: auto;
 }
 
 .toc-container ol li  {
@@ -500,9 +509,8 @@ article {
   max-width: 70%;
   display: block;
   margin: auto;
-  margin-bottom: 2em;
+//   margin-bottom: 1em;
   max-height: 75vh;
-  border-radius: $border-radius;
 }
 
 
@@ -900,7 +908,7 @@ display: none;
     max-height: 2.5em;
     text-align: center;
     background: white;
-    line-height: 1.5em;
+    line-height: 1.3em;
 
     &:hover {
     background: yellow;
@@ -918,7 +926,7 @@ display: none;
     max-height: 2.5em;
     text-align: center;
     background: white;
-    line-height: 1.5em;
+    line-height: 1.3em;
     
     &:hover {
     background: yellow;
@@ -1019,11 +1027,11 @@ ol li li {
 }
 
 ul li {
-    list-style-type: disc;
+    list-style-type: decimal;
 }
 
 ul li li {
-    list-style-type: square;
+    list-style-type:circle;
 }
 
 table, tr, td {
@@ -1032,6 +1040,10 @@ table, tr, td {
     padding: 0.5em;
     margin: auto;
     background-color: $color-inner-divs;
+}
+
+li{
+    font-size: 0.93em;
 }
 
 

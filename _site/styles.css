@@ -295,7 +295,9 @@ body { font-family: Times New Roman, Times, serif; padding: 4vh 6vw; overflow-x:
 
 /* TITLES
 ================================================== */
-h1, h2, h3, h4, h5, h6 { line-height: 1.4; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.3; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; }
+
+p { line-height: 1.25em; font-size: .93em; }
 
 .title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: 1em; line-height: 1em; font-size: 1.8em; color: red; }
 
@@ -315,9 +317,9 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: black; }
+code { color: white; background-color: yellow; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: black; }
 
-.highlight { background-color: white; }
+.highlight { background-color: yellow; border-radius: 0px; }
 
 /* LINKS
 ================================================== */
@@ -365,11 +367,11 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 /* TABLE OF CONTENTS
 ================================================== */
-.toc-container { border: none; padding: 1em; padding-bottom: 0em; margin: 1em; margin: 0 auto; display: block; max-width: 50%; }
+.toc-container { border: none; padding: 1em; padding-bottom: 0em; margin: 1em; margin: auto; display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; max-width: 100%; }
 
 @media (max-width: 700px) { .toc-container { max-width: 100%; } }
 
-.toc-container h1 { margin: 0em; }
+.toc-container h1 { margin: auto; }
 
 .toc-container ol li { list-style-type: numeral; }
 
@@ -456,7 +458,7 @@ article { background-color: white; box-shadow: 1px 1px 0px none; }
 ================================================== */
 .post-content { line-height: 1.3em; margin-left: 0.3em; margin-right: 0.3em; padding-top: 0.5em; }
 
-.post-content img { max-width: 70%; display: block; margin: auto; margin-bottom: 2em; max-height: 75vh; border-radius: 5px; }
+.post-content img { max-width: 70%; display: block; margin: auto; max-height: 75vh; }
 
 .post-content blockquote { padding: 0.3em; margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
 
@@ -576,11 +578,11 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; }
 
-.prev { float: left; border: none; box-sizing: border-box; padding: 0.5em; border-radius: 5px; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
+.prev { float: left; border: none; box-sizing: border-box; padding: 0.5em; border-radius: 5px; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.3em; }
 
 .prev:hover { background: yellow; color: red; }
 
-.next { float: right; border: none; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.5em; }
+.next { float: right; border: none; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2.5em; text-align: center; background: white; line-height: 1.3em; }
 
 .next:hover { background: yellow; color: red; }
 
@@ -614,11 +616,13 @@ ol li { list-style-type: decimal; }
 
 ol li li { list-style-type: lower-alpha; }
 
-ul li { list-style-type: disc; }
+ul li { list-style-type: decimal; }
 
-ul li li { list-style-type: square; }
+ul li li { list-style-type: circle; }
 
 table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; margin: auto; background-color: #fffdfb; }
+
+li { font-size: 0.93em; }
 
 /* BORDERS
 ================================================== */
