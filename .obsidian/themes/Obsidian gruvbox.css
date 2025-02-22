@@ -19,7 +19,7 @@
     --light3:         #ffffff;
     --light4:         #ffffff;
 
-    --bright-red:     #fb4934;
+    --bright-red:     red;
     --bright-green:   #b8bb26;
     --bright-yellow:  #fabd2f;
     --bright-blue:    #83a598;
@@ -35,13 +35,13 @@
     --neutral-aqua:   #689d6a;
     --neutral-orange: #d65d0e;
 
-    --faded-red:      #9d0006;
+    --faded-red:      red;
     --faded-green:    #79740e;
-    --faded-yellow:   #b57614;
+    --faded-yellow:   red;
     --faded-blue:     #076678;
     --faded-purple:   #8f3f71;
     --faded-aqua:     #427b58;
-    --faded-orange:   #af3a03;
+    --faded-orange:   red;
 }
 
 .theme-dark
@@ -91,10 +91,10 @@
     --text-faint:                 darkblue;
     --text-title-h1:              red;
     --text-title-h2:              blue;
-    --text-title-h3:              var(--faded-yellow);
-    --text-title-h4:              var(--faded-green);
-    --text-title-h5:              var(--faded-aqua);
-    --text-title-h6:              var(--faded-blue);
+    --text-title-h3:              lightblue;
+    --text-title-h4:              lightblue;
+    --text-title-h5:              lightblue;
+    --text-title-h6:             lightblue;
     --text-link:                  var(--neutral-blue);
     --text-a:                     var(--neutral-orange);
     --text-a-hover:               var(--neutral-blue);
@@ -167,7 +167,7 @@ strong
 a,
 .cm-hmd-internal-link
 {
-    color: var(--text-a) !important;
+    color: red !important;
     text-decoration: none !important;
 }
 
