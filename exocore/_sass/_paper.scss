@@ -332,9 +332,9 @@ h6:hover > a.anchor {
     border: none;
 }
 
-.index-grid:first-child {
-    border-top: 1px solid blue;
-}
+// .index-grid:first-child {
+//     border-top: 1px solid blue;
+// }
 
 .container-lg {
     // max-width: 43em;
@@ -682,17 +682,13 @@ img+em {
 
 /* SHELL
 =====================================================*/
-.shell-container{
-    padding: 10px;
-    margin: auto;
-    float: left;
-    width: 100%;
-    margin: 1em 1em 1em 0;
-}
-
-.shell-container article{
-    border: 1px solid darkblue;
-}
+// .shell-container{
+//     padding: 10px;
+//     margin: auto;
+//     float: left;
+//     width: 100%;
+//     margin: 1em 1em 1em 0;
+// }
 
 /* Wissensorte
 =====================================================*/
@@ -772,13 +768,14 @@ img+em {
     text-align: left;
     // margin-bottom: 1em;
     padding: 0.5em;
-    border: 1px solid darkblue;
+    // border: 2px solid darkblue;
     border-top: none;
     box-sizing: border-box;
     font-size: 13px;
+    // font-family: 'Times New Roman', Times, serif;
     
     &:hover {
-        box-shadow: 0px 0px 0px 1px $color-primary;
+        box-shadow: 0px 0px 0px 0px $color-primary;
         background-color: yellow;
         color: red;
     }
@@ -787,6 +784,7 @@ img+em {
 .index-item {
     height: auto;
     overflow: hidden;
+    display: block;
 }
 
 .index-item-title, .library-item-title {
@@ -798,18 +796,15 @@ font-weight: bold;
 
 .index-item-date, .library-item-filetype {
     font-weight: normal;
-    float: right;
+    // float: right;
 }
 
 .index-item-topic {
-font-weight: normal;
-    font-weight: bold;
-
+display: none;
 }
 
 .index-item-excerpt {
 display: none;
-
 }
 
 
@@ -991,6 +986,7 @@ display: none;
     font-weight: bold;
     text-decoration: none;
     overflow: hidden;
+    color: red;
 }
 .prev {
     float: left;
@@ -1002,6 +998,7 @@ display: none;
     max-height: 2em;
     text-align: center;
     line-height: 1.3em;
+    color: red;
 
     &:hover {
     background: yellow;
@@ -1019,6 +1016,7 @@ display: none;
     max-height: 2em;
     text-align: center;
     line-height: 1.3em;
+    color: red;
     
     &:hover {
     background: yellow;
@@ -1028,6 +1026,7 @@ display: none;
 .prev-next-h1{
     margin: 0;
     padding: 5px;
+    color: red;
 }
 
 

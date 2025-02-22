@@ -387,8 +387,6 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 .index-card { padding: 0; margin: auto; width: 100%; border: none; }
 
-.index-grid:first-child { border-top: 1px solid blue; }
-
 .container-lg { display: flex; flex-wrap: wrap; justify-content: start; margin: -3em auto; padding: 0em 1em 0em 1em; margin-left: auto; margin-right: auto; }
 
 .leftcolumn { float: left; max-width: 200px; }
@@ -500,10 +498,6 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* SHELL
 =====================================================*/
-.shell-container { padding: 10px; margin: auto; float: left; width: 100%; margin: 1em 1em 1em 0; }
-
-.shell-container article { border: 1px solid darkblue; }
-
 /* Wissensorte
 =====================================================*/
 .w-list { width: 100%; display: grid; display: flex; flex-direction: row; justify-content: center; margin-block-start: 0em; margin-block-end: 0em; padding: 0; }
@@ -522,17 +516,17 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .index-anchor { text-decoration: none !important; width: 100%; }
 
-.index-item, .archive-item, .library-item { width: 100%; margin: auto; background-color: white; text-align: left; padding: 0.5em; border: 1px solid darkblue; border-top: none; box-sizing: border-box; font-size: 13px; }
+.index-item, .archive-item, .library-item { width: 100%; margin: auto; background-color: white; text-align: left; padding: 0.5em; border-top: none; box-sizing: border-box; font-size: 13px; }
 
-.index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 1px black; background-color: yellow; color: red; }
+.index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 0px black; background-color: yellow; color: red; }
 
-.index-item { height: auto; overflow: hidden; }
+.index-item { height: auto; overflow: hidden; display: block; }
 
 .index-item-title, .library-item-title { font-weight: bold; text-decoration: underline; color: #001483; overflow: hidden; }
 
-.index-item-date, .library-item-filetype { font-weight: normal; float: right; }
+.index-item-date, .library-item-filetype { font-weight: normal; }
 
-.index-item-topic { font-weight: normal; font-weight: bold; }
+.index-item-topic { display: none; }
 
 .index-item-excerpt { display: none; }
 
@@ -592,17 +586,17 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 ================================================== */
 .prev-next { background-color: yellow; display: flex; flex-wrap: wrap; flex-direction: row; align-content: center; justify-content: center; width: 600px; height: 3.5em; border: 2px solid blue; font-family: 'Times New Roman', Times, serif; }
 
-.prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; }
+.prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; color: red; }
 
-.prev { float: left; border: none; box-sizing: border-box; padding: 0.5em; border-radius: 5px; max-height: 2em; text-align: center; line-height: 1.3em; }
+.prev { float: left; border: none; box-sizing: border-box; padding: 0.5em; border-radius: 5px; max-height: 2em; text-align: center; line-height: 1.3em; color: red; }
 
 .prev:hover { background: yellow; color: red; }
 
-.next { float: right; border: none; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2em; text-align: center; line-height: 1.3em; }
+.next { float: right; border: none; box-sizing: border-box; border-radius: 5px; padding: 0.5em; width: 45%; max-height: 2em; text-align: center; line-height: 1.3em; color: red; }
 
 .next:hover { background: yellow; color: red; }
 
-.prev-next-h1 { margin: 0; padding: 5px; }
+.prev-next-h1 { margin: 0; padding: 5px; color: red; }
 
 .subtitle-text { width: 100%; text-align: center !important; margin: 0.5em auto; }
 
@@ -698,7 +692,7 @@ body { overflow-wrap: break-word; }
 
 @media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
-@media (max-width: 800px) { .leftcolumn { padding-left: 1em; width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; } .sidebar-link-box a { margin-right: 0.5em; } .related { display: none; } .profile { padding-bottom: 5px; } }
+@media (max-width: 800px) { .leftcolumn { width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; padding: 0; margin: auto; background-color: yellow; border: 2px solid blue; border-radius: 0px; margin-bottom: 1em; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; } .sidebar-link-box a { margin-right: 1em; } .related { display: none; } .profile { padding-bottom: 5px; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */
