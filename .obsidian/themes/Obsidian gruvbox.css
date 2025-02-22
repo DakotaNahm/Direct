@@ -11,15 +11,15 @@
 
     --gray:           #928374;
 
-    --light0-hard:    #ffffff;
-    --light0:         #ffffff;
-    --light0-soft:    #ffffff;
-    --light1:         #ffffff;
-    --light2:         #ffffff;
-    --light3:         #ffffff;
-    --light4:         #ffffff;
+    --light0-hard:    #f9f5d7;
+    --light0:         #fbf1c7;
+    --light0-soft:    #f2e5bc;
+    --light1:         #ebdbb2;
+    --light2:         #d5c4a1;
+    --light3:         #bdae93;
+    --light4:         #a89984;
 
-    --bright-red:     red;
+    --bright-red:     #fb4934;
     --bright-green:   #b8bb26;
     --bright-yellow:  #fabd2f;
     --bright-blue:    #83a598;
@@ -35,49 +35,49 @@
     --neutral-aqua:   #689d6a;
     --neutral-orange: #d65d0e;
 
-    --faded-red:      red;
+    --faded-red:      #9d0006;
     --faded-green:    #79740e;
-    --faded-yellow:   red;
+    --faded-yellow:   #b57614;
     --faded-blue:     #076678;
     --faded-purple:   #8f3f71;
     --faded-aqua:     #427b58;
-    --faded-orange:   red;
+    --faded-orange:   #af3a03;
 }
 
 .theme-dark
 {
-    --background-primary:         var(--dark0);
-    --background-primary-alt:     var(--dark0);
-    --background-secondary:       var(--dark0-hard);
-    --background-secondary-alt:   var(--dark1);
-    --text-normal:                var(--light0);
-    --text-faint:                 var(--light3);
-    --text-title-h1:              var(--neutral-red);
-    --text-title-h2:              var(--neutral-orange);
-    --text-title-h3:              var(--neutral-yellow);
-    --text-title-h4:              var(--neutral-green);
-    --text-title-h5:              var(--neutral-aqua);
-    --text-title-h6:              var(--neutral-blue);
-    --text-link:                  var(--bright-blue);
-    --text-a:                     var(--bright-orange);
+    --background-primary:         rgb(28, 28, 33);
+    --background-primary-alt:     yellow;
+    --background-secondary:       rgb(59, 56, 70);
+    --background-secondary-alt:   rgb(40, 40, 53);
+    --text-normal:                rgb(255, 255, 255);
+    --text-faint:                 lightgrey;
+    --text-title-h1:              rgb(216, 216, 216);
+    --text-title-h2:              rgb(255, 247, 247);
+    --text-title-h3:              rgb(255, 247, 247);
+    --text-title-h4:              rgb(255, 247, 247);
+    --text-title-h5:              rgb(255, 247, 247);
+    --text-title-h6:              rgb(255, 247, 247);
+    --text-link:                  black;
+    --text-a:                     black;
     --text-a-hover:               var(--bright-blue);
-    --text-mark:                  rgba(215, 153, 33, 0.4); /* neutral-yellow */
+    --text-mark:                  black; /* neutral-yellow */
     --pre-code:                   var(--dark1);
-    --text-highlight-bg:          var(--faded-aqua);
+    --text-highlight-bg:          blue;
     --interactive-accent:         var(--bright-orange);
     --interactive-before:         var(--dark4);
     --background-modifier-border: var(--dark2);
-    --text-accent:                var(--bright-orange);
+    --text-accent:               rgb(190, 113, 194);
     --interactive-accent-rgb:     var(--bright-orange);
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
     --vim-cursor:                 var(--bright-orange);
-    --text-selection:             rgba(168, 153, 132, 0.5); /* light4 */
+    --text-selection:             black; /* light4 */
     --text-tag:                   var(--bright-aqua);
     --task-checkbox:              var(--dark4);
-    --table-header:               hsl(0, 0%, 14%);
-    --table-row-even:             hsl(0, 0%, 17%);
-    --table-row-odd:              hsl(0, 0%, 20%);
+    --table-header:               black;
+    --table-row-even:             black;
+    --table-row-odd:              black;
     --table-hover:                var(--dark2);
 }
 
@@ -118,9 +118,12 @@
 }
 
 body {
-    --font-text-theme: times;
-
+    --font-text-theme: verdana;
     --font-monospace-theme: 'Hack Nerd Font', 'Source Code Pro', ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+p{
+    font-size: 13px;
 }
 
 .theme-dark code[class*="language-"],
@@ -156,7 +159,11 @@ body {
 html,
 body
 {
-    /* font-size: 16px !important; */
+    letter-spacing: 0px;
+}
+
+.cm-contentContainer {
+    line-height: 1.3;
 }
 
 strong
@@ -167,7 +174,7 @@ strong
 a,
 .cm-hmd-internal-link
 {
-    color: red !important;
+    color: rgb(154, 169, 255) !important;
     text-decoration: none !important;
 }
 
@@ -197,7 +204,7 @@ mark
 
 
 .titlebar {
-  background-color: yellow;
+  background-color: rgb(255, 255, 241);
 }
 
 .titlebar-inner {
@@ -432,13 +439,13 @@ thead
 .cm-header-1.cm-link,
 h1 a
 {
-    color: var(--text-title-h1) !important;
+    color: blue !important;
 }
 
 .cm-header-2.cm-link,
 h2 a
 {
-    color: var(--text-title-h2) !important;
+    color: red !important;
 }
 
 .cm-header-3.cm-link,

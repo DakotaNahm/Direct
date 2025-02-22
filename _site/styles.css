@@ -329,7 +329,7 @@ p { line-height: 1.7em; font-size: 14px; }
 
 ul { list-style-type: circle; }
 
-hr { margin: 1.5em; display: none; }
+hr { margin: 1.5em; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
