@@ -18,10 +18,10 @@ layout: default
           {% if page.published == "draft" %}
           <div class="draft-badge"><strong>Draft</strong></div>
           {% endif %}
-          <div class="post-date"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
         </div>
       <div class="title">
-      <h1 class="title-text">{{page.title}}</h1>
+      <h1 class="title-text"></h1>
+      <div class="post-date" style="color: red;"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
       </div>
         {% for subtitle in page.subtitle %}
         {% unless page.subtitle == "" %}  

@@ -10,9 +10,9 @@ title: Latest
     <div class="leftcolumn">
       {% include profile-card.html %}
     </div>
-    {% assign items = site.documents | sort: 'date' | reverse %}
+    <!-- {% assign items = site.documents | sort: 'date' | reverse %}
     {% assign posts_displayed = site.documents.size | at_most: 10 %}
-    {% assign posts_total  = site.documents.size %}
+    {% assign posts_total  = site.documents.size %} -->
 
     <div class="midcolumn">
       <article>
@@ -24,11 +24,33 @@ title: Latest
   <img src="/images/caughtup.png" alt="" class="home-img">
 </div>
 <br>
+<main>
+  <article>
+    <p>Hello, Im Dakota and I like to create</p>
+    <p>Log is my daily log, consisting of fleeting thoughts
+      
+      <br>
+      Essays are long for essays on certain topics
+      <br>
+      r-journal is reasearch on a specific topic, these are sparatic. 
+      <br>
+      Shell is a organization of life, such things as workouts,
+      recipes can be found there. 
+      <br>
+      Wissensorte (german for knowledge sort) contains all links, tags, webring, pdfs and a sitgraph.
+      <br>
+      Gallery is all 
+      images on this website.
+      <br>
+      coremem19/Dreams are core memories and dreams I have had. Thanks for stopping by
+    </p>
+  </article>
+</main>
 
-      {% assign items = site.documents | sort: 'date' | reverse %}
-      {% for item in items %}	
+      <!-- {% assign items = site.documents | sort: 'date' | reverse %}
+      {% for item in items %}	 -->
 
-    <main>
+    <!-- <main>
       <article class="latest-post-border">
 
         <div style="padding: 0.5em 0.5em 0em 0.5em">
@@ -81,12 +103,12 @@ title: Latest
           {% endif %}
   </article>  
   
-  </main>
+  </main> -->
 
   
 <br>
 
-{% endfor %}
+<!-- {% endfor %} -->
 </div>
 </div>
 

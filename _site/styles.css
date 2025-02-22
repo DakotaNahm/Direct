@@ -290,14 +290,16 @@ template { display: none; }
 /* --- Text Colors --- */
 /* --- Borders --- */
 /* --- Embeds, Sidenote and Footnote Colors --- */
+strong { color: green; }
+
 /* --- Font Family --- */
-body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-image: radial-gradient(#edffe0, #fffadb, #fffde4, white, white); background-attachment: fixed; /*edit*/ }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-color: white; background-attachment: fixed; /*edit*/ }
 
 .yellow { background-color: yellow; }
 
 /* TITLES
 ================================================== */
-h1, h2, h3, h4, h5, h6 { line-height: normal; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
+h1, h2, h3, h4, h5, h6 { line-height: normal; padding-bottom: 0; font-size: 1.15em; margin: .5em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
 
 p { line-height: 1.7em; font-size: 14px; }
 
@@ -317,9 +319,9 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: yellow; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: red; }
+code { color: white; background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: red; }
 
-.highlight { background-color: yellow; border-radius: 0px; margin: auto; position: relative; }
+.highlight { background-color: white; border-radius: 0px; margin: auto; position: relative; }
 
 /* LINKS
 ================================================== */
@@ -464,7 +466,7 @@ main { width: auto; }
 
 .post-content blockquote { padding: 0.3em; margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
 
-.notes-entry-container { border: none; padding: 1em; padding-top: 0em; }
+.notes-entry-container { border: none; padding-top: 0em; }
 
 img + em { display: block; color: blue; text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 0.9em; margin-top: -1.5em; }
 
@@ -552,7 +554,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .new-date { margin-left: 1.3em; }
 
-.library-grid-container { width: 100%; margin: auto; background-color: white; border: 2px solid blue; }
+.library-grid-container { width: 100%; margin: auto; background-color: white; }
 
 .library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; background-color: white; }
 
@@ -644,7 +646,7 @@ li { font-size: 0.93em; }
 
 /* BORDERS
 ================================================== */
-article { box-sizing: border-box; background-color: white; }
+article { box-sizing: border-box; }
 
 .sidebar-card, .border { border: none; box-sizing: border-box; margin-bottom: 1em; border-radius: 5px; }
 

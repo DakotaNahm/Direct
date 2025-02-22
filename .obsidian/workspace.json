@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "( i )Calendar/2025-W08.md",
+                "file": "_daily/2025-02-22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W08"
+              "title": "2025-02-22"
             }
           }
         ]
@@ -200,10 +200,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e509f202f4abd033",
+  "active": "7b80575f9ae2a2ca",
   "lastOpenFiles": [
-    "( i )Lifecore/Lifecore 1.0.md",
+    "_site/daily/2025-02-22.html",
+    "_site/daily/2025-02.html",
+    "_site/daily/2025.html",
+    "_daily/2025-02-21.md",
+    "_daily/2025-02-22.md",
+    "_daily/2025-02-20.md",
+    "_site/( i )Expenses/Expenses Spreadsheet.md",
+    "_site/( i )Calendar/Schedule Outline.md",
+    "_site/( i )Calendar/2-22-25.md",
+    "_site/( i )Expenses/Expenses Spreadsheet.html",
+    "_site/( i )Calendar/Schedule Outline.html",
+    "_site/( i )Calendar/2-22-25.html",
+    "( i )Calendar/2-22-25.md",
+    "( i )Calendar/Schedule Outline.md",
+    "( i )Expenses/Expenses Spreadsheet.md",
     "( i )Calendar/2025-W08.md",
+    "( i )Lifecore/Lifecore 1.0.md",
     "( i )Projects/Tuck Inu",
     "( i )Projects/Murphy",
     "( i )Projects/Toss-A-Toad",
@@ -211,14 +226,7 @@
     "( i )Projects/Capsules",
     "( i )Projects/Untitled.md",
     "( i )Expenses/Things I want-Links.md",
-    "( i )Projects/Sheza",
-    "( i )Projects/M8",
     "( i )Bubbling/AHFL.md",
-    "_daily/2025-02-21.md",
-    "_daily/2025-02-20.md",
-    "_site/daily/untitled.html",
-    "( i )Lifecore",
-    "New folder",
     "Untitled.md",
     "(i)Schedule/To-Do ( Pre-Schedule).md",
     "(i)Bubbling/Things to Watch-Read.md",
@@ -233,17 +241,9 @@
     "_site/(i)Bubbling/HN Insp.md",
     "images/girl-online.png",
     "images/girl.jpg",
-    "images.md",
     "images/brown-horse.png",
-    "images/Untitled.md",
-    "_daily/Untitled 1.md",
     "_site/assets/attachments/IMG_6394.jpeg",
     "assets/attachments/IMG_6394.jpeg",
-    "_daily/2022-10-29.md",
-    "_daily/2022-10-27.md",
-    "_articles/table test.md",
-    "_daily/2022-10-25.md",
-    "_articles/Exocore Installation Instructions.md",
     "assets/imgs/bg-yotsuba.gif"
   ]
 }

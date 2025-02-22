@@ -43,8 +43,12 @@ $color-sidenote-background: none;
 $color-sidenote-text: brown;
 
 $color-code-text: red;
-$color-code-highlight: yellow;
+$color-code-highlight: white;
 $color-code-background: $color-code-highlight;
+
+strong {
+    color: green;
+}
 
 
 
@@ -67,13 +71,14 @@ margin-top: 2em;
   overflow-x: hidden;
   color: $color-text;
   font-size: 1.2rem;
+background-color: white;
 //   background-image: radial-gradient(#e8fcff, #e7ffea, #FFFFFF, white );
 //   background-image: radial-gradient(#ffedef, #F3FFE8, white, white);
 //   background-image: radial-gradient( #fcffd6, #FBFFE1, #F2FFEF, white, white);
 //   background-image: radial-gradient(#fdffcf, #e8fff9, white, white);
 //   background-image: radial-gradient(#FDFFE8, #FEFFD9, white, white);
 //   background-image: radial-gradient(#FFFDE3, #E5F9FF, #FEF6FF, white, white);
-  background-image: radial-gradient(#edffe0, #fffadb, #fffde4,white,  white);
+//   background-image: radial-gradient(#edffe0, #fffadb, #fffde4,white,  white);
 //   background-image: radial-gradient(#ffe9e9, #ffebe1, #FFF8DE, white, white);
 //   background-image: radial-gradient(#fff1df, #ffebe7, #FFF7F3, white, white);
 //   background-image: radial-gradient(#eaf5ff, #ffe9f6, white, white);
@@ -95,7 +100,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height: normal;
   padding-bottom: 0;
   font-size:1.15em;
-  margin:1em;
+  margin:.5em;
   margin-left:0em;
     font-variant: small-caps;
 font-family: 'Times New Roman', Times, serif;
@@ -567,7 +572,7 @@ width: auto;
 
 .notes-entry-container {
   border: $color-item-border;
-  padding:1em; padding-top:0em; 
+ padding-top:0em; 
 }
 
 // image captions
@@ -865,7 +870,6 @@ display: none;
     width: 100%;
     margin: auto;
     background-color: white;
-    border: 2px solid blue;
 }
     
 .library-grid {
@@ -1149,7 +1153,7 @@ li{
 // Border around your posts
  article {
     box-sizing: border-box;
-    background-color: white;
+    // background-color: white;
     // background-color: none;
 }
 
