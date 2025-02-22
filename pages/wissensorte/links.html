@@ -1,0 +1,65 @@
+---
+layout: page
+title: Links Index
+date:
+type:
+---
+
+<div class="container-lg">
+
+  <div class="leftcolumn">
+    {% include profile-card.html %}
+  </div>
+
+  <div class="midcolumn">
+    <article>
+      <h1 class="title-text">Log</h1>
+      <p style=" width: 100%; text-align: center"></p>
+      <p style=" width: 100%; text-align: center"><a href="/pages/all-daily/"></a></p>
+    </article>
+<br>
+        <!-- Links grid -->
+         <div class="external-link-container">
+          <table class="external-link-table">
+            <thead>
+              <tr>
+                <th>Alias</th>
+                <th>Link</th>
+                <th>Origin</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href=""></a>
+                </td>
+                <td>
+                  <a href=""></a>
+                </td>
+                <td>
+                  <a href=""></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+         </div>
+        </div>
+</main>
+
+
+<br>
+</div>
+</div>
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

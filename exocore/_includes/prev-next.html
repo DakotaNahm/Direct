@@ -1,4 +1,12 @@
 <div class="prev-next">
-<h1></h1>
+    {% if page.previous %}
+<a class="prev" href="{{page.previous.url}}"> {{ site.data.user.prev_button }}</a>
+    {% endif %}
+<h1 class="prev-next-h1">{{ page.title  | truncate: 28 }}</h1>
+    {% if page.next %}
+<a class="prev" href="{{page.next.url}}"> {{ site.data.user.next_button }}</a>
+    {% endif %}
 </div>
 <br>
+
+<!-- {{ page.title  | truncate: 28 }} -->

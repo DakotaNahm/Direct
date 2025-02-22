@@ -18,22 +18,20 @@ title: Library
     </article>
     <br>
   <div class="index-card">
-<div>
-  </div>
-
-    {% for library_item in site.static_files %} 
-    {% if library_item.path contains '/library' %}
-    <a class="index-anchor" href="{{ library_item.path }}">
-      <div class="library-item">
-      <div class="library-item-title">{{ library_item.basename }}</div>
-      <br>
-      <div class="library-item-filetype">{{ library_item.extname | upcase | remove: "." }}</div>
-
-        </div>
-        </a>
-    {% endif %}
-    {% endfor %}
-
+    <div class="libary-grid">
+        {% for library_item in site.static_files %} 
+        {% if library_item.path contains '/library' %}
+        <a class="index-anchor" href="{{ library_item.path }}">
+          <div class="library-item">
+          <div class="library-item-title">{{ library_item.basename }}</div>
+          <br>
+          <div class="library-item-filetype">{{ library_item.extname | upcase | remove: "." }}</div>
+    
+            </div>
+            </a>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
 </div>  
 </div>

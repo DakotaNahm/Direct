@@ -1,10 +1,13 @@
 /* ### Theme: Paper ### */
 
+// Dark Mode
+// Articles have no background, text colors change, background colors chagne, blue becomes lighter
+
 /* === Base Settings === */
 
 /* --- Body Colors --- */
 
-$background: #fffcf7;
+$background: white;
 $color-inner-divs: #fffdfb;
 $color-items: #fffdfb;
 
@@ -51,7 +54,10 @@ $font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Se
 $font-family-serif: Times New Roman, Times, serif;
 
 $font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;
-
+//Dark Theme
+body{}
+p{}
+h1,h2,h3,h4,h5,h6{}
 
 
 body {
@@ -61,7 +67,21 @@ margin-top: 2em;
   overflow-x: hidden;
   color: $color-text;
   font-size: 1.2rem;
-  background-color: white;
+//   background-image: radial-gradient(#e8fcff, #e7ffea, #FFFFFF, white );
+//   background-image: radial-gradient(#ffedef, #F3FFE8, white, white);
+//   background-image: radial-gradient( #fcffd6, #FBFFE1, #F2FFEF, white, white);
+//   background-image: radial-gradient(#fdffcf, #e8fff9, white, white);
+//   background-image: radial-gradient(#FDFFE8, #FEFFD9, white, white);
+//   background-image: radial-gradient(#FFFDE3, #E5F9FF, #FEF6FF, white, white);
+  background-image: radial-gradient(#edffe0, #fffadb, #fffde4,white,  white);
+//   background-image: radial-gradient(#ffe9e9, #ffebe1, #FFF8DE, white, white);
+//   background-image: radial-gradient(#fff1df, #ffebe7, #FFF7F3, white, white);
+//   background-image: radial-gradient(#eaf5ff, #ffe9f6, white, white);
+//   background-image: radial-gradient(#D5FCFF, #DBF4FF, white, white);
+//   background-image: radial-gradient(#DFE4CC, #DDEBEC, white, white);
+//   background-color: rgb(28, 28, 33);
+    //  background-color: #EBEBEA;
+  background-attachment: fixed; /*edit*/
 }
 
 .yellow {
@@ -72,7 +92,7 @@ margin-top: 2em;
 ================================================== */
 
 h1,h2,h3,h4,h5,h6 {
-  line-height: 1.3;
+  line-height: normal;
   padding-bottom: 0;
   font-size:1.15em;
   margin:1em;
@@ -83,7 +103,7 @@ color: #0066CC;
 }
 
 p{
-    line-height: 1.25em;
+    line-height: 1.7em;
     font-size: 14px;
 }
 
@@ -361,7 +381,6 @@ width: auto;
 
 .sidebar-card {
     text-align: left;
-    background-color: white;
 }
 
 .sidebar-card h1 {
@@ -593,13 +612,12 @@ img+em {
 ================================================== */
 
 .embed-wrapper {
-    border: $embed-border;
+    border: 1px solid darkblue;
     padding: 1em;
-    background-color: $color-embed-background;
+    background-color: white;
     margin-top: 2em;
     margin-bottom: 2em;
     background: white;
-    border-radius: 5px;
 }
 
 .embed-title {
@@ -660,12 +678,15 @@ img+em {
 /* SHELL
 =====================================================*/
 .shell-container{
-    border: 2px solid blue;
     padding: 10px;
     margin: auto;
     float: left;
     width: 100%;
     margin: 1em 1em 1em 0;
+}
+
+.shell-container article{
+    border: 1px solid darkblue;
 }
 
 /* Wissensorte
@@ -694,10 +715,8 @@ img+em {
 
 .footnotes {
     border: $footnote-border;
-    padding: 1em 0;
-    background-color: $color-footnote-background;
+    padding: 0px;
     color: $color-footnote-text;
-    border-radius: 5px;
 }
 
 .license {
@@ -706,12 +725,14 @@ img+em {
     color: $color-text;
     font-size: 1rem;
     border: none;
-    background-color: white;
-    display: block;
+    // display: block;
     padding: 1em;
-    max-width: 28em;
-    margin: 2em auto;
+    margin-top: 2em;
+    // max-width: 28em;
+    // margin: 2em auto;
     text-align: center;
+    height: fit-content;
+    margin-top: 40%;
     }
 
 /* INDEX
@@ -854,6 +875,10 @@ display: none;
     background-color: white;
 }
 
+.index-anchor:nth-child(1) {
+    border-top: 1px solid blue;
+}
+
 .library-image {
     background: white;
 }
@@ -907,8 +932,9 @@ display: none;
 
 .tag-grid {
     display: block;
-    border: 2px solid blue;
+    border: 1px solid  darkblue;
     text-align: start;
+    background: white;
 }
 
 .tag-grid h1{
@@ -920,6 +946,7 @@ display: none;
     margin: 0;
     border: none;
     text-align:left;
+    margin-left: 10px;
     height: auto;
     background-color: white;
     &:hover {
@@ -930,7 +957,7 @@ display: none;
     padding: 0;
     border: none;
     text-align:left;
-    padding: 3px;
+    padding: 0px 3px 0px 3px;
     color: darkblue;
 
     &:hover {
@@ -970,7 +997,6 @@ display: none;
     // width: 45%;
     max-height: 2em;
     text-align: center;
-
     line-height: 1.3em;
 
     &:hover {
@@ -993,6 +1019,11 @@ display: none;
     &:hover {
     background: yellow;
         color: red; }
+}
+
+.prev-next-h1{
+    margin: 0;
+    padding: 5px;
 }
 
 
@@ -1117,10 +1148,9 @@ li{
 
 // Border around your posts
  article {
-    border: $article-border;
     box-sizing: border-box;
-    border-left: 2px solid blue;
-    border: 2px solid blue;
+    background-color: white;
+    // background-color: none;
 }
 
 // Border around the items in the sidebar
@@ -1212,7 +1242,72 @@ li{
     box-shadow: 0px 0px 15px white;
 }
 
+// -------------------------------------
+// Links
+// -------------------------------------
 
+.external-link-container{
+    width: 100%;
+    // margin: 2em;
+}
 
+table, tr, td{
+    border: thin solid;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: auto;
+    background-color: white;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.external-link-table th{
+    margin: 2em auto;
+    padding: 1em;
+    text-align: left;
+}
+
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
 
 

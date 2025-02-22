@@ -291,15 +291,15 @@ template { display: none; }
 /* --- Borders --- */
 /* --- Embeds, Sidenote and Footnote Colors --- */
 /* --- Font Family --- */
-body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-color: white; }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-image: radial-gradient(#edffe0, #fffadb, #fffde4, white, white); background-attachment: fixed; /*edit*/ }
 
 .yellow { background-color: yellow; }
 
 /* TITLES
 ================================================== */
-h1, h2, h3, h4, h5, h6 { line-height: 1.3; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
+h1, h2, h3, h4, h5, h6 { line-height: normal; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
 
-p { line-height: 1.25em; font-size: 14px; }
+p { line-height: 1.7em; font-size: 14px; }
 
 .title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: auto; font-size: 1.3em; color: red; font-family: 'Times New Roman', Times, serif; }
 
@@ -337,7 +337,7 @@ a.internal-link { color: blue; text-decoration: underline; cursor: pointer; }
 
 .anchor a { color: #001483; cursor: pointer; }
 
-.anchor a:hover { color: blue; cursor: pointer; background-color: #fffcf7; }
+.anchor a:hover { color: blue; cursor: pointer; background-color: white; }
 
 .toc-container a { cursor: pointer; }
 
@@ -405,7 +405,7 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 main { width: auto; }
 
-.sidebar-card { text-align: left; background-color: white; }
+.sidebar-card { text-align: left; }
 
 .sidebar-card h1 { padding: 0.5em; margin: auto; text-align: center; }
 
@@ -445,7 +445,7 @@ main { width: auto; }
 
 /* HOME 
 =============*/
-.home-card { width: 400px; margin: auto; padding: 25px; background-color: #fffcf7; border: none; }
+.home-card { width: 400px; margin: auto; padding: 25px; background-color: white; border: none; }
 
 .container-sml { width: 400px; margin: auto; }
 
@@ -478,7 +478,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* EMBEDDED NOTES
 ================================================== */
-.embed-wrapper { border: 2px solid brown; padding: 1em; background-color: white; margin-top: 2em; margin-bottom: 2em; background: white; border-radius: 5px; }
+.embed-wrapper { border: 1px solid darkblue; padding: 1em; background-color: white; margin-top: 2em; margin-bottom: 2em; background: white; }
 
 .embed-title { display: none; }
 
@@ -500,7 +500,9 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* SHELL
 =====================================================*/
-.shell-container { border: 2px solid blue; padding: 10px; margin: auto; float: left; width: 100%; margin: 1em 1em 1em 0; }
+.shell-container { padding: 10px; margin: auto; float: left; width: 100%; margin: 1em 1em 1em 0; }
+
+.shell-container article { border: 1px solid darkblue; }
 
 /* Wissensorte
 =====================================================*/
@@ -510,9 +512,9 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* FOOTNOTES
 ================================================== */
-.footnotes { border: none; padding: 1em 0; background-color: white; color: #8a8a8a; border-radius: 5px; }
+.footnotes { border: none; padding: 0px; color: #8a8a8a; }
 
-.license { font-family: monospace; line-height: 1.1em; color: #001483; font-size: 1rem; border: none; background-color: white; display: block; padding: 1em; max-width: 28em; margin: 2em auto; text-align: center; }
+.license { font-family: monospace; line-height: 1.1em; color: #001483; font-size: 1rem; border: none; padding: 1em; margin-top: 2em; text-align: center; height: fit-content; margin-top: 40%; }
 
 /* INDEX
 ================================================== */
@@ -536,7 +538,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* ARCHIVE
 ================================================== */
-.archive-grid { display: grid; grid-template-columns: 33.33% 33.33% 33.33%; grid-gap: 0.5em; background-color: #fffcf7; padding: 1em; margin: auto; }
+.archive-grid { display: grid; grid-template-columns: 33.33% 33.33% 33.33%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; }
 
 .archive-card { background-color: #fffdfb; width: 100%; margin: auto; }
 
@@ -554,13 +556,15 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; background-color: white; }
 
+.index-anchor:nth-child(1) { border-top: 1px solid blue; }
+
 .library-image { background: white; }
 
 .library-image-container { height: 7em; margin: 4%; background-position: center; background-size: contain; background-repeat: no-repeat; }
 
 /* TAG PAGE
 ================================================== */
-.home-link-button a:hover { background-color: #fffcf7; color: black; }
+.home-link-button a:hover { background-color: white; color: black; }
 
 .tile h1, .home-link-button h1 { margin: auto; width: 100%; text-align: center; }
 
@@ -572,15 +576,15 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .tile:hover, .home-link-button:hover { background-color: none; }
 
-.tag-grid { display: block; border: 2px solid blue; text-align: start; }
+.tag-grid { display: block; border: 1px solid  darkblue; text-align: start; background: white; }
 
 .tag-grid h1 { font-size: 21px; }
 
-.tag-grid div { padding: 0; margin: 0; border: none; text-align: left; height: auto; background-color: white; }
+.tag-grid div { padding: 0; margin: 0; border: none; text-align: left; margin-left: 10px; height: auto; background-color: white; }
 
 .tag-grid div:hover { background: white; }
 
-.tag-grid div p a { padding: 0; border: none; text-align: left; padding: 3px; color: darkblue; }
+.tag-grid div p a { padding: 0; border: none; text-align: left; padding: 0px 3px 0px 3px; color: darkblue; }
 
 .tag-grid div p a:hover { background: yellow; color: red; }
 
@@ -598,6 +602,8 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .next:hover { background: yellow; color: red; }
 
+.prev-next-h1 { margin: 0; padding: 5px; }
+
 .subtitle-text { width: 100%; text-align: center !important; margin: 0.5em auto; }
 
 /* COLOR BADGES (ZETTELKASTEN HEX)
@@ -606,7 +612,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* NETWORK GRAPH (BACKLINK VISUAL REPRESENTATION)
 ================================================== */
-.network-graph-container { clear: both; margin-top: 1em; display: block; background: #fffcf7; border: none; padding: 2em; height: 45em; }
+.network-graph-container { clear: both; margin-top: 1em; display: block; background: white; border: none; padding: 2em; height: 45em; }
 
 .network-graph-container h1 { text-align: center; margin-bottom: 1em; }
 
@@ -638,7 +644,7 @@ li { font-size: 0.93em; }
 
 /* BORDERS
 ================================================== */
-article { border: none; box-sizing: border-box; border-left: 2px solid blue; border: 2px solid blue; }
+article { box-sizing: border-box; background-color: white; }
 
 .sidebar-card, .border { border: none; box-sizing: border-box; margin-bottom: 1em; border-radius: 5px; }
 
@@ -668,11 +674,29 @@ article { border: none; box-sizing: border-box; border-left: 2px solid blue; bor
 
 .glow { box-shadow: 0px 0px 15px white; }
 
+.external-link-container { width: 100%; }
+
+table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; margin: auto; background-color: white; }
+
+table { display: table; border-collapse: separate; box-sizing: border-box; text-indent: initial; unicode-bidi: isolate; border-spacing: 2px; border-color: gray; }
+
+table { border-collapse: separate; text-indent: initial; border-spacing: 2px; }
+
+thead { display: table-header-group; vertical-align: middle; unicode-bidi: isolate; border-color: inherit; }
+
+tr { display: table-row; vertical-align: inherit; unicode-bidi: isolate; border-color: inherit; }
+
+.external-link-table th { margin: 2em auto; padding: 1em; text-align: left; }
+
+th { display: table-cell; vertical-align: inherit; font-weight: bold; text-align: -internal-center; unicode-bidi: isolate; }
+
+tbody { display: table-row-group; vertical-align: middle; unicode-bidi: isolate; border-color: inherit; }
+
 body { overflow-wrap: break-word; }
 
 @media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 600px; } .leftcolumn { width: auto; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
-@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: #fffcf7; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */
