@@ -357,8 +357,6 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 /* PAGE FORMATTING
 ================================================== */
-.title { padding: 1em; }
-
 /* BACKLINKS
 ================================================== */
 .backlinks-excerpt { font-size: 0.9em; color: black; }
@@ -699,6 +697,8 @@ body { overflow-wrap: break-word; }
 @media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 600px; } .leftcolumn { width: auto; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
 @media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+
+@media (max-width: 800px) { .leftcolumn { padding-left: 1em; width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; } .sidebar-link-box a { margin-right: 0.5em; } .related { display: none; } .profile { padding-bottom: 5px; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */

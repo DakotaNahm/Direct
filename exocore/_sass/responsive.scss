@@ -78,3 +78,33 @@ body {
         overflow-x: scroll;
     }
 }
+
+@media (max-width: 800px){
+    .leftcolumn{
+        padding-left: 1em;
+        width: 100%;
+        max-width: none;
+    }
+    .sidebar-card {
+        display: grid;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+        justify-content: center;
+    }
+    .sidebar-link-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .sidebar-link-box a {
+        margin-right: 0.5em;
+    }
+    .related{
+        display: none;
+    }
+    .profile{
+        padding-bottom: 5px;
+    }
+}
