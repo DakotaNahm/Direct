@@ -285,6 +285,20 @@ template { display: none; }
 
 /* Literal.Number.Integer.Long */
 /* ### Theme: Paper ### */
+.dark-mode { background-color: #1c1c21; }
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 { color: #a3d1ff; }
+
+.dark-mode p { color: white; }
+
+.dark-mode a { color: #a3d1ff; }
+
+.grey-mode { background-color: #EBEBEA; }
+
+.white-mode { background-color: white; }
+
+#theme { border-radius: 100%; background-image: radial-gradient(#ffdfdf, red); width: 30px; height: 30px; }
+
 /* === Base Settings === */
 /* --- Body Colors --- */
 /* --- Text Colors --- */
@@ -293,7 +307,7 @@ template { display: none; }
 strong { color: green; }
 
 /* --- Font Family --- */
-body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-color: white; background-attachment: fixed; /*edit*/ }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-attachment: fixed; /*edit*/ }
 
 .yellow { background-color: yellow; }
 
@@ -387,7 +401,7 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 .index-card { padding: 0; margin: auto; width: 100%; border: none; }
 
-.container-lg { display: flex; flex-wrap: wrap; justify-content: start; margin: -3em auto; padding: 0em 1em 0em 1em; margin-left: auto; margin-right: auto; }
+.container-lg { display: flex; flex-wrap: wrap; justify-content: start; margin: -3em auto; padding: 0px 10px 0px 10px; margin-left: auto; margin-right: auto; }
 
 .leftcolumn { float: left; max-width: 200px; }
 
@@ -508,7 +522,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 ================================================== */
 .footnotes { border: none; padding: 0px; color: #8a8a8a; }
 
-.license { font-family: monospace; line-height: 1.1em; color: #001483; font-size: 1rem; border: none; padding: 1em; margin-top: 2em; text-align: center; height: fit-content; margin-top: 40%; }
+.license { font-family: monospace; line-height: 1.1em; color: #001483; font-size: 1rem; border: none; padding: 1em; margin-top: 2em; text-align: center; height: fit-content; margin-top: 40%; display: none; }
 
 /* INDEX
 ================================================== */
@@ -516,7 +530,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .index-anchor { text-decoration: none !important; width: 100%; }
 
-.index-item, .archive-item, .library-item { width: 100%; margin: auto; background-color: white; text-align: left; padding: 0.5em; border-top: none; box-sizing: border-box; font-size: 13px; }
+.index-item, .archive-item, .library-item { width: 100%; margin: auto; text-align: left; padding: 0.5em; border-top: none; box-sizing: border-box; font-size: 13px; }
 
 .index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 0px black; background-color: yellow; color: red; }
 
@@ -546,9 +560,9 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .new-date { margin-left: 1.3em; }
 
-.library-grid-container { width: 100%; margin: auto; background-color: white; }
+.library-grid-container { width: 100%; margin: auto; }
 
-.library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; background-color: white; }
+.library-grid { display: grid; grid-template-columns: 33% 33% 33%; width: 100%; }
 
 .index-anchor:nth-child(1) { border-top: 1px solid blue; }
 
@@ -570,7 +584,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .tile:hover, .home-link-button:hover { background-color: none; }
 
-.tag-grid { display: block; border: 1px solid  darkblue; text-align: start; background: white; }
+.tag-grid { display: block; text-align: start; background: white; }
 
 .tag-grid h1 { font-size: 21px; }
 
@@ -581,6 +595,8 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 .tag-grid div p a { padding: 0; border: none; text-align: left; padding: 0px 3px 0px 3px; color: darkblue; }
 
 .tag-grid div p a:hover { background: yellow; color: red; }
+
+.tile p { padding: 0; margin: 0; }
 
 /* PREVIOUS / NEXT BUTTONS
 ================================================== */
@@ -690,9 +706,9 @@ body { overflow-wrap: break-word; }
 
 @media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 600px; } .leftcolumn { width: auto; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
-@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { padding: 3px; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
-@media (max-width: 800px) { .leftcolumn { width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; padding: 0; margin: auto; background-color: yellow; border: 2px solid blue; border-radius: 0px; margin-bottom: 1em; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; } .sidebar-link-box a { margin-right: 1em; } .related { display: none; } .profile { padding-bottom: 5px; } }
+@media (max-width: 800px) { .leftcolumn { width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; padding: 0; margin: auto; border-radius: 0px; margin-bottom: 1em; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; } .sidebar-link-box a { margin-right: 1em; } .related { display: none; } .profile { padding-bottom: 5px; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */

@@ -62,8 +62,25 @@
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
       <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <br>
+      <button id="theme" onclick="myFunction()">
+        T
+      </button>
     </div>
   </div>
+  
+  <script>
+     // Define the SCSS class names
+     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
+        let currentIndex = 0;
+
+        document.getElementById("theme").addEventListener("click", function () {
+            document.body.classList.remove(...bgClasses); // Remove all background classes
+            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
+            
+            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
+        });
+  </script>
   </div>
 
     <div class="midcolumn">

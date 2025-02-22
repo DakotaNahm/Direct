@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="tags" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-21T18:00:37-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"tags","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/wissensorte/tags.html"},"url":"http://localhost:4000/pages/wissensorte/tags.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-22T13:53:06-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"tags","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/wissensorte/tags.html"},"url":"http://localhost:4000/pages/wissensorte/tags.html"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -62,13 +62,30 @@
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
       <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <br>
+      <button id="theme" onclick="myFunction()">
+        T
+      </button>
     </div>
   </div>
+  
+  <script>
+     // Define the SCSS class names
+     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
+        let currentIndex = 0;
+
+        document.getElementById("theme").addEventListener("click", function () {
+            document.body.classList.remove(...bgClasses); // Remove all background classes
+            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
+            
+            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
+        });
+  </script>
   </div>
   <div class="midcolumn">
     <article>
-      <h1 class="title-text">Wissensorte</h1>
-      <p style=" width: 100%; text-align: center">Showing 7 items</p>
+      <h1 class="title-text" style="padding-top: 10px;">Wissensorte/Tags</h1>
+      <p style=" width: 100%; text-align: center; padding:0px; margin:0px;">Showing all Tags</p>
       <p style=" width: 100%; text-align: center"></p>
     </article>
   <div class="index-card">
