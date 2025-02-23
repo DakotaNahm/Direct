@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2025-02-23.md",
+                "file": "_scrapbook/Dreams x 2-23-25.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-02-23"
+              "title": "Dreams x 2-23-25"
             }
           }
         ]
@@ -203,6 +203,7 @@
   "lastOpenFiles": [
     "( i )Calendar/2-23-25.md",
     "_daily/2025-02-23.md",
+    "_scrapbook/Dreams x 2-23-25.md",
     "_daily/2025-02-21.md",
     "_daily/2025-02-22.md",
     "_daily/2022-05-11.md",
@@ -245,7 +246,6 @@
     "_site/scrapbook/untitled.html",
     "_scrapbook/null.md",
     "_site/( i )Expenses/Expenses Spreadsheet.md",
-    "_site/( i )Calendar/Schedule Outline.md",
-    "_site/( i )Calendar/2-22-25.md"
+    "_site/( i )Calendar/Schedule Outline.md"
   ]
 }
