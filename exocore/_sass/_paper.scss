@@ -120,8 +120,8 @@ color: #0066CC;
 }
 
 p{
-    line-height: 1.7em;
-    font-size: 14px;
+    line-height: 1.6em;
+    font-size: 13.3px;
 }
 
 .title-text {
@@ -153,7 +153,7 @@ ul {
 
 hr {
   margin:1.5em;
-    // display: none;
+    display: none;
 }
 
 
@@ -798,18 +798,21 @@ img+em {
     height: auto;
     overflow: hidden;
     display: block;
+    text-decoration: underline;
 }
 
 .index-item-title, .library-item-title {
-font-weight: bold;
+// font-weight: bold;
     text-decoration: underline;
-    color: $color-text;
+    color: darkblue;
     overflow: hidden;
 }
 
 .index-item-date, .library-item-filetype {
-    font-weight: normal;
-    // float: right;
+    // font-weight: Bold;
+    float: right;
+    color: darkblue;
+    text-decoration: underline;
 }
 
 .index-item-topic {

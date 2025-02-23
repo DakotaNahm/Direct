@@ -2,6 +2,9 @@
   "cssTheme": "Obsidian gruvbox",
   "accentColor": "",
   "nativeMenus": true,
+  "enabledCssSnippets": [
+    "Obsidian gruvbox"
+  ],
   "theme": "obsidian",
   "baseFontSize": 13
 }

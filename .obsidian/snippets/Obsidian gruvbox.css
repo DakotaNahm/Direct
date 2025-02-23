@@ -19,7 +19,7 @@
     --light3:         #bdae93;
     --light4:         #a89984;
 
-    /* --bright-red:     #fb4934;
+    --bright-red:     #fb4934;
     --bright-green:   #b8bb26;
     --bright-yellow:  #fabd2f;
     --bright-blue:    #83a598;
@@ -41,7 +41,7 @@
     --faded-blue:     #076678;
     --faded-purple:   #8f3f71;
     --faded-aqua:     #427b58;
-    --faded-orange:   #af3a03; */
+    --faded-orange:   #af3a03;
 }
 
 .theme-dark
@@ -61,7 +61,7 @@
     --text-link:                  black;
     --text-a:                     black;
     --text-a-hover:               var(--bright-blue);
-    --text-mark:                  black;
+    --text-mark:                  black; /* neutral-yellow */
     --pre-code:                   var(--dark1);
     --text-highlight-bg:          blue;
     --interactive-accent:         var(--bright-orange);
@@ -72,7 +72,7 @@
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
     --vim-cursor:                 var(--bright-orange);
-    --text-selection:             black;
+    --text-selection:             black; /* light4 */
     --text-tag:                   var(--bright-aqua);
     --task-checkbox:              var(--dark4);
     --table-header:               black;
@@ -94,11 +94,11 @@
     --text-title-h3:              lightblue;
     --text-title-h4:              lightblue;
     --text-title-h5:              lightblue;
-    --text-title-h6:              lightblue;
+    --text-title-h6:             lightblue;
     --text-link:                  var(--neutral-blue);
     --text-a:                     var(--neutral-orange);
     --text-a-hover:               var(--neutral-blue);
-    --text-mark:                  rgba(215, 153, 33, 0.4); 
+    --text-mark:                  blue /* neutral-yellow */
     --pre-code:                   var(--light1);
     --text-highlight-bg:          var(--bright-aqua);
     --interactive-accent:         var(--neutral-orange);
@@ -108,7 +108,7 @@
     --interactive-accent-rgb:     var(--neutral-orange);
     --inline-code:                var(--neutral-blue);
     --vim-cursor:                 var(--neutral-orange);
-    --text-selection:             white;
+    --text-selection:             rgba(189, 174, 147, 0.5); /* light3 */
     --text-tag:                   var(--neutral-aqua);
     --task-checkbox:              var(--light4);
     --table-header:               hsl(43.2, 58.8%, 80%);
@@ -395,7 +395,7 @@ thead
 
 .side-dock
 {
-    border-right: 1px solid black;
+    border-right: 1px solid black !important;
 }
 
 /* vertical resize-handle */
@@ -584,8 +584,7 @@ input.task-list-item-checkbox:checked
 
 ::selection
 {
-    background-color: yellow
-     !important;
+    background-color: var(--text-selection) !important;
 }
 
 .mermaid .note
