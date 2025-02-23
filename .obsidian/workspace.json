@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
+                "file": "_daily/2025-02-22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ginseng Chicken Tonic Soup (Chinese Style)"
+              "title": "2025-02-22"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
+                "file": "_daily/2025-02-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ginseng Chicken Tonic Soup (Chinese Style)"
+              "title": "Outline of 2025-02-22"
             }
           },
           {
@@ -201,6 +201,7 @@
   },
   "active": "7b80575f9ae2a2ca",
   "lastOpenFiles": [
+    "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
     "_site/styles.css.map",
     "_journal/jade-post.md",
     "_journal/New test journal.md",
@@ -212,7 +213,6 @@
     "( i )Calendar/2-22-25.md",
     "( i )Expenses/Things I want-Links.md",
     "( i )Expenses/Expenses Spreadsheet.md",
-    "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
     "( i )Calendar/Schedule Outline.md",
     "_journal/Samgyetang Ginseng Chicken Soup (Korean Style).md",
     "_site/journal/samgyetang-ginseng-chicken-soup-korean-style.html",
@@ -243,7 +243,6 @@
     "_site/scrapbook/coremem-example-1.html",
     "_site/scrapbook/untitled.html",
     "_scrapbook/null.md",
-    "_site/scrapbook/null.html",
     "_site/( i )Expenses/Expenses Spreadsheet.md",
     "_site/( i )Calendar/Schedule Outline.md",
     "_site/( i )Calendar/2-22-25.md"
