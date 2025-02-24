@@ -1,6 +1,79 @@
 {
   "cascadeColors": false,
-  "colorBackground": false,
-  "palette": [],
-  "fileColors": []
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "M4LgwKJxMZNOH4t4BQm4T",
+      "name": "black",
+      "value": "#0a0a0a"
+    },
+    {
+      "id": "nVercG_Fvuf6qKb-ufMHR",
+      "name": "Purple",
+      "value": "#6a5acd"
+    },
+    {
+      "id": "zexfzjqc_gEEZP6Dbxl6P",
+      "name": "Jade",
+      "value": "#00a86b"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "styles.scss",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "ring.md",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "readme.md",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "LICENSE",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "index.md",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "Gemfile.lock",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "Gemfile",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "_config.yml",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "_site",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "exocore",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "images",
+      "color": "zexfzjqc_gEEZP6Dbxl6P"
+    },
+    {
+      "path": "library",
+      "color": "zexfzjqc_gEEZP6Dbxl6P"
+    },
+    {
+      "path": "pages",
+      "color": "nVercG_Fvuf6qKb-ufMHR"
+    },
+    {
+      "path": "assets",
+      "color": "zexfzjqc_gEEZP6Dbxl6P"
+    }
+  ]
 }

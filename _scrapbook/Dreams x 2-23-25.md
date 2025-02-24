@@ -4,12 +4,11 @@ author:
 subtitle: 
 date: 2025-02-23
 source: 
-tags: 
+tags:
 ---
 
 # Dreams x 2-23-25
 
-#dreams
 
 "Aa" : Younger brother angry, strange walmart parkinglot, im in a fast car, someone ripped out one of the light pulls, glass starts raining everywhere, he was angry at someone named CJ. I told him to get in the car.
 

@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Notation",
+  "cssTheme": "Sanctum",
   "accentColor": "",
   "nativeMenus": true,
   "enabledCssSnippets": [],
-  "theme": "system",
+  "theme": "obsidian",
   "baseFontSize": 13
 }

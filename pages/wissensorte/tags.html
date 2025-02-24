@@ -20,9 +20,9 @@ title: tags
   <div class="tag-grid">
     {% assign tags =  site.documents | map: 'tags' | join: ','  | split: ',' | uniq %}
     {% for tag in tags %}
-    <div style="padding: 1em; font-size: 13px; padding: 7px;" id="{{tag}}" class="tile">
+    <div style="font-size: 13px; margin-bottom: 17px;" id="{{tag}}" class="tile">
       
-      <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px;">{{ tag | capitalize }}</h1>
+      <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">{{ tag | capitalize }}</h1>
       
       {% for document in site.documents %}
         {% if document.tags contains tag %}

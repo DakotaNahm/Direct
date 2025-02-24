@@ -313,11 +313,13 @@ body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overfl
 
 /* TITLES
 ================================================== */
-h1, h2, h3, h4, h5, h6 { line-height: normal; padding-bottom: 0; font-size: 1.15em; margin: .5em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
+h1, h2, h3, h4, h5, h6 { padding-bottom: 0; font-size: 1.15em; margin: .5em; margin-left: 0em; font-variant: small-caps; font-family: 'Times New Roman', Times, serif; color: #0066CC; }
 
 p { line-height: 1.6em; font-size: 13.3px; }
 
-.title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: auto; font-size: 1.3em; color: red; font-family: 'Times New Roman', Times, serif; }
+li { line-height: 1.6em; }
+
+.title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: auto; font-size: 1.3em; color: red; font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .post-content h1 { text-align: center; font-weight: bold; text-decoration: underline; font-size: 1.4em; }
 
@@ -333,9 +335,9 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: red; }
+code { background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: black; padding: 0; font-size: 14px; }
 
-.highlight { background-color: white; border-radius: 0px; margin: auto; position: relative; }
+.highlight { background-color: white; border-radius: 0px; margin: auto; position: relative; padding: 0; }
 
 /* LINKS
 ================================================== */
@@ -407,9 +409,9 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 @media (max-width: 900px) { .leftcolumn { width: 100%; } }
 
-.midcolumn { float: left; margin-top: 2em; width: 600px; }
+.midcolumn { float: left; margin-top: 2em; width: 500px; }
 
-@media (max-width: 900px) { .midcolumn { width: 600px; margin-top: 2em; } }
+@media (max-width: 900px) { .midcolumn { width: 500px; margin-top: 2em; } }
 
 .midcolumn > article:nth-child(1) { background-color: yellow; border: 2px solid blue; }
 
@@ -474,11 +476,13 @@ main { width: auto; }
 
 .post-content img { max-width: 70%; display: block; margin: auto; max-height: 75vh; }
 
-.post-content blockquote { padding: 0.3em; margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
+em { margin-top: 10px; }
+
+.post-content blockquote { margin: 0; font-size: 1em; font-family: Times New Roman, Times, serif; font-style: italic; }
 
 .notes-entry-container { border: none; padding-top: 0em; }
 
-img + em { display: block; color: blue; text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 0.9em; margin-top: -1.5em; }
+img + em { display: block; color: blue; text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 0.9em; margin-top: 13px; }
 
 /* BACKLINKS
 ================================================== */
@@ -486,7 +490,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .backlinks-container h1 { margin-bottom: 1em; }
 
-.backlink-box { padding: 1em; margin-bottom: 0.5em; line-height: 1em; background-color: yellow; border: 2px solid blue; border-radius: 0px; line-height: 1em; }
+.backlink-box { padding: 10px; margin-bottom: 0.5em; line-height: 1em; background-color: yellow; border: 2px solid blue; border-radius: 0px; line-height: 1em; font-size: 17px; }
 
 /* EMBEDDED NOTES
 ================================================== */
@@ -530,7 +534,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .index-anchor { text-decoration: none !important; width: 100%; }
 
-.index-item, .archive-item, .library-item { width: 100%; margin: auto; text-align: left; padding: 0.5em; border-top: none; box-sizing: border-box; font-size: 13px; }
+.index-item, .archive-item, .library-item { width: 100%; margin: auto; text-align: left; padding: 5px; border-top: none; box-sizing: border-box; font-size: 13px; }
 
 .index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 0px black; background-color: yellow; color: red; }
 
@@ -572,35 +576,55 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* TAG PAGE
 ================================================== */
-.home-link-button a:hover { background-color: white; color: black; }
+.home-link-button a:hover { color: black; }
 
 .tile h1, .home-link-button h1 { margin: auto; width: 100%; text-align: center; }
 
-.tile:hover, home-link-button:hover { background-color: #fffdfb; }
-
 .tile:target { border: medium solid black; }
 
-.tile, .home-link-button { background-color: #fffdfb; border: 2px solid black; border-radius: 5px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
+.tile, .home-link-button { border: 2px solid black; border-radius: 5px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
 
 .tile:hover, .home-link-button:hover { background-color: none; }
 
-.tag-grid { display: block; text-align: start; background: white; }
+.tag-grid { display: block; text-align: start; }
 
-.tag-grid h1 { font-size: 21px; }
+.tag-grid h1 { font-size: 17px; font-weight: 100; }
 
-.tag-grid div { padding: 0; margin: 0; border: none; text-align: left; margin-left: 10px; height: auto; background-color: white; }
+.tag-grid div { padding: 0; margin: 0; border: none; text-align: left; height: auto; }
 
-.tag-grid div:hover { background: white; }
-
-.tag-grid div p a { padding: 0; border: none; text-align: left; padding: 0px 3px 0px 3px; color: darkblue; }
+.tag-grid div p a { padding: 0; text-align: left; color: darkblue; }
 
 .tag-grid div p a:hover { background: yellow; color: red; }
+
+.tag-grid p a { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px; text-decoration: underline; }
+
+.tag-grid p a:hover { background: yellow; color: red; }
+
+.toc { display: table; padding: 7px; list-style-type: none; margin-left: 0px; direction: ltr; text-align: left; border: 1px solid #a2a9b1; padding: 5px; font-size: 95%; }
+
+.toc li { margin-bottom: 0.1em; display: list-item; text-align: -webkit-match-parent; }
+
+.toc ul { list-style: none; line-height: 1.6; padding: 0; }
+
+.toc ul ul { margin: 0 0 0 2em; text-align: left; }
+
+.tocnumber { color: #202122; text-decoration-color: #202122; }
+
+.toctitle { text-align: center; }
+
+a { text-decoration: none; color: #0645ad; background: none; }
+
+a:hover .tocnumber { text-decoration: underline; }
+
+a:hover .toctext { text-decoration: underline; }
+
+a:active .toctext { color: orange; }
 
 .tile p { padding: 0; margin: 0; }
 
 /* PREVIOUS / NEXT BUTTONS
 ================================================== */
-.prev-next { background-color: yellow; display: flex; flex-wrap: wrap; flex-direction: row; align-content: center; justify-content: center; width: 600px; height: 3.5em; border: 2px solid blue; font-family: 'Times New Roman', Times, serif; }
+.prev-next { background-color: yellow; display: flex; flex-wrap: wrap; flex-direction: row; align-content: center; justify-content: center; height: 3.5em; border: 2px solid blue; font-family: 'Times New Roman', Times, serif; }
 
 .prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; color: red; }
 
@@ -640,6 +664,8 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* LISTS AND TABLES
 ================================================== */
+ul { margin-block-start: 0.3em; padding-inline-start: 25px; }
+
 ol li { list-style-type: decimal; font-size: 13px; }
 
 ol li li { list-style-type: lower-alpha; font-size: 13px; }
@@ -667,7 +693,7 @@ article { box-sizing: border-box; }
 /* GENERAL PURPOSE CLASSES
 ================================================== */
 /* -=Text=- */
-.right-aside { float: right; border: 2px solid brown; padding: 1em; width: 40%; margin-left: 0.5em; font-size: 0.9em; background: white; border-radius: 5px; }
+.right-aside { float: right; border: 1px solid darkblue; padding: 10px; width: 40%; margin-left: 0.5em; font-size: 13px; }
 
 .left-aside { float: left; border: 2px solid brown; padding: 1em; width: 40%; margin-left: 1em; font-size: 0.9em; background: white; border-radius: 5px; }
 
@@ -686,29 +712,19 @@ article { box-sizing: border-box; }
 
 .external-link-container { width: 100%; }
 
-table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; margin: auto; background-color: white; }
+table, tr, td { border: thin solid; border-collapse: collapse; padding: 5px; margin: auto; background-color: white; font-size: 13px; }
 
-table { display: table; border-collapse: separate; box-sizing: border-box; text-indent: initial; unicode-bidi: isolate; border-spacing: 2px; border-color: gray; }
-
-table { border-collapse: separate; text-indent: initial; border-spacing: 2px; }
-
-thead { display: table-header-group; vertical-align: middle; unicode-bidi: isolate; border-color: inherit; }
-
-tr { display: table-row; vertical-align: inherit; unicode-bidi: isolate; border-color: inherit; }
-
-.external-link-table th { margin: 2em auto; padding: 1em; text-align: left; }
-
-th { display: table-cell; vertical-align: inherit; font-weight: bold; text-align: -internal-center; unicode-bidi: isolate; }
-
-tbody { display: table-row-group; vertical-align: middle; unicode-bidi: isolate; border-color: inherit; }
+table { display: table; box-sizing: border-box; text-indent: initial; unicode-bidi: isolate; border-color: gray; margin-top: 15px; margin-bottom: 15px; float: left; width: 100%; }
 
 body { overflow-wrap: break-word; }
 
-@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 600px; } .leftcolumn { width: auto; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
+@media (max-width: 730px) { .related, .tags { display: none; } }
 
-@media (max-width: 800px) { .midcolumn, .leftcolumn { width: 600px; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { padding: 3px; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+@media (max-width: 730px) { .midcolumn { width: 500px; margin: auto; } .post-content { width: 100%; position: relative; } .leftcolumn { width: 100%; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { padding: 3px; } .sidebar-card { padding: 0.5em; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: white; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
-@media (max-width: 800px) { .leftcolumn { width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; padding: 0; margin: auto; border-radius: 0px; margin-bottom: 1em; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; } .sidebar-link-box a { margin-right: 1em; } .related { display: none; } .profile { padding-bottom: 5px; } }
+@media (max-width: 730px) { .leftcolumn { width: 100%; max-width: none; } .sidebar-card { display: grid; flex-wrap: wrap; flex-direction: column; width: 100%; max-width: none; justify-content: center; padding: 0; margin: auto; border-radius: 0px; margin-bottom: 1em; } .sidebar-link-box { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; } .sidebar-link-box a { margin-right: 1em; } .related { display: none; } .profile { padding-bottom: 5px; } }
+
+@media (max-width: 500px) { .midcolumn { max-width: 100%; position: relative; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */
