@@ -58,28 +58,41 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
     </div>
     
@@ -89,7 +102,7 @@
     <div class="midcolumn">
       <article>
         <h1 class="title-text">Latest Journal Entries</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 7 of 7 entries</p>
+        <p style=" width: 100%; text-align: center">Showing latest 5 of 5 entries</p>
         <p style=" width: 100%; text-align: center"><a href="/pages/all-journal/">View Index</a></p>
       </article>
 <br>
@@ -216,67 +229,6 @@
 </ul>
 
 <hr>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main>
-
-  
-<br>
-
-	
-
-    <main>
-      <article class="latest-post-border">
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
-        </div>
-        <a href="/journal/2025-02-null">
-        <div class="title">
-        <h1 class="title-text">2025-02: null</h1> 
-        </div>
-      </a>
-          
-
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            <p>This is a mobile journal test
-hihuuiuhhuhuu</p>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main>
-
-  
-<br>
-
-	
-
-    <main>
-      <article class="latest-post-border">
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
-        </div>
-        <a href="/journal/new-test-journal">
-        <div class="title">
-        <h1 class="title-text">2025-02: null</h1> 
-        </div>
-      </a>
-          
-
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            
 
             
           </div>

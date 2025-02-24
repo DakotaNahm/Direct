@@ -1,3 +1,4 @@
 {
-  "folder": "exocore/_templates"
+  "folder": "exocore/_templates",
+  "dateFormat": "MMM-DD-YYYY"
 }

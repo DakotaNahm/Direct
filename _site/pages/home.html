@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="Latest" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T15:32:46-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Latest","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/home.html"},"url":"http://localhost:4000/pages/home.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T18:34:00-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Latest","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/home.html"},"url":"http://localhost:4000/pages/home.html"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -58,28 +58,41 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
     </div>
     <!-- 
@@ -98,28 +111,17 @@
 <br>
 <main>
   <article>
-    <p>Hello, Im Dakota and I like to create</p>
-    <p>Log is my daily log, consisting of fleeting thoughts
-      
-      <br>
-      Essays are long for essays on certain topics
-      <br>
-      r-journal is reasearch on a specific topic, these are sparatic. 
-      <br>
-      Shell is a organization of life, such things as workouts,
-      recipes can be found there. 
-      <br>
-      Wissensorte (german for knowledge sort) contains all links, tags, webring, pdfs and a sitgraph.
-      <br>
-      Gallery is all 
-      images on this website.
-      <br>
-      coremem19/Dreams are core memories and dreams I have had. Thanks for stopping by
-    </p>
+      <p><strong><a href="/pages/all-articles.html">Essays</a></strong>: Long form writing</p>
+      <p><strong><a href="/pages/all-daily.html">Log</a></strong>: Daily thoughts.</p>
+      <p><strong><a href="/pages/all-journal.html">r-Journal</a></strong>: r-Journal is a reasearch journal containing topic based reasearch. </p>
+      <p><strong><a href="/pages/tags.html">Tags壳</a></strong>: All tagged posts displayed under appropriate tag</p>
+      <p><strong><a href="/pages/wissensorte.html">Wissensorte</a></strong>: Houses all links, pdf's, sitegraph, and webring</p>
+      <p><strong><a href="/pages/gallery.html">Gallery</a></strong>: All Images used</p>
+      <p><strong><a href="/pages/Pre2020dreams.html">Pre2020-Dreams</a></strong>: Houses dreams and subsiquent interpretations, and core memories pre-2020</p>
   </article>
 </main>
 
-      <!-- 
+      <!--   
       	 -->
 
     <!-- <main>
@@ -127,21 +129,19 @@
 
         <div style="padding: 0.5em 0.5em 0em 0.5em">
              
-          <div class="post-date"><strong>Created:</strong> Feb 23, 2025</div>
+          <div class="post-date"><strong>Created:</strong> Feb 24, 2025</div>
         </div>
 
-        <a href="/daily/2025-02-23">
+        <a href="/daily/feb-24-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-23</h1> 
+        <h1 class="title-text">Feb-24-2025</h1> 
         </div>
       </a>
       
                     
         <div class="notes-entry-container note">
           <div class="content post-content">
-            <p>Neurosis is worn on the face and body, like garments of unease and general</p>
-
-<p>Iq is better pattern recitation and mapping large patterns to small patterns in a fractalized web. The more patterns the greater the depth of the fractal</p>
+            <p>learning to write is the best thing a human can do. Language forces us to think in terms of language which seems to not be the inherit human communication method, so to master language and writing is to master a mode of thinking. Learning how to think very well in terms of language also gives you a framework on how to think and communicate in other forms of communication like the body and symbols.</p>
 
             
           </div>
@@ -176,6 +176,105 @@
             <p>“Aa” : Younger brother angry, strange walmart parkinglot, im in a fast car, someone ripped out one of the light pulls, glass starts raining everywhere, he was angry at someone named CJ. I told him to get in the car.</p>
 
 <p>“Medical Imaging” : I was in a hospital, I had to get some part of me scanned, I got it scanned and later went back to that hospital where they showed me a real life 1:1 model of the part of me they sanned, it contained all the correct blood vessel, muslces, nerves, and what seemed to be a problem that the doctors has to remedy. The nurse told me that the imaging machine automatically made a 3d scale 1:1 model out of some material so the doctors could use it for experimentation.</p>
+
+            
+          </div>
+          </div>
+          
+  </article>  
+  
+  </main> -->
+
+  
+<br>
+
+<!-- 	 -->
+
+    <!-- <main>
+      <article class="latest-post-border">
+
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+             
+          <div class="post-date"><strong>Created:</strong> Feb 23, 2025</div>
+        </div>
+
+        <a href="/daily/feb-23-2025">
+        <div class="title">
+        <h1 class="title-text">Feb-23-2025</h1> 
+        </div>
+      </a>
+      
+                    
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+            <p>Neurosis is worn on the face and body, like garments of unease and general</p>
+
+<p>Iq is better pattern recitation and mapping large patterns to small patterns in a fractalized web. The more patterns the greater the depth of the fractal</p>
+
+            
+          </div>
+          </div>
+          
+  </article>  
+  
+  </main> -->
+
+  
+<br>
+
+<!-- 	 -->
+
+    <!-- <main>
+      <article class="latest-post-border">
+
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+             
+          <div class="post-date"><strong>Created:</strong> Feb 22, 2025</div>
+        </div>
+
+        <a href="/daily/feb-22-2025">
+        <div class="title">
+        <h1 class="title-text">Feb-22-2025</h1> 
+        </div>
+      </a>
+      
+                    
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+            <p>D birthday, don’t want to go to bar, I don’t like most bars, I don’t like the people there either.
+I ended up  having fun. It was a nice drive home.</p>
+
+            
+          </div>
+          </div>
+          
+  </article>  
+  
+  </main> -->
+
+  
+<br>
+
+<!-- 	 -->
+
+    <!-- <main>
+      <article class="latest-post-border">
+
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+             
+          <div class="post-date"><strong>Created:</strong> Feb 22, 2025</div>
+        </div>
+
+        <a href="/scrapbook/coremem-example-1">
+        <div class="title">
+        <h1 class="title-text">Coremem Example 1</h1> 
+        </div>
+      </a>
+      
+                    
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+            <p>This is an example of the corememe</p>
 
             
           </div>
@@ -332,77 +431,12 @@
 
         <div style="padding: 0.5em 0.5em 0em 0.5em">
              
-          <div class="post-date"><strong>Created:</strong> Feb 22, 2025</div>
-        </div>
-
-        <a href="/daily/2025-02-22">
-        <div class="title">
-        <h1 class="title-text">2025-02-22</h1> 
-        </div>
-      </a>
-      
-                    
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            <p>D birthday, don’t want to go to bar, I don’t like most bars, I don’t like the people there either.
-I ended up  having fun. It was a nice drive home.</p>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main> -->
-
-  
-<br>
-
-<!-- 	 -->
-
-    <!-- <main>
-      <article class="latest-post-border">
-
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 22, 2025</div>
-        </div>
-
-        <a href="/scrapbook/coremem-example-1">
-        <div class="title">
-        <h1 class="title-text">Coremem Example 1</h1> 
-        </div>
-      </a>
-      
-                    
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            <p>This is an example of the corememe</p>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main> -->
-
-  
-<br>
-
-<!-- 	 -->
-
-    <!-- <main>
-      <article class="latest-post-border">
-
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
           <div class="post-date"><strong>Created:</strong> Feb 21, 2025</div>
         </div>
 
-        <a href="/daily/2025-02-21">
+        <a href="/daily/feb-21-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-21</h1> 
+        <h1 class="title-text">Feb-21-2025</h1> 
         </div>
       </a>
       
@@ -453,48 +487,9 @@ I ended up  having fun. It was a nice drive home.</p>
           <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
         </div>
 
-        <a href="/daily/untitled">
+        <a href="/daily/feb-20-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-20</h1> 
-        </div>
-      </a>
-      
-                    
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            <p>Mobile test!</p>
-
-<p>Lets try this</p>
-
-<p>add image
-<img src="/images/mouse.jpg" alt="test"></p>
-
-<p><img src="/images/girl.jpg" alt="test2"></p>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main> -->
-
-  
-<br>
-
-<!-- 	 -->
-
-    <!-- <main>
-      <article class="latest-post-border">
-
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
-        </div>
-
-        <a href="/daily/2025-02-20">
-        <div class="title">
-        <h1 class="title-text">2025-02-20</h1> 
+        <h1 class="title-text">Feb-20-2025</h1> 
         </div>
       </a>
       
@@ -534,71 +529,6 @@ I ended up  having fun. It was a nice drive home.</p>
     </li>
   </ol>
 </div>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main> -->
-
-  
-<br>
-
-<!-- 	 -->
-
-    <!-- <main>
-      <article class="latest-post-border">
-
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
-        </div>
-
-        <a href="/journal/2025-02-null">
-        <div class="title">
-        <h1 class="title-text">2025-02: null</h1> 
-        </div>
-      </a>
-      
-                    
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            <p>This is a mobile journal test
-hihuuiuhhuhuu</p>
-
-            
-          </div>
-          </div>
-          
-  </article>  
-  
-  </main> -->
-
-  
-<br>
-
-<!-- 	 -->
-
-    <!-- <main>
-      <article class="latest-post-border">
-
-        <div style="padding: 0.5em 0.5em 0em 0.5em">
-             
-          <div class="post-date"><strong>Created:</strong> Feb 20, 2025</div>
-        </div>
-
-        <a href="/journal/new-test-journal">
-        <div class="title">
-        <h1 class="title-text">2025-02: null</h1> 
-        </div>
-      </a>
-      
-                    
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-            
 
             
           </div>
@@ -1580,9 +1510,9 @@ VSCODE: Ctrl+\ (OSX: Cmd+) can be used to create a new window split. Ctrl+W (OSX
           <div class="post-date"><strong>Created:</strong> Apr 11, 2022</div>
         </div>
 
-        <a href="/daily/2022-05-11">
+        <a href="/daily/may-11-2022">
         <div class="title">
-        <h1 class="title-text">2022-05-11</h1> 
+        <h1 class="title-text">May-11-2022</h1> 
         </div>
       </a>
       

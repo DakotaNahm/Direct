@@ -24,8 +24,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A navigable, organised hypertext personal knowledge base" />
 <meta property="og:description" content="A navigable, organised hypertext personal knowledge base" />
-<link rel="canonical" href="http://localhost:4000/pages/wissensorte/tags.html" />
-<meta property="og:url" content="http://localhost:4000/pages/wissensorte/tags.html" />
+<link rel="canonical" href="http://localhost:4000/pages/tags.html" />
+<meta property="og:url" content="http://localhost:4000/pages/tags.html" />
 <meta property="og:site_name" content="Exocore" />
 <meta property="og:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="og:type" content="article" />
@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="tags" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T00:53:09-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"tags","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/wissensorte/tags.html"},"url":"http://localhost:4000/pages/wissensorte/tags.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T15:48:31-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"tags","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/tags.html"},"url":"http://localhost:4000/pages/tags.html"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -58,34 +58,46 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
   </div>
   <div class="midcolumn">
     <article>
-      <h1 class="title-text" style="padding-top: 10px;">Wissensorte/Tags</h1>
-      <p style=" width: 100%; text-align: center; padding:0px; margin:0px;">Showing all Tags</p>
+      <h1 class="title-text" style="padding-top: 10px;">Tags</h1>
       <p style=" width: 100%; text-align: center"></p>
     </article>
   <div class="index-card">
@@ -102,10 +114,6 @@
         <p><a href="/journal/notes-on-remilia-s-new-internet">Notes on Remilia’s New Internet</a></p>
        
         
-        
-      
-        
-      
         
       
         
@@ -181,10 +189,6 @@
         <p><a href="/journal/notes-on-remilia-s-new-internet">Notes on Remilia’s New Internet</a></p>
        
         
-        
-      
-        
-      
         
       
         
@@ -292,10 +296,6 @@
       
         
       
-        
-      
-        
-      
     </div>
     
     <div style="font-size: 13px; margin-bottom: 17px;" id="nutrition" class="tile">
@@ -315,10 +315,6 @@
         <p><a href="/journal/samgyetang-ginseng-chicken-soup-korean-style">Samgyetang Ginseng Chicken Soup (Korean Style)</a></p>
        
         
-        
-      
-        
-      
         
       
         
@@ -418,20 +414,12 @@
       
         
       
-        
-      
-        
-      
     </div>
     
     <div style="font-size: 13px; margin-bottom: 17px;" id="exocore" class="tile">
       
       <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">Exocore</h1>
       
-      
-        
-      
-        
       
         
       
@@ -515,10 +503,6 @@
         
       
         
-      
-        
-      
-        
         <p><a href="/articles/the-exocore-package">The Exocore Package</a></p>
        
         
@@ -562,10 +546,6 @@
       
       <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">Meta</h1>
       
-      
-        
-      
-        
       
         
       
@@ -651,10 +631,6 @@
         
       
         
-      
-        
-      
-        
         <p><a href="/articles/set-up-a-custom-domain">Set up a Custom Domain</a></p>
        
         
@@ -718,10 +694,6 @@
         
       
         
-      
-        
-      
-        
         <p><a href="/articles/set-up-a-custom-domain">Set up a Custom Domain</a></p>
        
         
@@ -759,10 +731,6 @@
       
       <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">Workout壳</h1>
       
-      
-        
-      
-        
       
         
       
@@ -858,10 +826,6 @@
         
       
         
-      
-        
-      
-        
         <p><a href="/scrapbook/predictive-processing-and-the-free-energy-principle">Predictive Processing and the Free Energy Principle</a></p>
        
         
@@ -877,10 +841,6 @@
       
       <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">Ai</h1>
       
-      
-        
-      
-        
       
         
       
@@ -976,10 +936,6 @@
         
       
         
-      
-        
-      
-        
         <p><a href="/scrapbook/predictive-processing-and-the-free-energy-principle">Predictive Processing and the Free Energy Principle</a></p>
        
         
@@ -995,10 +951,6 @@
       
       <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">Help壳</h1>
       
-      
-        
-      
-        
       
         
       

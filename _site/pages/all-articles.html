@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="Article Index" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T15:30:41-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Article Index","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/all-articles.html"},"url":"http://localhost:4000/pages/all-articles.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T16:07:41-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Article Index","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/all-articles.html"},"url":"http://localhost:4000/pages/all-articles.html"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -59,28 +59,41 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
   </div>
 
@@ -95,17 +108,41 @@
   <div class="index-grid">
   
   	
-    <a class="index-anchor" href="/articles/configure-exocore-for-personal-use">
+    <a class="index-anchor" href="/articles/the-exocore-package">
       <div class="index-item">
-        <span class="index-item-title">Configure Exocore for Personal Use</span>
-        <span class="index-item-date">  Sep 2022</span>
+        <span class="index-item-title">The Exocore Package</span>
+        <span class="index-item-date">  Jan 2021</span>
 
       </div>
           </a>
        	
-    <a class="index-anchor" href="/articles/using-your-exocore">
+    <a class="index-anchor" href="/articles/writing-with-exocore-syntax">
       <div class="index-item">
-        <span class="index-item-title">Using your Exocore</span>
+        <span class="index-item-title">Writing with Exocore Syntax</span>
+        <span class="index-item-date">  Feb 2022</span>
+
+      </div>
+          </a>
+       	
+    <a class="index-anchor" href="/articles/table-test">
+      <div class="index-item">
+        <span class="index-item-title">Table test</span>
+        <span class="index-item-date">  Oct 2022</span>
+
+      </div>
+          </a>
+       	
+    <a class="index-anchor" href="/articles/exocore-installation-instructions">
+      <div class="index-item">
+        <span class="index-item-title">Exocore Installation Instructions</span>
+        <span class="index-item-date">  May 2022</span>
+
+      </div>
+          </a>
+       	
+    <a class="index-anchor" href="/articles/underpinnings-of-the-exocore">
+      <div class="index-item">
+        <span class="index-item-title">Underpinnings of the Exocore</span>
         <span class="index-item-date">  Apr 2022</span>
 
       </div>
@@ -119,42 +156,18 @@
       </div>
           </a>
        	
-    <a class="index-anchor" href="/articles/underpinnings-of-the-exocore">
+    <a class="index-anchor" href="/articles/using-your-exocore">
       <div class="index-item">
-        <span class="index-item-title">Underpinnings of the Exocore</span>
+        <span class="index-item-title">Using your Exocore</span>
         <span class="index-item-date">  Apr 2022</span>
 
       </div>
           </a>
        	
-    <a class="index-anchor" href="/articles/exocore-installation-instructions">
+    <a class="index-anchor" href="/articles/configure-exocore-for-personal-use">
       <div class="index-item">
-        <span class="index-item-title">Exocore Installation Instructions</span>
-        <span class="index-item-date">  May 2022</span>
-
-      </div>
-          </a>
-       	
-    <a class="index-anchor" href="/articles/table-test">
-      <div class="index-item">
-        <span class="index-item-title">Table test</span>
-        <span class="index-item-date">  Oct 2022</span>
-
-      </div>
-          </a>
-       	
-    <a class="index-anchor" href="/articles/writing-with-exocore-syntax">
-      <div class="index-item">
-        <span class="index-item-title">Writing with Exocore Syntax</span>
-        <span class="index-item-date">  Feb 2022</span>
-
-      </div>
-          </a>
-       	
-    <a class="index-anchor" href="/articles/the-exocore-package">
-      <div class="index-item">
-        <span class="index-item-title">The Exocore Package</span>
-        <span class="index-item-date">  Jan 2021</span>
+        <span class="index-item-title">Configure Exocore for Personal Use</span>
+        <span class="index-item-date">  Sep 2022</span>
 
       </div>
           </a>

@@ -5,49 +5,79 @@
 
 //Spring
 //Dark
-.dark-mode{
 
-    background-color: rgb(28, 28, 33);
-    h1,h2,h3,h4,h5,h6{
-        color: #a3d1ff;
-    }
-    p{
-        color: white;
-    }
-    a{
-        color: #a3d1ff;
-    }
-    .index-item a {
-        color: purple;
+
+// Define theme variables
+
+// Default theme
+
+#theme-toggle {
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background: yellow;
+    color: blue;
+    border-radius: 0px;
+    float: left;
+    text-align: start;
+    font-size: 13px;
+    font-family: verdana;
+    font-weight: bold;
+    &:hover {
+        opacity: 0.8;
     }
 }
-//grey
-.grey-mode{
-    background-color: #EBEBEA;
-}
-//White
-.white-mode{
+
+// Light Theme
+.light-theme {
     background-color: white;
+    color: black;
+    .embed-content p{
+        color: black;
+    }
 }
 
-#theme{
-    border-radius: 100%;
-    background-image: radial-gradient( rgb(255, 223, 223), red);
-    width: 30px;
-    height: 30px;
+.dark-theme {
+    background-color: rgb(28, 28, 33);
+    color: white;
+    a {
+        color: rgb(140, 140, 250);
+    }
+    .user-name{
+        color: lightblue;
+    }
+    .index-item span{
+        color: rgb(140, 140, 250);
+    }
+    .tag-grid a {
+        color: rgb(140, 140, 250);
+    }
+    table, tr, td {
+        background-color: none;
+    }
+    .library-item-title {
+        color: rgb(140, 140, 250);
+    }
+    .library-item-filetype{
+        color: red;
+    }
 }
+
+
 
 /* === Base Settings === */
 
 /* --- Body Colors --- */
 
 $background: white;
+$background-dark : rgb(28, 28, 33);
 $color-inner-divs: #fffdfb;
 $color-items: #fffdfb;
 
 
 /* --- Text Colors --- */
 $color-text: rgb(0, 20, 131);
+$color-text-dark: white;
 $color-subtext: black;
 $internal-links: blue;
 $external-links: blue;
@@ -77,7 +107,7 @@ $color-sidenote-background: none;
 $color-sidenote-text: brown;
 
 $color-code-text: red;
-$color-code-highlight: white;
+$color-code-highlight: none;
 $color-code-background: $color-code-highlight;
 
 strong {
@@ -94,12 +124,12 @@ $font-family-serif: Times New Roman, Times, serif;
 $font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;
 
 
+
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-//   padding: 4vh 6vw;
-margin-top: 2em;
+    margin-top: 2em;
   overflow-x: hidden;
-  color: $color-text;
   font-size: 1.2rem;
   background-attachment: fixed; /*edit*/
 }
@@ -170,21 +200,21 @@ hr {
 ================================================== */
 
 code {
-    background-color: white;
+    background-color: none;
     // background-color: $color-code-highlight;
     font-family: $font-family-monospace;
-    color: black;
+    color: red;
     padding: 0;
     font-size: 14px;
 }
 
 
 .highlight {
-    background-color: white;
+    background-color: lightyellow;
     border-radius: 0px;
     margin: auto;
     position:relative;
-    padding: 0;
+    padding-left: 5px;
 }
 
 
@@ -481,6 +511,7 @@ width: auto;
     // margin-bottom: 0.5em;
     max-width: 100%;
     // padding: 0.5em;
+    margin-top: 10px;
     font-size: 13px;
 }
 
@@ -649,10 +680,9 @@ img+em {
 .embed-wrapper {
     border: 1px solid darkblue;
     padding: 1em;
-    background-color: white;
+    background-color: none;
     margin-top: 2em;
     margin-bottom: 2em;
-    background: white;
 }
 
 .embed-title {
@@ -660,10 +690,10 @@ img+em {
 }
 
 .embed-content {
-    color: $color-embed-text;
+    color: white
 }
 .embed-content p {
-    color: $color-embed-text;
+    color: white;
 }
 
 
@@ -877,6 +907,7 @@ display: none;
     float: right;
     background-color: red;
     color: white;
+    display: none;
   }
   
 .post-date {
@@ -1237,7 +1268,6 @@ table, tr, td {
     border-collapse: collapse;
     padding: 0.5em;
     margin: auto;
-    background-color: $color-inner-divs;
 }
 
 li{
@@ -1356,7 +1386,6 @@ table, tr, td{
     border-collapse: collapse;
     padding: 5px;
     margin: auto;
-    background-color: white;
     font-size: 13px;
 }
 

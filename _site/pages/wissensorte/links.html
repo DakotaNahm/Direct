@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="Links Index" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-22T13:55:22-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Links Index","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/wissensorte/links.html"},"url":"http://localhost:4000/pages/wissensorte/links.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T15:48:03-05:00","datePublished":"2000-01-01T00:00:00-05:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Links Index","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/pages/wissensorte/links.html"},"url":"http://localhost:4000/pages/wissensorte/links.html"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -58,35 +58,47 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
   </div>
 
   <div class="midcolumn">
     <article>
-      <h1 class="title-text" style="padding-top: 10px;">Wissensorte/Links</h1>
-      <p style=" width: 100%; text-align: center; padding:0px; margin:0px;">All links on website</p>
+      <h1 class="title-text" style="padding-top: 10px;">Links</h1>
       <p style=" width: 100%; text-align: center"></p>
     </article>
 <br>

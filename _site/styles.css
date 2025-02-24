@@ -285,21 +285,29 @@ template { display: none; }
 
 /* Literal.Number.Integer.Long */
 /* ### Theme: Paper ### */
-.dark-mode { background-color: #1c1c21; }
+#theme-toggle { padding: 5px; cursor: pointer; border: none; background: yellow; color: blue; border-radius: 0px; float: left; text-align: start; font-size: 13px; font-family: verdana; font-weight: bold; }
 
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 { color: #a3d1ff; }
+#theme-toggle:hover { opacity: 0.8; }
 
-.dark-mode p { color: white; }
+.light-theme { background-color: white; color: black; }
 
-.dark-mode a { color: #a3d1ff; }
+.light-theme .embed-content p { color: black; }
 
-.dark-mode .index-item a { color: purple; }
+.dark-theme { background-color: #1c1c21; color: white; }
 
-.grey-mode { background-color: #EBEBEA; }
+.dark-theme a { color: #8c8cfa; }
 
-.white-mode { background-color: white; }
+.dark-theme .user-name { color: lightblue; }
 
-#theme { border-radius: 100%; background-image: radial-gradient(#ffdfdf, red); width: 30px; height: 30px; }
+.dark-theme .index-item span { color: #8c8cfa; }
+
+.dark-theme .tag-grid a { color: #8c8cfa; }
+
+.dark-theme table, .dark-theme tr, .dark-theme td { background-color: none; }
+
+.dark-theme .library-item-title { color: #8c8cfa; }
+
+.dark-theme .library-item-filetype { color: red; }
 
 /* === Base Settings === */
 /* --- Body Colors --- */
@@ -309,7 +317,7 @@ template { display: none; }
 strong { color: green; }
 
 /* --- Font Family --- */
-body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; color: #001483; font-size: 1.2rem; background-attachment: fixed; /*edit*/ }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 2em; overflow-x: hidden; font-size: 1.2rem; background-attachment: fixed; /*edit*/ }
 
 .yellow { background-color: yellow; }
 
@@ -337,9 +345,9 @@ hr { margin: 1.5em; display: none; }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { background-color: white; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: black; padding: 0; font-size: 14px; }
+code { background-color: none; font-family: ”Iosevka Term SS03”, ”IBM Plex Mono”, ”Fira Code”, ”Fira Mono”, ”Roboto Mono”, ”Droid Sans Mono”, Monaco, Consolas, Courier, monospace; color: red; padding: 0; font-size: 14px; }
 
-.highlight { background-color: white; border-radius: 0px; margin: auto; position: relative; padding: 0; }
+.highlight { background-color: lightyellow; border-radius: 0px; margin: auto; position: relative; padding-left: 5px; }
 
 /* LINKS
 ================================================== */
@@ -443,7 +451,7 @@ main { width: auto; }
 
 .user-name { color: blue; text-decoration: underline; margin: auto; margin-top: 0; margin-bottom: 0; text-align: center; width: 100%; }
 
-.sidebar-link-box { display: grid; grid-template-columns: auto; text-align: end; box-shadow: 1px 1px 0px none; max-width: 100%; font-size: 13px; }
+.sidebar-link-box { display: grid; grid-template-columns: auto; text-align: end; box-shadow: 1px 1px 0px none; max-width: 100%; margin-top: 10px; font-size: 13px; }
 
 .side .index-grid { display: block; margin: auto; grid-template-columns: auto; box-shadow: 1px 1px 0px white; max-width: 100%; font-size: 0.9em; justify-content: end; justify-items: end; align-items: end; }
 
@@ -496,13 +504,13 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 /* EMBEDDED NOTES
 ================================================== */
-.embed-wrapper { border: 1px solid darkblue; padding: 1em; background-color: white; margin-top: 2em; margin-bottom: 2em; background: white; }
+.embed-wrapper { border: 1px solid darkblue; padding: 1em; background-color: none; margin-top: 2em; margin-bottom: 2em; }
 
 .embed-title { display: none; }
 
-.embed-content { color: black; }
+.embed-content { color: white; }
 
-.embed-content p { color: black; }
+.embed-content p { color: white; }
 
 /* SIDENOTES
 ================================================== */
@@ -560,7 +568,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 ================================================== */
 .library-item { display: grid; grid-auto-columns: 100% 10%; }
 
-.draft-badge { padding: 0.5em; width: fit-content; float: right; background-color: red; color: white; }
+.draft-badge { padding: 0.5em; width: fit-content; float: right; background-color: red; color: white; display: none; }
 
 .post-date { padding: 0.5em; width: fit-content; margin: auto; font-size: 13px; color: green; }
 
@@ -676,7 +684,7 @@ ul li { list-style-type: decimal; font-size: 13px; }
 
 ul li li { list-style-type: circle; }
 
-table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; margin: auto; background-color: #fffdfb; }
+table, tr, td { border: thin solid; border-collapse: collapse; padding: 0.5em; margin: auto; }
 
 li { font-size: 0.93em; }
 
@@ -714,7 +722,7 @@ article { box-sizing: border-box; }
 
 .external-link-container { width: 100%; }
 
-table, tr, td { border: thin solid; border-collapse: collapse; padding: 5px; margin: auto; background-color: white; font-size: 13px; }
+table, tr, td { border: thin solid; border-collapse: collapse; padding: 5px; margin: auto; font-size: 13px; }
 
 table { display: table; box-sizing: border-box; text-indent: initial; unicode-bidi: isolate; border-color: gray; margin-top: 15px; margin-bottom: 15px; float: left; width: 100%; }
 

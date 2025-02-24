@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <meta name="keyword" content="">
-  <meta name="title" content="2025-02-21">
+  <meta name="title" content="Feb-24-2025">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -18,23 +18,23 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="/assets/js/sidenotes.js"></script>
  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>2025-02-21 | Exocore</title>
+<title>Feb-24-2025 | Exocore</title>
 <meta name="generator" content="Jekyll v4.2.1" />
-<meta property="og:title" content="2025-02-21" />
+<meta property="og:title" content="Feb-24-2025" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="2025-02-21" />
-<meta property="og:description" content="2025-02-21" />
-<link rel="canonical" href="http://localhost:4000/daily/2025-02-21" />
-<meta property="og:url" content="http://localhost:4000/daily/2025-02-21" />
+<meta name="description" content="Feb-24-2025" />
+<meta property="og:description" content="Feb-24-2025" />
+<link rel="canonical" href="http://localhost:4000/daily/feb-24-2025" />
+<meta property="og:url" content="http://localhost:4000/daily/feb-24-2025" />
 <meta property="og:site_name" content="Exocore" />
 <meta property="og:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-21T00:00:00-05:00" />
+<meta property="article:published_time" content="2025-02-24T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
-<meta property="twitter:title" content="2025-02-21" />
+<meta property="twitter:title" content="Feb-24-2025" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-22T16:06:33-05:00","datePublished":"2025-02-21T00:00:00-05:00","description":"2025-02-21","headline":"2025-02-21","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/daily/2025-02-21"},"url":"http://localhost:4000/daily/2025-02-21"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-24T15:58:42-05:00","datePublished":"2025-02-24T00:00:00-05:00","description":"Feb-24-2025","headline":"Feb-24-2025","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/daily/feb-24-2025"},"url":"http://localhost:4000/daily/feb-24-2025"}</script>
 <!-- End Jekyll SEO tag -->
 
  
@@ -57,28 +57,41 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
 
     <div class="sidebar-card related">
@@ -171,16 +184,14 @@
   <main>
     <div class="prev-next">
     
-<a class="prev" href="/daily/untitled"> <<</a>
+<a class="prev" href="/daily/feb-23-2025"> <<</a>
     
-<h1 class="prev-next-h1">2025-02-21</h1>
-    
-<a class="prev" href="/daily/2025-02-22"> >></a>
+<h1 class="prev-next-h1">Feb-24-2025</h1>
     
 </div>
 <br>
 
-<!-- 2025-02-21 -->
+<!-- Feb-24-2025 -->
     <article>
       <div class="post-info">
         <div style="padding: 0.5em 0.5em 0em 0.5em">
@@ -189,16 +200,11 @@
         </div>
       <div class="title">
       <h1 class="title-text"></h1>
-      <div class="post-date" style="color: red;"><strong>February 21, 2025</strong></div>
+      <div class="post-date" style="color: red;"><strong>February 24, 2025</strong></div>
       </div>
         
 
          
-<div class="content toc-container">
-    <h1 class="toc-header">Table of Contents</h1>
-
-<ol class="inline_toc" id="my_toc"><li><a href="#familial-background">Familial Background</a></li><li><a href="#some-cool-images">Some Cool Images</a></li></ol></div>
-
 
       </div>
         <hr>
@@ -206,28 +212,7 @@
       <div class="notes-entry-container note">
         <div class="content post-content">
 
-          <p>Hypernormization</p>
-
-<p>Mensa : 141</p>
-
-<p>Myers Briggs : INFJ</p>
-
-<h2 id="familial-background"><strong>Familial Background</strong></h2>
-<p>Grandmother Maternal : Lithuanian Ashkenazi Jew</p>
-
-<p>Grandfather Maternal : Southern Germanic</p>
-
-<p>Grandmother Paternal : Unknown ( possibly Dutch )</p>
-
-<p>Grandfather Paternal : North Central England</p>
-
-<h2 id="some-cool-images"><strong>Some Cool Images</strong></h2>
-
-<p><img src="/images/IMG_4172.JPG" alt="Image">
-<img src="/images/IMG_4190.JPG" alt="Image2">
-<img src="/images/IMG_6394.jpeg" alt="Image3"></p>
-
-<p>***Loosing it</p>
+          <p>learning to write is the best thing a human can do. Language forces us to think in terms of language which seems to not be the inherit human communication method, so to master language and writing is to master a mode of thinking. Learning how to think very well in terms of language also gives you a framework on how to think and communicate in other forms of communication like the body and symbols.</p>
 
 
         </div>

@@ -58,28 +58,41 @@
     <a href="/pages/all-articles">Essays</a>
       <a href="/pages/all-daily">Log</a>
       <a href="/pages/all-journal">r-Journal</a>
-      <a href="/pages/壳.html">shells壳</a>
+      <a href="/pages/tags.html">Tags壳</a>
       <a href="/pages/wissensorte.html">Wissensorte</a>
       <a href="/pages/gallery.html">Gallery</a>
-      <a href="/pages/coremem19.html">Core Mem19/Dreams</a>
+      <a href="/pages/Pre2020dreams.html">Pre 2020 / Dreams</a>
       <br>
-      <button id="theme" onclick="myFunction()">
-        T
+      <button id="theme-toggle" onclick="myFunction()">
+        Change Theme
       </button>
     </div>
   </div>
   
   <script>
-     // Define the SCSS class names
-     const bgClasses = ["dark-mode", "white-mode", "grey-mode"];
-        let currentIndex = 0;
+   document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("theme-toggle");
 
-        document.getElementById("theme").addEventListener("click", function () {
-            document.body.classList.remove(...bgClasses); // Remove all background classes
-            document.body.classList.add(bgClasses[currentIndex]); // Add the new class
-            
-            currentIndex = (currentIndex + 1) % bgClasses.length; // Move to the next color
-        });
+    // Check localStorage for saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    themeToggle.addEventListener("click", () => {
+        // Toggle between light and dark themes
+        if (document.body.classList.contains("dark-theme")) {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            localStorage.setItem("theme", "light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark-theme");
+        }
+    });
+});
   </script>
     </div>
 
@@ -95,9 +108,37 @@
 
     <main>
       <article class="latest-post-border">
-        <a href="/daily/2025-02-23">
+        <a href="/daily/feb-24-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-23</h1> 
+        <h1 class="title-text">Feb-24-2025</h1> 
+        </div>
+      </a>
+          
+          <div class="new-date"> <b>Date:</b> 24 February 2025</div>
+
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+  
+            <p>learning to write is the best thing a human can do. Language forces us to think in terms of language which seems to not be the inherit human communication method, so to master language and writing is to master a mode of thinking. Learning how to think very well in terms of language also gives you a framework on how to think and communicate in other forms of communication like the body and symbols.</p>
+
+  
+          </div>
+          </div>
+          <hr>
+  </article>  
+  
+  </main>
+
+  
+<br>
+
+	
+
+    <main>
+      <article class="latest-post-border">
+        <a href="/daily/feb-23-2025">
+        <div class="title">
+        <h1 class="title-text">Feb-23-2025</h1> 
         </div>
       </a>
           
@@ -125,9 +166,9 @@
 
     <main>
       <article class="latest-post-border">
-        <a href="/daily/2025-02-22">
+        <a href="/daily/feb-22-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-22</h1> 
+        <h1 class="title-text">Feb-22-2025</h1> 
         </div>
       </a>
           
@@ -154,9 +195,9 @@ I ended up  having fun. It was a nice drive home.</p>
 
     <main>
       <article class="latest-post-border">
-        <a href="/daily/2025-02-21">
+        <a href="/daily/feb-21-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-21</h1> 
+        <h1 class="title-text">Feb-21-2025</h1> 
         </div>
       </a>
           
@@ -203,9 +244,9 @@ I ended up  having fun. It was a nice drive home.</p>
 
     <main>
       <article class="latest-post-border">
-        <a href="/daily/2025-02-20">
+        <a href="/daily/feb-20-2025">
         <div class="title">
-        <h1 class="title-text">2025-02-20</h1> 
+        <h1 class="title-text">Feb-20-2025</h1> 
         </div>
       </a>
           
@@ -263,44 +304,9 @@ I ended up  having fun. It was a nice drive home.</p>
 
     <main>
       <article class="latest-post-border">
-        <a href="/daily/untitled">
+        <a href="/daily/may-11-2022">
         <div class="title">
-        <h1 class="title-text">2025-02-20</h1> 
-        </div>
-      </a>
-          
-          <div class="new-date"> <b>Date:</b> 20 February 2025</div>
-
-        <div class="notes-entry-container note">
-          <div class="content post-content">
-  
-            <p>Mobile test!</p>
-
-<p>Lets try this</p>
-
-<p>add image
-<img src="/images/mouse.jpg" alt="test"></p>
-
-<p><img src="/images/girl.jpg" alt="test2"></p>
-
-  
-          </div>
-          </div>
-          <hr>
-  </article>  
-  
-  </main>
-
-  
-<br>
-
-	
-
-    <main>
-      <article class="latest-post-border">
-        <a href="/daily/2022-05-11">
-        <div class="title">
-        <h1 class="title-text">2022-05-11</h1> 
+        <h1 class="title-text">May-11-2022</h1> 
         </div>
       </a>
           

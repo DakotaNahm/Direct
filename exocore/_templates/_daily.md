@@ -5,4 +5,4 @@ date: <% tp.date.now() %>
 tags: 
 ---
 
-# <% tp.date.now("YYYY-MM-DD") %>
+# <% tp.date.now("DD-MM-YY") %>
