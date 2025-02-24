@@ -293,6 +293,8 @@ template { display: none; }
 
 .dark-mode a { color: #a3d1ff; }
 
+.dark-mode .index-item a { color: purple; }
+
 .grey-mode { background-color: #EBEBEA; }
 
 .white-mode { background-color: white; }
@@ -413,7 +415,7 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 
 @media (max-width: 900px) { .midcolumn { width: 500px; margin-top: 2em; } }
 
-.midcolumn > article:nth-child(1) { background-color: yellow; border: 2px solid blue; }
+.midcolumn > article:nth-child(1) { background-color: yellow; border: 2px solid blue; height: 55px; }
 
 .midcolumn-small { width: 40%; margin: auto; }
 
@@ -534,7 +536,7 @@ img + em { display: block; color: blue; text-align: center; width: 50%; margin-l
 
 .index-anchor { text-decoration: none !important; width: 100%; }
 
-.index-item, .archive-item, .library-item { width: 100%; margin: auto; text-align: left; padding: 5px; border-top: none; box-sizing: border-box; font-size: 13px; }
+.index-item, .archive-item, .library-item { width: 100%; text-align: left; padding: 4px; border-top: none; box-sizing: border-box; font-size: 13px; }
 
 .index-item:hover, .archive-item:hover, .library-item:hover { box-shadow: 0px 0px 0px 0px black; background-color: yellow; color: red; }
 
@@ -624,7 +626,7 @@ a:active .toctext { color: orange; }
 
 /* PREVIOUS / NEXT BUTTONS
 ================================================== */
-.prev-next { background-color: yellow; display: flex; flex-wrap: wrap; flex-direction: row; align-content: center; justify-content: center; height: 3.5em; border: 2px solid blue; font-family: 'Times New Roman', Times, serif; }
+.prev-next { background-color: yellow; display: flex; flex-wrap: wrap; flex-direction: row; align-content: center; justify-content: center; height: 55px; border: 2px solid blue; font-family: 'Times New Roman', Times, serif; }
 
 .prev-next a { font-weight: bold; text-decoration: none; overflow: hidden; color: red; }
 

@@ -17,6 +17,9 @@
     a{
         color: #a3d1ff;
     }
+    .index-item a {
+        color: purple;
+    }
 }
 //grey
 .grey-mode{
@@ -393,6 +396,7 @@ h6:hover > a.anchor {
 .midcolumn > article:nth-child(1){
     background-color: yellow;
     border: 2px solid blue;
+    height: 55px;
 }
 
 .midcolumn-small {
@@ -790,10 +794,9 @@ img+em {
 }
 .index-item, .archive-item, .library-item {
     width: 100%;
-    margin: auto;
+    // margin: auto;
     text-align: left;
-    // margin-bottom: 1em;
-    padding: 5px;
+    padding: 4px;
     // border: 2px solid darkblue;
     border-top: none;
     box-sizing: border-box;
@@ -1068,7 +1071,7 @@ margin: 0;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    height: 3.5em;
+    height: 55px;
     border: 2px solid blue;
     font-family: 'Times New Roman', Times, serif;
 }
