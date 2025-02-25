@@ -1,5 +1,6 @@
 {
   "folder": "_daily",
   "autorun": true,
-  "template": "exocore/_templates/_daily"
+  "template": "exocore/_templates/_daily",
+  "format": "MMM-DD-YYYY"
 }
