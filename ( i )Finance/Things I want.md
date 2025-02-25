@@ -36,7 +36,7 @@ Item:
 Link: 
 Cost: 
 
-Ford Raptor Work Truck ( Just to Sit and Use on Sight, purchase it with someone )
+Work Truck ( Just to Sit and Use on Sight, purchase it with someone )
 Link: 
 Cost: 
 Resp: Parked at hunting Land
