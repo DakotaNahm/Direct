@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "( i )Expenses/Expenses Spreadsheet.md",
+                "file": "( i ) 壳/Nutrition+Supplementation/Supplementation Guide.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expenses Spreadsheet"
+              "title": "Supplementation Guide"
             }
           }
         ]
@@ -213,11 +213,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workout-tracker:Add workout": false,
+      "workout-tracker:Statistic": false
     }
   },
   "active": "64a95938857bf74e",
   "lastOpenFiles": [
+    "( i ) 壳/Nutrition+Supplementation/Anti-Poison Guide.md",
+    "( i ) 壳/Nutrition+Supplementation/Supplementation Guide.md",
+    "( i ) 壳/Workout (Physical + Spiritual )/Workout Routine.md",
+    "( i ) 壳/Art+Media/Designers and Painters List.md",
+    "( i )Calendar/Schedule Outline.md",
+    "( i ) 壳/-Logy/Map of -Logy.md",
+    "( i )Expenses/Expenses Spreadsheet.md",
     "( i )Lifecore/Lifecore 1.0.md",
     "( i )Projects/David Nash/Outsourcing.md",
     "( i )Projects/David Nash/Marketing.md",
@@ -247,13 +256,6 @@
     "_site/daily/feb-20-2025.html",
     "_daily/Feb-21-2025.md",
     "_daily/Feb-22-2025.md",
-    "_daily/Feb-23-2025.md",
-    "_daily/May-11-2022.md",
-    "_site/( i ) 壳/Art+Media/Movies List.md",
-    "_site/( i )Projects/David Nash/Music-Listen.md",
-    "( i ) 壳/Art+Media/Movies List.md",
-    "壳/Art+Media/Books List.md",
-    "_scrapbook/Coremem Example 1.md",
     "images/2022-05-13-17-46-10.png",
     "_site/images/IMG_6394.jpeg",
     "images/IMG_6394.jpeg",
