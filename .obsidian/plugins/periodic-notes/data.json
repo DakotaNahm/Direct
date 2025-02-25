@@ -3,20 +3,21 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
+    "format": "MMM-DD-YYYY",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": false
   },
   "weekly": {
     "format": "[w]ww-yyyy",
     "template": "",
-    "folder": "( i )Calendar",
+    "folder": "",
     "enabled": true
   },
   "monthly": {
-    "format": "",
+    "format": "MMM-YYYY",
     "template": "",
-    "folder": "",
+    "folder": "( i )Calendar",
     "enabled": true
   },
   "quarterly": {
