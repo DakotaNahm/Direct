@@ -1,8 +1,11 @@
 ---
 published: true
 subtitle: 
+uuid:  <% tp.date.now("YYYYMMDDHHmmss") %>
 date: <% tp.date.now() %>
 tags: 
 ---
 
-#  <% tp.date.now("YYYY-MM") + ": " + (await tp.system.prompt("New journal entry title:", "Untitled", false)) %>
+[[<% tp.date.now("YYYYMMDDHHmmss") %>]]
+
+<!-- #  <% (await tp.system.prompt("New journal entry title:", "Untitled", false)) %> -->

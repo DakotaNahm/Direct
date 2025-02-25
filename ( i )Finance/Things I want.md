@@ -1,3 +1,9 @@
+---
+subtitle:
+date: Feb-24-2025
+tags:
+published: 
+---
 
 # Things I want
 
@@ -36,12 +42,12 @@ Item:
 Link: 
 Cost: 
 
-Work Truck ( Just to Sit and Use on Sight, purchase it with someone )
+2000's 7.3 Deisel ( Anti-Rust Coating ) ( Just to Sit and Use on Sight, purchase it with someone )
 Link: 
 Cost: 
 Resp: Parked at hunting Land
 
-Mk4 Golf ( Daily Beater ) ( Cool Color )
+Golf ( Daily Beater ) ( Cool Color )
 Link:  
 Cost:  
 Resp: 
