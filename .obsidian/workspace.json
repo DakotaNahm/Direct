@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_journal/2025-02 Learning Markdown.md",
+                "file": "( i )Bubbling/AHFL.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-02 Learning Markdown"
+              "title": "AHFL"
             }
           }
         ]
@@ -216,13 +216,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e509f202f4abd033",
+  "active": "64a95938857bf74e",
   "lastOpenFiles": [
+    "_journal/2025-02 Learning Markdown.md",
+    "( i ) 壳/Nutrition+Supplementation/Cookbook",
     "_site/styles.css.map",
     "_site/pages/tags.html",
     "pages/tags.html",
     "_journal/New test journal.md",
-    "_journal/2025-02 Learning Markdown.md",
     "_journal/2025-02 null.md",
     "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
     "_journal/Samgyetang Ginseng Chicken Soup (Korean Style).md",
@@ -240,9 +241,7 @@
     "_daily/Feb-22-2025.md",
     "_site/daily/feb-23-2025.html",
     "_daily/Feb-23-2025.md",
-    "_site/daily/feb-24-2025.html",
     "_daily/May-11-2022.md",
-    "_site/daily/may-11-2022.html",
     "_site/( i ) 壳/Art+Media/Movies List.md",
     "_site/( i )Projects/David Nash/Music-Listen.md",
     "( i )Projects/David Nash/Music-Listen.md",
