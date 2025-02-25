@@ -10,14 +10,14 @@
   },
   "weekly": {
     "format": "[w]ww-yyyy",
-    "template": "",
-    "folder": "",
+    "template": "exocore/_templates/_week.md",
+    "folder": "( i )Calendar/0 Week",
     "enabled": true
   },
   "monthly": {
     "format": "MMM-YYYY",
-    "template": "",
-    "folder": "( i )Calendar",
+    "template": "exocore/_templates/_month.md",
+    "folder": "( i )Calendar/1 Month",
     "enabled": true
   },
   "quarterly": {
@@ -28,6 +28,7 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": true
   }
 }
