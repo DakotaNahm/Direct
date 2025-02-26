@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
+                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sale-Autopilot"
+              "title": "Musical-Themes x Story"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/Untitled.md",
+                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Musical-Themes x Story"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/Untitled.md",
+                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Musical-Themes x Story"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
+                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sale-Autopilot"
+              "title": "Outline of Musical-Themes x Story"
             }
           },
           {
@@ -205,8 +205,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -229,44 +228,48 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "e509f202f4abd033",
+  "active": "39c971b5e7532110",
   "lastOpenFiles": [
+    "(3)Projects/David Nash/(Study)/Music_Syllabus.md",
+    "(3)Projects/David Nash/(Study)/5x5x5.md",
+    "(3)Projects/Dakota Nahm/(Study)/Writing_Syllabus.md",
+    "(3)Projects/Dakota Nahm/(Study)/Illustration_Syllabus.md",
+    "(3)Projects/Toss-A-Toad/System Design.canvas",
+    "(3)Projects/Dakota Nahm/(Study)",
+    "(5)Finances/Finances Canvas.canvas",
+    "(6)Lifecore/Lifecore 1.0.md",
+    "(6)Lifecore/Lifecore Canvas.canvas",
+    "Untitled.canvas",
+    "(4)Calendar/0 Week/w09-2025.md",
+    "_daily/May-11-2022.md",
+    "(5)Finances/Investments.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule Data Backup.md",
+    "(2) 壳/Body+Face/Surgical.md",
+    "(2) 壳/Body+Face/Skincare.md",
+    "(2) 壳/Body+Face/Increase.md",
+    "(2) 壳/Art+Media/Movies List.md",
+    "(2) 壳/Art+Media/Designers+Painters.md",
+    "(2) 壳/Art+Media/Books_List.md",
+    "(1)Bubbling/Social_Media_Asset_Sizes.md",
+    "(1)Bubbling/AHFL.md",
+    "(2) 壳/Fashion/Tops.md",
+    "(2) 壳/Fashion/Outfits  Suits.md",
+    "(2) 壳/Fashion/Mid.md",
+    "(2) 壳/Fashion/Footware.md",
+    "(2) 壳/Fashion/Face.md",
+    "(2) 壳/Fashion/Bottoms.md",
+    "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
+    "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/Updates x Maintainence",
     "(3)Projects/Toss-A-Toad/Gameplay",
     "(3)Projects/Toss-A-Toad/Econ",
     "(3)Projects/Toss-A-Toad/Assets",
-    "(3)Projects/Toss-A-Toad/Outsourcing.md",
-    "(3)Projects/Toss-A-Toad/Marketing.md",
-    "(3)Projects/Toss-A-Toad/Business Info.md",
-    "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
-    "(3)Projects/Murphy/Sale-Autopilot.md",
-    "(3)Projects/Murphy/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/Murphy/Marketing x Pipeline.md",
-    "(3)Projects/Murphy/Business_Docs.md",
-    "(3)Projects/David Nash/Studio Setup.md",
-    "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/David Nash/Music Listening.md",
-    "(3)Projects/David Nash/Merchandise Spreadsheet.md",
-    "(3)Projects/Murphy/Business Info.md",
     "(1)Bubbling/Archives",
     "(3)Projects/Toss-A-Toad/(Fleeting)",
-    "(3)Projects/Toss-A-Toad/Fleeting.md",
     "(3)Projects/Murphy/(Fleeting)",
-    "(3)Projects/Murphy/Fleeting.md",
-    "(5)Finances/Tools x Tech.md",
-    "(5)Finances/Spending x Saving Rules.md",
-    "(5)Finances/Personal Expenses Spreadsheet.md",
-    "(5)Finances/Music Gear.md",
-    "(5)Finances/Large Items.md",
-    "(5)Finances/Investments.md",
-    "(5)Finances/Apartment Furnishings.md",
-    "(6)Lifecore/Lifecore 1.0.md",
-    "(3)Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
-    "(3)Projects/David Nash/Business_Docs.md",
     "(5)Finances",
     "(3)Projects/David Nash/(Study)",
-    "(3)Projects/David Nash/(Fleeting)",
-    "(3)Projects/Dakota Nahm/(Fleeting)",
     "images/Kitchen.webp",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",

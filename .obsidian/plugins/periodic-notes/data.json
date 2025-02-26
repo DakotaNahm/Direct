@@ -11,13 +11,13 @@
   "weekly": {
     "format": "[w]ww-yyyy",
     "template": "exocore/_templates/_week.md",
-    "folder": "( i )Calendar/0 Week",
+    "folder": "(4)Calendar/0 Week",
     "enabled": true
   },
   "monthly": {
     "format": "MMM-YYYY",
     "template": "exocore/_templates/_month.md",
-    "folder": "( i )Calendar/1 Month",
+    "folder": "(4)Calendar/1 Month",
     "enabled": true
   },
   "quarterly": {
