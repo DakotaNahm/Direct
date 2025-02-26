@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f10d6a4962697fe4",
+        "id": "37618f96e51ea1ff",
         "type": "tabs",
         "children": [
           {
-            "id": "75cda8cc49cd6f7c",
+            "id": "21af6e9b0af84ffb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "( i )Projects/Dakota Nahm/Wallet Structure.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Wallet Structure"
             }
           }
         ]
@@ -215,8 +219,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "75cda8cc49cd6f7c",
+  "active": "21af6e9b0af84ffb",
   "lastOpenFiles": [
+    "( i )Projects/Dakota Nahm/Coin Exchanges.md",
+    "( i )Projects/Dakota Nahm/Wallet Structure.md",
+    "20250225162316.md",
+    "( i )Lifecore/Lifecore 1.0.md",
+    "( i )Lifecore/Crypto_Wallet_Allocations.md",
+    "( i )Bubbling/Social_Media_Asset_Sizes.md",
+    "( i )Lifecore/Crypto Wallets Alloc.md",
     "( i )Projects/Dakota Nahm/Tuck Inu/Marketing.md",
     "exocore/_templates/_year.md",
     "( i ) 壳/Workout (Physical + Spiritual )/Untitled.md",
@@ -236,13 +247,6 @@
     "( i ) 壳/Fashion/Tops.md",
     "( i ) 壳/Fashion/Face.md",
     "( i ) 壳/Computing/Security_Basics.md",
-    "( i ) 壳/Body+Face/Increase.md",
-    "( i ) 壳/Body+Face/Surgical.md",
-    "( i ) 壳/Body+Face/Skincare.md",
-    "( i )Calendar/0 Week/Feb-2025 Week 09.md",
-    "( i )Lifecore/Lifecore 1.0.md",
-    "( i )Finance/Things I want.md",
-    "( i )Finance/Tech.md",
     "( i )Calendar/2 Year",
     "( i ) 壳/Langauge/Manderin",
     "( i ) 壳/Langauge/German",
