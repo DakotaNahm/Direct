@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Murphy/Business Info.md",
+                "file": "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Business Info"
+              "title": "Sale-Autopilot"
             }
           }
         ]
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(3)Projects/Murphy/Business Info.md",
+                "file": "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Business Info"
+              "title": "Outline of Sale-Autopilot"
             }
           },
           {
@@ -229,16 +229,30 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "39c971b5e7532110",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
-    "(1)Bubbling/Archives",
-    "(3)Projects/Toss-A-Toad/Fleeting",
-    "(3)Projects/Toss-A-Toad/Fleeting.md",
-    "(3)Projects/Murphy/Business Info.md",
-    "(3)Projects/Murphy/Marketing x Pipeline.md",
-    "(3)Projects/Murphy/Fleeting",
-    "(3)Projects/Murphy/Fleeting.md",
+    "(3)Projects/Toss-A-Toad/Updates x Maintainence",
+    "(3)Projects/Toss-A-Toad/Gameplay",
+    "(3)Projects/Toss-A-Toad/Econ",
+    "(3)Projects/Toss-A-Toad/Assets",
+    "(3)Projects/Toss-A-Toad/Outsourcing.md",
+    "(3)Projects/Toss-A-Toad/Marketing.md",
+    "(3)Projects/Toss-A-Toad/Business Info.md",
+    "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
+    "(3)Projects/Murphy/Sale-Autopilot.md",
     "(3)Projects/Murphy/Outsourcing x Expenses Spreadsheet.md",
+    "(3)Projects/Murphy/Marketing x Pipeline.md",
+    "(3)Projects/Murphy/Business_Docs.md",
+    "(3)Projects/David Nash/Studio Setup.md",
+    "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
+    "(3)Projects/David Nash/Music Listening.md",
+    "(3)Projects/David Nash/Merchandise Spreadsheet.md",
+    "(3)Projects/Murphy/Business Info.md",
+    "(1)Bubbling/Archives",
+    "(3)Projects/Toss-A-Toad/(Fleeting)",
+    "(3)Projects/Toss-A-Toad/Fleeting.md",
+    "(3)Projects/Murphy/(Fleeting)",
+    "(3)Projects/Murphy/Fleeting.md",
     "(5)Finances/Tools x Tech.md",
     "(5)Finances/Spending x Saving Rules.md",
     "(5)Finances/Personal Expenses Spreadsheet.md",
@@ -247,26 +261,12 @@
     "(5)Finances/Investments.md",
     "(5)Finances/Apartment Furnishings.md",
     "(6)Lifecore/Lifecore 1.0.md",
-    "(3)Projects/Toss-A-Toad/Outsourcing.md",
-    "(3)Projects/Toss-A-Toad/Marketing.md",
-    "(3)Projects/Toss-A-Toad/Business Info.md",
-    "(3)Projects/Murphy/Sale-Autopilot.md",
     "(3)Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
     "(3)Projects/David Nash/Business_Docs.md",
-    "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/David Nash/Music Listening.md",
-    "(3)Projects/David Nash/Studio Setup.md",
-    "(3)Projects/David Nash/Music-Listen.md",
-    "(3)Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
-    "(3)Projects/David Nash/Serious Sound(13)/Serious Sound Spreadsheet.md",
     "(5)Finances",
     "(3)Projects/David Nash/(Study)",
     "(3)Projects/David Nash/(Fleeting)",
     "(3)Projects/Dakota Nahm/(Fleeting)",
-    "( i )Projects/Dakota Nahm/Capsules/Fleeting",
-    "( i )Projects/Dakota Nahm/Sheza/Fleeting",
-    "( i )Projects/David Nash/Guns (16)/Fleeting",
-    "( i )Projects/David Nash/Unreleased_Project/Fleeting",
     "images/Kitchen.webp",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
