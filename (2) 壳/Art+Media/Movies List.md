@@ -24,7 +24,7 @@ The Death of a Salesman
 First Of the North Star
 Akira ( Anime )
 Vampire Hunter D
-mushishi
+Mushishi
 The Cell
 Synecdoche, New York
 Im Thinking of Ending Things

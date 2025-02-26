@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(4)Calendar/0 Week/w09-2025.md",
-                "mode": "preview",
+                "file": "(2) 壳/-Logy/Map of -Logy.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "w09-2025"
+              "title": "Map of -Logy"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(4)Calendar/0 Week/w09-2025.md",
+                "file": "(2) 壳/-Logy/Map of -Logy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for w09-2025"
+              "title": "Backlinks for Map of -Logy"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(4)Calendar/0 Week/w09-2025.md",
+                "file": "(2) 壳/-Logy/Map of -Logy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from w09-2025"
+              "title": "Outgoing links from Map of -Logy"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(4)Calendar/0 Week/w09-2025.md",
+                "file": "(2) 壳/-Logy/Map of -Logy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of w09-2025"
+              "title": "Outline of Map of -Logy"
             }
           },
           {
@@ -231,6 +231,20 @@
   },
   "active": "39c971b5e7532110",
   "lastOpenFiles": [
+    "(2) 壳/-Logy/Genre_Based_Thinkers.md",
+    "(2) 壳/Art+Media/Movies List.md",
+    "(2) 壳/Art+Media/Designers+Painters.md",
+    "(2) 壳/Art+Media/Books_List.md",
+    "(2) 壳/Computing/Security_Basics.md",
+    "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
+    "(3)Projects/David Nash/Matters of State(10)/Marketing_Pipeline.md",
+    "(3)Projects/David Nash/Matters of State(10)/M0S Spreadsheet.md",
+    "(3)Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
+    "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
+    "(3)Projects/David Nash/Music Listening.md",
+    "(3)Projects/David Nash/Merchandise Spreadsheet.md",
+    "(3)Projects/David Nash/Business_Docs.md",
+    "(4)Calendar/0 Week/w09-2025.md",
     "(3)Projects/Murphy/Fragrence Spreadsheet.md",
     "(2) 壳/Tools + Home/Plumbing.md",
     "(2) 壳/Tools + Home/Modern_Basic_Tool_Kit.md",
@@ -243,20 +257,6 @@
     "(2) 壳/Langauge/German/German Working Dictionary.md",
     "(2) 壳/Langauge/English/English Working Dictionary.md",
     "(2) 壳/Fashion/Tops.md",
-    "(2) 壳/Fashion/Outfits  Suits.md",
-    "(2) 壳/Fashion/Footware.md",
-    "(2) 壳/Fashion/Face.md",
-    "(2) 壳/Fashion/Bottoms.md",
-    "(2) 壳/Computing/Security_Basics.md",
-    "(2) 壳/Body+Face/Surgical.md",
-    "(2) 壳/Body+Face/Skincare.md",
-    "(2) 壳/Body+Face/Increase.md",
-    "(2) 壳/Art+Media/Books_List.md",
-    "(2) 壳/-Logy/Genre_Based_Thinkers.md",
-    "(4)Calendar/Schedule Outline.md",
-    "(4)Calendar/1 Month/Feb-2025.md",
-    "(4)Calendar/0 Week/w09-2025.md",
-    "(4)Calendar/0 Week/Feb-2025 Week 09.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(3)Projects/Toss-A-Toad/Assets/Animations",
     "(3)Projects/Toss-A-Toad/Assets/Music x SFX",
