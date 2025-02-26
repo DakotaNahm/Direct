@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(2) 壳/-Logy/Map of -Logy.md",
+                "file": "(1)Bubbling/Core_Overview.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Map of -Logy"
+              "title": "Core_Overview"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(2) 壳/-Logy/Map of -Logy.md",
+                "file": "(1)Bubbling/Core_Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Map of -Logy"
+              "title": "Backlinks for Core_Overview"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(2) 壳/-Logy/Map of -Logy.md",
+                "file": "(1)Bubbling/Core_Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Map of -Logy"
+              "title": "Outgoing links from Core_Overview"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(2) 壳/-Logy/Map of -Logy.md",
+                "file": "(1)Bubbling/Core_Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Map of -Logy"
+              "title": "Outline of Core_Overview"
             }
           },
           {
@@ -231,10 +231,15 @@
   },
   "active": "39c971b5e7532110",
   "lastOpenFiles": [
-    "(2) 壳/-Logy/Genre_Based_Thinkers.md",
-    "(2) 壳/Art+Media/Movies List.md",
+    "(2) 壳/Art+Media/Books_Fiction.md",
+    "(1)Bubbling/Core_Overview.md",
     "(2) 壳/Art+Media/Designers+Painters.md",
-    "(2) 壳/Art+Media/Books_List.md",
+    "(2) 壳/Art+Media/Documentaries  YT Videos.md",
+    "(2) 壳/Art+Media/Movies.md",
+    "(2) 壳/Art+Media/Books_Nonfiction.md",
+    "(4)Calendar/0 Week/Feb-2025 Week 09.md",
+    "(2) 壳/-Logy/Map of -Logy.md",
+    "(2) 壳/-Logy/Genre_Based_Thinkers.md",
     "(2) 壳/Computing/Security_Basics.md",
     "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
     "(3)Projects/David Nash/Matters of State(10)/Marketing_Pipeline.md",
@@ -244,7 +249,6 @@
     "(3)Projects/David Nash/Music Listening.md",
     "(3)Projects/David Nash/Merchandise Spreadsheet.md",
     "(3)Projects/David Nash/Business_Docs.md",
-    "(4)Calendar/0 Week/w09-2025.md",
     "(3)Projects/Murphy/Fragrence Spreadsheet.md",
     "(2) 壳/Tools + Home/Plumbing.md",
     "(2) 壳/Tools + Home/Modern_Basic_Tool_Kit.md",
@@ -253,10 +257,6 @@
     "(2) 壳/Tools + Home/Cleaners_Smells.md",
     "(2) 壳/Travel/Travel Kit.md",
     "(2) 壳/Travel/Travel_Guide.md",
-    "(2) 壳/Langauge/English/Untitled.md",
-    "(2) 壳/Langauge/German/German Working Dictionary.md",
-    "(2) 壳/Langauge/English/English Working Dictionary.md",
-    "(2) 壳/Fashion/Tops.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(3)Projects/Toss-A-Toad/Assets/Animations",
     "(3)Projects/Toss-A-Toad/Assets/Music x SFX",

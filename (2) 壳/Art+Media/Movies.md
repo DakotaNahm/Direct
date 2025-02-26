@@ -8,7 +8,7 @@ tags:
 
 [[20250225155255]]
 
-# Movies List
+# Movies
 
 Other
 https://www.youtube.com/watch?v=o_4hdA11Z-Q
