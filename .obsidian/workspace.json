@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "37618f96e51ea1ff",
+        "id": "21ddf11803a749c6",
         "type": "tabs",
         "children": [
           {
-            "id": "21af6e9b0af84ffb",
+            "id": "0990f9069eebdd88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "( i )Projects/Dakota Nahm/Wallet Structure.md",
+                "file": "( i )Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wallet Structure"
+              "title": "Capsule Design Spreadsheet"
+            }
+          },
+          {
+            "id": "5fe3d8bb1892e66d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,34 +230,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21af6e9b0af84ffb",
+  "active": "5fe3d8bb1892e66d",
   "lastOpenFiles": [
-    "( i )Projects/Dakota Nahm/Coin Exchanges.md",
+    "( i )Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
+    "( i )Projects/David Nash/Guns (16)/Musical Themes  Story.md",
+    "( i )Projects/David Nash/Fleeting.md",
+    "( i )Projects/Dakota Nahm/Sheza/Fleeting.md",
+    "( i )Projects/Dakota Nahm/Tuck Inu/Fleeting.md",
     "( i )Projects/Dakota Nahm/Wallet Structure.md",
-    "20250225162316.md",
-    "( i )Lifecore/Lifecore 1.0.md",
-    "( i )Lifecore/Crypto_Wallet_Allocations.md",
-    "( i )Bubbling/Social_Media_Asset_Sizes.md",
-    "( i )Lifecore/Crypto Wallets Alloc.md",
+    "( i )Projects/Dakota Nahm/Coin Exchanges.md",
+    "images/Kitchen.webp",
+    "( i )Projects/Dakota Nahm/Sheza/Marketing.md",
+    "( i )Bubbling/Article_Drafts/Work is Life.md",
+    "( i )Bubbling/Article_Drafts/Timewarp.md",
+    "( i )Bubbling/Old_Daily_Notes/Untitled.md",
+    "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
+    "( i )Bubbling/Old_Daily_Notes",
+    "_scrapbook/Dreams x 2-23-25.md",
+    "( i )Bubbling/Article_Drafts/Mountain Monsters v Game of Thrones.md",
+    "( i ) 壳/-Logy/Genre_Based_Thinkers.md",
+    "( i )Bubbling/Article_Drafts",
+    "( i ) 壳/-Logy/20250225154829.md",
     "( i )Projects/Dakota Nahm/Tuck Inu/Marketing.md",
-    "exocore/_templates/_year.md",
-    "( i ) 壳/Workout (Physical + Spiritual )/Untitled.md",
-    "( i )Finance/Investments.md",
-    "( i )Finance/SavingSpending_Rules.md",
-    "( i ) 壳/Langauge/English/Untitled.md",
-    "( i ) 壳/Travel/Travel Kit.md",
-    "( i ) 壳/Tools + Home/Plumbing.md",
-    "( i ) 壳/Tools + Home/Electrics.md",
-    "( i ) 壳/Tools + Home/Cleaners_Smells.md",
-    "( i ) 壳/Tools + Home/Furniture_Worth_Having.md",
-    "( i ) 壳/Tools + Home/Modern_Basic_Tool_Kit.md",
-    "( i ) 壳/Fashion/Footware.md",
-    "( i ) 壳/Fashion/Bottoms.md",
-    "( i ) 壳/Fashion/Outfits  Suits.md",
-    "( i ) 壳/Fashion/Mid.md",
-    "( i ) 壳/Fashion/Tops.md",
-    "( i ) 壳/Fashion/Face.md",
-    "( i ) 壳/Computing/Security_Basics.md",
+    "( i )Projects/Dakota Nahm/Tuck Inu/Outsourcing.md",
+    "( i )Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
+    "( i )Projects/Dakota Nahm/Tuck Inu/Token.md",
+    "( i )Projects/Dakota Nahm/Tuck Inu/Tuck Inu Design Spreadsheet.md",
+    "( i )Projects/Dakota Nahm/Sheza/Token.md",
+    "( i )Projects/Dakota Nahm/M8/Token.md",
+    "( i )Projects/Dakota Nahm/Capsules/Marketing.md",
+    "( i )Projects/Dakota Nahm/Capsules/Fleeting.md",
+    "_daily/Feb-25-2025.md",
     "( i )Calendar/2 Year",
     "( i ) 壳/Langauge/Manderin",
     "( i ) 壳/Langauge/German",
@@ -255,8 +269,6 @@
     "( i )Calendar/0 Week",
     "( i )Calendar/cdaily",
     "( i )Calendar/Prev-Month",
-    "( i )Calendar/Prev-Week",
-    "_site/journal/journal-test-4.html",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
     "images/2022-05-13-17-46-10.png",
@@ -265,7 +277,6 @@
     "images/IMG_3969.JPG",
     "images/IMG_3869.JPG",
     "images/IMG_4190.JPG",
-    "images/2022-05-13-17-48-12.png",
-    "images/2022-05-13-01-55-36.png"
+    "images/2022-05-13-17-48-12.png"
   ]
 }
