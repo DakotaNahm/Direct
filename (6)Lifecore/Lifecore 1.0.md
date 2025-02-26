@@ -1,9 +1,12 @@
 ---
-subtitle:
-date: Feb-24-2025
-tags:
-published: 
+published: true
+subtitle: 
+date: 2025-02-25
+uuid:  20250225232131
+tags: 
 ---
+
+[[20250225232131]]
 
 # Lifecore 1.0
 
@@ -89,5 +92,3 @@ Diet
 Mental Routine / Higher Thinking
 Face Routine / Care
 De-poisoning
-
-

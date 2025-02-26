@@ -11,10 +11,14 @@
             "id": "39c971b5e7532110",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "(3)Projects/Murphy/Business Info.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Business Info"
             }
           }
         ]
@@ -78,6 +82,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d9812b095e562f95",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {},
+              "icon": "trash",
+              "title": "Trash explorer"
             }
           }
         ]
@@ -148,12 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "(3)Projects/Murphy/Business Info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Business Info"
             }
           },
           {
@@ -210,47 +225,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "e509f202f4abd033",
+  "active": "39c971b5e7532110",
   "lastOpenFiles": [
-    "( 3 )Projects/David Nash/Music-Listen.md",
+    "(1)Bubbling/Archives",
+    "(3)Projects/Toss-A-Toad/Fleeting",
+    "(3)Projects/Toss-A-Toad/Fleeting.md",
+    "(3)Projects/Murphy/Business Info.md",
+    "(3)Projects/Murphy/Marketing x Pipeline.md",
+    "(3)Projects/Murphy/Fleeting",
+    "(3)Projects/Murphy/Fleeting.md",
+    "(3)Projects/Murphy/Outsourcing x Expenses Spreadsheet.md",
+    "(5)Finances/Tools x Tech.md",
+    "(5)Finances/Spending x Saving Rules.md",
+    "(5)Finances/Personal Expenses Spreadsheet.md",
+    "(5)Finances/Music Gear.md",
+    "(5)Finances/Large Items.md",
+    "(5)Finances/Investments.md",
+    "(5)Finances/Apartment Furnishings.md",
     "(6)Lifecore/Lifecore 1.0.md",
-    "( 3 )Projects/David Nash/(Study)",
-    "( 3 )Projects/David Nash/Business_Docs.md",
-    "( 3 )Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
-    "( 3 )Projects/David Nash/Matters of State(10)/Marketing_Pipeline.md",
-    "( 3 )Projects/David Nash/Guns (16)/Musical-Themes x Story.md",
-    "( 3 )Projects/David Nash/Guns (16)/Marketing_Pipeline.md",
-    "( 3 )Projects/David Nash/Marketing_Pipeline.md",
-    "( 3 )Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
-    "( 3 )Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
-    "( 3 )Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
-    "( 3 )Projects/David Nash/Serious Sound(13)/Serious Sound Spreadsheet.md",
-    "( 3 )Projects/David Nash/Serious Sound(13)/Musical-Theme x Story.md",
-    "( 3 )Projects/David Nash/Guns (16)/GUNS Spreadsheet.md",
-    "( 3 )Projects/David Nash/Matters of State(10)/M0S Spreadsheet.md",
-    "(1)Bubbling/Article_Drafts/Work is Life.md",
-    "(1)Bubbling/Article_Drafts/Timewarp.md",
-    "( 5 )Finance/Expense Table.md",
-    "( 4 )Calendar/1 Month/Feb-2025.md",
-    "( 4 )Calendar/0 Week/Feb-2025 Week 09.md",
-    "( 3 )Projects/David Nash/(Fleeting)",
-    "( 3 )Projects/Dakota Nahm/(Fleeting)",
-    "( i )Projects/Dakota Nahm/Tuck Inu/Fleeting.md",
-    "( i )Projects/Dakota Nahm/M8/Fleeting.md",
+    "(3)Projects/Toss-A-Toad/Outsourcing.md",
+    "(3)Projects/Toss-A-Toad/Marketing.md",
+    "(3)Projects/Toss-A-Toad/Business Info.md",
+    "(3)Projects/Murphy/Sale-Autopilot.md",
+    "(3)Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
+    "(3)Projects/David Nash/Business_Docs.md",
+    "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
+    "(3)Projects/David Nash/Music Listening.md",
+    "(3)Projects/David Nash/Studio Setup.md",
+    "(3)Projects/David Nash/Music-Listen.md",
+    "(3)Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
+    "(3)Projects/David Nash/Serious Sound(13)/Serious Sound Spreadsheet.md",
+    "(5)Finances",
+    "(3)Projects/David Nash/(Study)",
+    "(3)Projects/David Nash/(Fleeting)",
+    "(3)Projects/Dakota Nahm/(Fleeting)",
     "( i )Projects/Dakota Nahm/Capsules/Fleeting",
     "( i )Projects/Dakota Nahm/Sheza/Fleeting",
     "( i )Projects/David Nash/Guns (16)/Fleeting",
-    "( i )Projects/David Nash/Serious Sound(13)/Fleeting/Fleeting.md",
-    "( i )Projects/David Nash/Fleeting.md",
     "( i )Projects/David Nash/Unreleased_Project/Fleeting",
-    "( i )Projects/David Nash/Matters of State(10)/Fleeting/Fleeting.md",
-    "( i )Projects/David Nash/Serious Sound(13)/Fleeting",
-    "( i )Projects/David Nash/Matters of State(10)/Fleeting",
-    "( i )Projects/David Nash/Guns (16)/Fleeting/Fleeting.md",
-    "( i )Calendar/Cdaily",
     "images/Kitchen.webp",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
