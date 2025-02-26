@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "21ddf11803a749c6",
+        "id": "5b3d627cb6b5ffab",
         "type": "tabs",
         "children": [
           {
-            "id": "0990f9069eebdd88",
+            "id": "39c971b5e7532110",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "( i )Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Capsule Design Spreadsheet"
-            }
-          },
-          {
-            "id": "5fe3d8bb1892e66d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "( i )Calendar/Schedule Outline.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Schedule Outline"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,13 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2025-02-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-02-22"
+              "title": "Outline"
             }
           },
           {
@@ -215,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,43 +215,43 @@
   },
   "active": "e509f202f4abd033",
   "lastOpenFiles": [
-    "( i )Calendar/2 Year/2025.md",
-    "( i )Calendar/1 Month/Feb-2025.md",
-    "( i )Calendar/0 Week/Feb-2025 Week 09.md",
-    "( i )Projects/Dakota Nahm/Capsules/Capsule_Data_Backup.md",
-    "( i )Projects/Dakota Nahm/Coin Exchanges.md",
-    "( i )Projects/Dakota Nahm/Business_Docs.md",
-    "( i )Projects/Dakota Nahm/Wallet Structure.md",
-    "( i )Lifecore/Lifecore 1.0.md",
-    "( i )Projects/Dakota Nahm/Untitled",
-    "( i )Bubbling/Old_Daily_Notes/Untitled.md",
-    "( i )Bubbling/Article_Drafts/Mountain Monsters v Game of Thrones.md",
-    "( i )Bubbling/Article_Drafts/Timewarp.md",
-    "( i )Bubbling/Article_Drafts/Work is Life.md",
-    "_daily/Feb-25-2025.md",
-    "( i )Calendar/Cdaily",
-    "( i )Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
-    "( i )Projects/David Nash/Guns (16)/Musical Themes  Story.md",
-    "( i )Projects/David Nash/Fleeting.md",
-    "( i )Projects/Dakota Nahm/Sheza/Fleeting.md",
+    "( 3 )Projects/David Nash/Music-Listen.md",
+    "(6)Lifecore/Lifecore 1.0.md",
+    "( 3 )Projects/David Nash/(Study)",
+    "( 3 )Projects/David Nash/Business_Docs.md",
+    "( 3 )Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
+    "( 3 )Projects/David Nash/Matters of State(10)/Marketing_Pipeline.md",
+    "( 3 )Projects/David Nash/Guns (16)/Musical-Themes x Story.md",
+    "( 3 )Projects/David Nash/Guns (16)/Marketing_Pipeline.md",
+    "( 3 )Projects/David Nash/Marketing_Pipeline.md",
+    "( 3 )Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
+    "( 3 )Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
+    "( 3 )Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
+    "( 3 )Projects/David Nash/Serious Sound(13)/Serious Sound Spreadsheet.md",
+    "( 3 )Projects/David Nash/Serious Sound(13)/Musical-Theme x Story.md",
+    "( 3 )Projects/David Nash/Guns (16)/GUNS Spreadsheet.md",
+    "( 3 )Projects/David Nash/Matters of State(10)/M0S Spreadsheet.md",
+    "(1)Bubbling/Article_Drafts/Work is Life.md",
+    "(1)Bubbling/Article_Drafts/Timewarp.md",
+    "( 5 )Finance/Expense Table.md",
+    "( 4 )Calendar/1 Month/Feb-2025.md",
+    "( 4 )Calendar/0 Week/Feb-2025 Week 09.md",
+    "( 3 )Projects/David Nash/(Fleeting)",
+    "( 3 )Projects/Dakota Nahm/(Fleeting)",
     "( i )Projects/Dakota Nahm/Tuck Inu/Fleeting.md",
+    "( i )Projects/Dakota Nahm/M8/Fleeting.md",
+    "( i )Projects/Dakota Nahm/Capsules/Fleeting",
+    "( i )Projects/Dakota Nahm/Sheza/Fleeting",
+    "( i )Projects/David Nash/Guns (16)/Fleeting",
+    "( i )Projects/David Nash/Serious Sound(13)/Fleeting/Fleeting.md",
+    "( i )Projects/David Nash/Fleeting.md",
+    "( i )Projects/David Nash/Unreleased_Project/Fleeting",
+    "( i )Projects/David Nash/Matters of State(10)/Fleeting/Fleeting.md",
+    "( i )Projects/David Nash/Serious Sound(13)/Fleeting",
+    "( i )Projects/David Nash/Matters of State(10)/Fleeting",
+    "( i )Projects/David Nash/Guns (16)/Fleeting/Fleeting.md",
+    "( i )Calendar/Cdaily",
     "images/Kitchen.webp",
-    "( i )Projects/Dakota Nahm/Sheza/Marketing.md",
-    "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
-    "( i )Bubbling/Old_Daily_Notes",
-    "_scrapbook/Dreams x 2-23-25.md",
-    "( i ) 壳/-Logy/Genre_Based_Thinkers.md",
-    "( i )Bubbling/Article_Drafts",
-    "( i ) 壳/-Logy/20250225154829.md",
-    "( i )Projects/Dakota Nahm/Tuck Inu/Marketing.md",
-    "( i )Projects/Dakota Nahm/Tuck Inu/Outsourcing.md",
-    "( i )Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
-    "( i )Calendar/2 Year",
-    "( i ) 壳/Langauge/Manderin",
-    "( i ) 壳/Langauge/German",
-    "( i ) 壳/Langauge/English",
-    "( i )Calendar/1 Month",
-    "( i )Calendar/0 Week",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
     "images/2022-05-13-17-46-10.png",

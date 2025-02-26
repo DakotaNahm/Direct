@@ -1,0 +1,268 @@
+---
+published: true
+subtitle: 
+date: 2025-02-25
+uuid:  20250225155255
+tags: 
+---
+
+[[20250225155255]]
+
+# Movies List
+
+Other
+https://www.youtube.com/watch?v=o_4hdA11Z-Q
+
+The Sound of Music
+Obey movie
+Brazil
+Eric Rohmer films
+Godot ( Play )
+land of silence and darkness
+Aguirre, Wrath of God
+The Death of a Salesman
+First Of the North Star
+Akira ( Anime )
+Vampire Hunter D
+mushishi
+The Cell
+Synecdoche, New York
+Im Thinking of Ending Things
+Being John Malkovich
+Eternal Sunshine of the Spotless mind
+Human Nature
+Un Chien Andalou
+Anomalisa
+Zorba the Greek
+Blue Velvet
+Barry Lyndon
+Battleship Potemkin
+Eraserhead
+Invisible Man
+Chungking Express
+Raging Bull
+The Conformist
+The Bicycle Thief
+Taxi Driver
+A Clockwork Orange
+Mean Streets
+Gods Of The Plague
+Persona
+Mulholland Drive
+Happy Together (Wong Kar-Wei)
+Fallen Angels
+Apocalypse Now
+The Last Laugh
+Pi
+Full Metal Jacket
+No Country For Old Men
+Wild At Heart
+Memento
+Metropolis Rushmore
+The Royal Tenenbaums
+Miller’s Crossing
+The Discreet Charm Of The Bourgeoisie (Luis Buñuel)
+Blood Simple
+Rashomon
+Orpheus
+LA Confidential
+Reservoir Dogs
+Eastern Promises
+2001: A Space Odyssey
+Battle Royale
+The Passion Of Anna
+Bring Me The Head Of Alfredo Garcia
+Oldboy (Park Chan-Wook 2013)
+Django Unchained
+One Flew Over The Cuckoo’s Next
+The Good, The Bad And The Ugly
+The Godfather
+M (Fritz Lang)
+Scarface (Howard Hawks 1932)
+Scarface (De Palma 1983)
+Blade Runner
+Citizen Kane
+On The Waterfront
+Annie Hall
+Psycho
+Dr. Strangelove
+The French Connection
+The Deer Hunter
+Wild Strawberries (Bergman)
+Fargo
+The Sacrifice (Andre Tarkovsky)
+El Topo
+The Holy Mountain
+The Shining
+Pulp Fiction
+Fitzcarraldo
+American Beauty
+Solaris (Andre Tarkovsky)
+True Romance
+Elephant Man
+Seven Samurai
+Woyzeck
+Jackie Brown
+Aguirre, The Wrath Of God
+Paris, Texas
+Devil In A Blue Dress
+Inglorious Bastards [sic]
+Serpico
+Alien
+Ed Wood
+Hard Eight
+The Seventh Seal
+Sonatine
+Paths Of Glory
+There Will Be Blood
+Spartacus
+Assassination Of Jesse James By The Coward Robert Ford
+Fight Club
+Brazil
+Throne Of Blood (Akira Kurosawa)
+The Master
+Dog Day Afternoon
+Rosemary’s Baby
+Phantom Of The Paradise
+Inauguration Of The Pleasure Dome
+Malcolm X
+Scorpio Rising
+The Friends Of Eddie Coyle
+Puce Moment
+Nosferatu
+Basquiat (F.W. Murnau 1929)
+The King Of Comedy
+I Vitelloni (Fellini, 1953)
+The Treasure of the Sierra Madre (Huston, 1948)
+City Lights (Chaplin, 1931)
+Lolita
+Parasite
+Hour of the Wolf
+SUMMER INTERLUDE
+SAWDUST AND TINSEL
+WINTER LIGHT
+Enter the Void
+PERSONA
+CRIES AND WHISPERS
+Solaris
+The Terminal Man
+Eraserhead
+GirlFriends (1978)
+Henry V Kenneth Branagh’s
+La notte (Antonioni, 1961)
+Once Upon a Time in the West
+Alexander Nevsky (1938)
+Spartacus
+The Killing
+The Bank Dick (Fields, 1940)
+Dog day afternoon
+One Flew Over The Cuckoo’s Nest
+Abigail’s Party
+Roxie Hart
+Dr. Strangelove
+A Clockwork Orange
+Roxie Hart (Wellman, 1942)
+Barry Lyndon
+Hell’s Angels (Hughes, 1930)
+Eyes Wide Shut
+The Shining
+The age of Innocence
+Cape Fear
+Casino ( 1995 )
+Mean Streets ( 1973 )
+Goodfellas
+2049
+Neo-Noir Genre…
+Reservoir dogs
+Alfred hitchock
+Akira Kurosawa
+Apocolyse now
+Dracula
+Tokyo Story (1953)
+The Seventh Seal (1957)
+High and Low (1963)
+The Good, The Bad, and The Ugly (1966)
+Playtime (1967)
+The French Connection (1971)
+Blue Velvet (1986)
+Close-Up (1990)
+Heat (1995)
+In the Mood for Love (2000)
+Obsession (1976)
+Femme Fatale (2002)
+Body Double (1984)
+Sisters (1972)
+Gone with the wind
+Lawrence of Arabia
+On the Waterfront
+Sunset BLVD
+The Bridge over the river Kwai
+All About Eve
+The Grapes of Wraith
+The Apartment 1960
+A Place in the sun
+Fargo
+Platoon
+The Wild Bunch
+The Deer hunter
+American Graffiti
+Network
+Vampire Hunter D
+Streetfighter Animated movie
+Rebel without a cause
+Fantasia
+Scarface (1983)
+The Fury (1978)
+Phantom of the Paradise (1974)
+Rashomon
+The Sweet Hereafter
+The Killing
+Peppermint Candy
+Citizen Kane
+Raging Bull (1980)
+La Dolce Vita (1960)
+Vertigo (1958)
+Mandy
+Waves - Trey Shultz
+Mirrors Tarkovsky
+Yi Yi' - Yang Wei Han
+The Spirit of The Beehive' - Luis Cuadrado
+Night of The Hunter' - Stanley Cortez
+Pierrot Le Fou' - Raoul Cotard
+Singin In The Rain' - Harold Rosson
+Apocalypse Now' - Vittorio Storraro
+Ran' - Asakazu Nakai, Takao Saitô, Shôji Ueda
+Kagemusha' -Takao Saitô, Shôji Ueda
+Dreams' - Takao Saitô, Shôji Ueda
+The Cook, The Thief, His Wife & Her Lover' - Sacha Vierny
+The Holy Mountain' - Rafael Corkidi
+The Color of Pomegranates (Sayat Nova) - Suren Shakhbazyan
+Suspiria' - Luciano Tovoli
+Mishima: A Life in Four Chapters' -  John Bailey
+The Red Shoes' - Jack Cardiff
+Daisies' - Jaroslav Kučera
+La Belle et La Bete' - Henri Alekan
+Samsara' - Ron Fricke
+Koyaanisqatsi' - Ron Fricke
+Pina' - Jörg Widmer, Hélène Louvart
+I Am Belfast' - Mark Cousins, Christopher Doyle
+Tabloid' - Robert Chappell
+The Imposter' - Erik Wilson, Lynda Hall
+The Act of Killing' - Lars Skree, Carlos Arango De Montis
+Barry Lyndon' - John Alcott
+The Idiots' - Lars von Trier, Casper Holm, Jesper Jargil, Kristoffer Nyholm
+Julien Donkey-Boy' - Anthony Dod Mantle
+Festen' - Anthony Dod Mantle
+I Am Cuba' - Sergei Urusevsky
+Roma' - Alfonso Cuarón
+The Revenant' - Emmanuel Lubezki
+The Tree of Life' - Emmanuel Lubezki
+Days of Heaven' - Néstor Almendros
+Film01
+dancer in the dark
+battle of algiers
+The Blue Angel (1930)
+Stagecoach (1939)
+Cleopatra (1934)
+Gone With The Wind (1939)
+Struggle: The Life and Lost Art of Szukalski
