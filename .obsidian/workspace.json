@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
-                "mode": "source",
+                "file": "(4)Calendar/0 Week/w09-2025.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Musical-Themes x Story"
+              "title": "w09-2025"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
+                "file": "(4)Calendar/0 Week/w09-2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Musical-Themes x Story"
+              "title": "Backlinks for w09-2025"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
+                "file": "(4)Calendar/0 Week/w09-2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Musical-Themes x Story"
+              "title": "Outgoing links from w09-2025"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "(3)Projects/David Nash/Matters of State(10)/Musical-Themes x Story.md",
+                "file": "(4)Calendar/0 Week/w09-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Musical-Themes x Story"
+              "title": "Outline of w09-2025"
             }
           },
           {
@@ -209,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,46 +231,46 @@
   },
   "active": "39c971b5e7532110",
   "lastOpenFiles": [
-    "(3)Projects/David Nash/(Study)/Music_Syllabus.md",
-    "(3)Projects/David Nash/(Study)/5x5x5.md",
-    "(3)Projects/Dakota Nahm/(Study)/Writing_Syllabus.md",
-    "(3)Projects/Dakota Nahm/(Study)/Illustration_Syllabus.md",
-    "(3)Projects/Toss-A-Toad/System Design.canvas",
-    "(3)Projects/Dakota Nahm/(Study)",
-    "(5)Finances/Finances Canvas.canvas",
-    "(6)Lifecore/Lifecore 1.0.md",
-    "(6)Lifecore/Lifecore Canvas.canvas",
-    "Untitled.canvas",
-    "(4)Calendar/0 Week/w09-2025.md",
-    "_daily/May-11-2022.md",
-    "(5)Finances/Investments.md",
-    "(3)Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
-    "(3)Projects/Dakota Nahm/Capsules/Capsule Data Backup.md",
-    "(2) 壳/Body+Face/Surgical.md",
-    "(2) 壳/Body+Face/Skincare.md",
-    "(2) 壳/Body+Face/Increase.md",
-    "(2) 壳/Art+Media/Movies List.md",
-    "(2) 壳/Art+Media/Designers+Painters.md",
-    "(2) 壳/Art+Media/Books_List.md",
-    "(1)Bubbling/Social_Media_Asset_Sizes.md",
-    "(1)Bubbling/AHFL.md",
+    "(3)Projects/Murphy/Fragrence Spreadsheet.md",
+    "(2) 壳/Tools + Home/Plumbing.md",
+    "(2) 壳/Tools + Home/Modern_Basic_Tool_Kit.md",
+    "(2) 壳/Tools + Home/Furniture_Worth_Having.md",
+    "(2) 壳/Tools + Home/Electrics.md",
+    "(2) 壳/Tools + Home/Cleaners_Smells.md",
+    "(2) 壳/Travel/Travel Kit.md",
+    "(2) 壳/Travel/Travel_Guide.md",
+    "(2) 壳/Langauge/English/Untitled.md",
+    "(2) 壳/Langauge/German/German Working Dictionary.md",
+    "(2) 壳/Langauge/English/English Working Dictionary.md",
     "(2) 壳/Fashion/Tops.md",
     "(2) 壳/Fashion/Outfits  Suits.md",
-    "(2) 壳/Fashion/Mid.md",
     "(2) 壳/Fashion/Footware.md",
     "(2) 壳/Fashion/Face.md",
     "(2) 壳/Fashion/Bottoms.md",
-    "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
-    "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
+    "(2) 壳/Computing/Security_Basics.md",
+    "(2) 壳/Body+Face/Surgical.md",
+    "(2) 壳/Body+Face/Skincare.md",
+    "(2) 壳/Body+Face/Increase.md",
+    "(2) 壳/Art+Media/Books_List.md",
+    "(2) 壳/-Logy/Genre_Based_Thinkers.md",
+    "(4)Calendar/Schedule Outline.md",
+    "(4)Calendar/1 Month/Feb-2025.md",
+    "(4)Calendar/0 Week/w09-2025.md",
+    "(4)Calendar/0 Week/Feb-2025 Week 09.md",
+    "(3)Projects/Toss-A-Toad/System Design.canvas",
+    "(3)Projects/Toss-A-Toad/Assets/Animations",
+    "(3)Projects/Toss-A-Toad/Assets/Music x SFX",
+    "(3)Projects/Toss-A-Toad/Assets/In-Game Items",
+    "(3)Projects/Dakota Nahm/(Study)",
+    "(5)Finances/Finances Canvas.canvas",
+    "(6)Lifecore/Lifecore Canvas.canvas",
+    "Untitled.canvas",
     "(3)Projects/Toss-A-Toad/Updates x Maintainence",
     "(3)Projects/Toss-A-Toad/Gameplay",
-    "(3)Projects/Toss-A-Toad/Econ",
+    "(3)Projects/Toss-A-Toad/Econ x Prog",
     "(3)Projects/Toss-A-Toad/Assets",
     "(1)Bubbling/Archives",
     "(3)Projects/Toss-A-Toad/(Fleeting)",
-    "(3)Projects/Murphy/(Fleeting)",
-    "(5)Finances",
-    "(3)Projects/David Nash/(Study)",
     "images/Kitchen.webp",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
