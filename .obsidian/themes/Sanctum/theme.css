@@ -7064,6 +7064,22 @@ body:is(.is-focused, :not(.is-focused)) .workspace-leaf-content[data-type=kanban
 .workspace-tab-header.is-active[data-type=kanban] {
   --tab-background-active: var(--background-primary);
 }
+
+.sheet {
+  width: 1700px;
+  height: 1100px;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+  zoom: 90%;
+}
+
+.markdown-preview-view .markdown-embed-content, 
+.markdown-preview-view .markdown-embed-content>.markdown-preview-view {
+  max-height: unset;
+}
+
+
 /*!
 /* @settings
 
