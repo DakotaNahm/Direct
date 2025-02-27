@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5b3d627cb6b5ffab",
+        "id": "a9d762e8ceccff88",
         "type": "tabs",
         "children": [
           {
-            "id": "39c971b5e7532110",
+            "id": "5946b2e8eac12533",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "(2)壳/-Logy/Philo/Map of -Logy.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "(1)Bubbling/Core_Canvas.canvas",
+                "viewState": {
+                  "x": 226.22663804775323,
+                  "y": -650.3973095327422,
+                  "zoom": 0.3333333333333334
+                }
               },
-              "icon": "lucide-file",
-              "title": "Map of -Logy"
+              "icon": "lucide-layout-dashboard",
+              "title": "Core_Canvas"
             }
           }
         ]
@@ -230,48 +232,49 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "39c971b5e7532110",
+  "active": "5946b2e8eac12533",
   "lastOpenFiles": [
-    "(2)壳/-Logy/Philo/Genre_Based_Thinkers.md",
-    "(1)Bubbling/Random/Core_Overview.md",
+    "assets/attachments/Pasted image 20250226222338.png",
+    "assets/attachments/Pasted image 20250226222130.png",
+    "(1)Bubbling/Core_Overview.md",
+    "(1)Bubbling/Core_Canvas.canvas",
+    "Nurt+Suppl.md",
+    "(1)Bubbling/Business Ideas/Vinyl Pressing Business.md",
+    "(1)Bubbling/Random/Funny.md",
+    "(2)壳/Langauge/English/English Working Dictionary.md",
+    "(1)Bubbling/Personal/Alienation.md",
+    "(1)Bubbling/Personal/Archive_jade.md",
+    "(1)Bubbling/Personal/Aug 23 2023.md",
+    "(1)Bubbling/Personal/Consequences of Attainment.md",
+    "(1)Bubbling/Personal/Closer when younger.md",
+    "(1)Bubbling/Personal/Haleigh.md",
+    "(1)Bubbling/Personal/Memories Outline.md",
+    "(1)Bubbling/Personal",
+    "(1)Bubbling/Art Ideas/Scary Movie.md",
+    "(1)Bubbling/Art Ideas/Supermarket Anime Idea.md",
     "(1)Bubbling/Art Ideas/Ideas Archive.md",
-    "(1)Bubbling/Archives/Old Ideas.md",
-    "(1)Bubbling/Personal Writing/Alienation.md",
-    "(1)Bubbling/Personal Writing/Archive_jade.md",
-    "(1)Bubbling/Personal Writing/Consequences of Attainment.md",
-    "(1)Bubbling/Personal Writing/Midwest_Obituaries.md",
-    "(1)Bubbling/Personal Writing/No Good or Evil.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Attributes.md",
-    "(2)壳/Art+Media/Poets.md",
-    "(2)壳/Art+Media/Designers+Painters.md",
-    "(2)壳/Art+Media/Books_Fiction.md",
-    "(0)Drafts/Journal/Closer when younger.md",
-    "(0)Drafts/Journal/Haleigh.md",
-    "(0)Drafts/Journal/x.md",
+    "(1)Bubbling/Art Ideas/Corp_Industries  (YT).md",
+    "(1)Bubbling/Personal/x.md",
+    "(1)Bubbling/Personal/Stupidity is the root of evil in modern society..md",
+    "(1)Bubbling/Personal/No Good or Evil.md",
+    "(1)Bubbling/Personal/Midwest_Obituaries.md",
     "(0)Drafts/Dreams/Dreams_1.md",
-    "_daily/Feb-26-2025.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Writing.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Outsource_.md",
-    "(0)Drafts/Dreams",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Memes.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Tuck_Meme.md",
-    "(0)Drafts/Article_Drafts/Article Ideas/Article Topics.md",
+    "(0)Drafts/Articles/Timewarp.md",
+    "(0)Drafts/Articles/Mountain Monsters v Game of Thrones.md",
+    "(2)壳/-Logy/Philo/Map of -Logy.md",
     "(0)Drafts/Journal",
-    "(2)壳/Workout (Physical + Spiritual )/Alexander Posture Technique.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/The Busey Tape.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/TuckSheza Video.md",
+    "(0)Drafts/Dreams",
+    "(0)Drafts/Articles/Article Ideas/Article Topics.md",
+    "(0)Drafts/Articles/Article Ideas",
+    "(0)Drafts/Articles",
+    "(0)Drafts",
     "(1)Bubbling/Personal Writing",
     "(1)Bubbling/Personal/Jade_Writing",
     "Images(offline)",
-    "(0)Drafts/Article_Drafts/Article Ideas",
-    "(0)Drafts/Article_Drafts",
-    "(0)Drafts",
     "(2)壳/Machines+Tools+Home",
-    "(2)壳/Art+Media/Architects-Architecture",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(5)Finances/Finances Canvas.canvas",
     "(6)Lifecore/Lifecore Canvas.canvas",
-    "Untitled.canvas",
     "images/Kitchen.webp",
     "_site/images/20-14-1.jpg",
     "images/20-14-1.jpg",
@@ -280,7 +283,6 @@
     "images/IMG_6394.jpeg",
     "images/IMG_3969.JPG",
     "images/IMG_3869.JPG",
-    "images/IMG_4190.JPG",
-    "images/2022-05-13-17-48-12.png"
+    "images/IMG_4190.JPG"
   ]
 }
