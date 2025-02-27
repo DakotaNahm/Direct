@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Dakota Nahm/Sheza/Sheza Keeper Design Spreadsheet.md",
-                "mode": "preview",
+                "file": "(3)Projects/Dakota Nahm/M8/solM8 Design Spreadsheet.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheza Keeper Design Spreadsheet"
+              "title": "solM8 Design Spreadsheet"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fa5c2b51a2ba60c1",
@@ -232,9 +231,9 @@
   },
   "active": "5946b2e8eac12533",
   "lastOpenFiles": [
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Keeper Design Spreadsheet.md",
     "(3)Projects/Dakota Nahm/Sheza/Sheza_CC_Dev.md",
     "(3)Projects/Dakota Nahm/Sheza/Sheza_Keeper_Ideology (PDF).md",
-    "(3)Projects/Dakota Nahm/Sheza/Sheza Keeper Design Spreadsheet.md",
     "(3)Projects/Dakota Nahm/Sheza/Sale-Autopilot.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Tuckers Design Spreadsheet.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Outsourcing x Expenses Spreadsheet.md",
