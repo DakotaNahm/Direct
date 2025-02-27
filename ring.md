@@ -3,34 +3,39 @@ layout: ring
 title: Webring
 ---
 
-|[Edith Reisen](http://reisen.netlify.app/) | Para-academic knowledge repository and power hikikomori optimization manual |
-|[Don's Directory](http://dons.directory/) | شارع بدون تبخير ساخن |
-|[Leili Laternapoiss](https://leili.netlify.app/) | Your entry into the magical Enlightenment of Lanternland! |
-|[512]( https://512kb.club/ )| |
-|[Shaviro](http://shaviro.com/Othertexts/articles.html )| |
-|[.xxiivv](https://wiki.xxiivv.com/site/home.html)| |
-|[devine_lu_linvega](https://wiki.xxiivv.com/site/devine_lu_linvega.html)| | 
-|[michealnielsen](https://michaelnielsen.org/)| |
-|[exo-science](http://exo-science.com/#)| |
-|[3dtest](https://3dtestosterone.net/)| |
-|[sip](https://sip.neocities.org/)| |
-|[raypeat](https://raypeat.com/)| |
-|[paulgraham](https://paulgraham.com/index.html)| |
-|[oldnickstie](https://oldnicksite.wordpress.com/)| | 
-|[unqualified-Reservations](https://www.unqualified-reservations.org/)| |
-|[sholars-stage](https://scholars-stage.org/)| |
-|[acesounderglass](https://acesounderglass.com/)| ( Health ) |
-|[starmodeling](https://statmodeling.stat.columbia.edu/)| |
-|[gwern](https://gwern.net/)| |
-|[zackmdavis](http://zackmdavis.net/blog/)| |
-|[scottaaronson](https://scottaaronson.blog/)| |
-|[ribbonfarm](https://www.ribbonfarm.com/)| |
-|[ac-journal](https://ac-journal.org/journal/vol6/iss3/responses/attias/index.html)| |
-|[goldensight](https://goldenlight.mirror.xyz/)| |
-|[sawanonlinebookstore](https://www.sawanonlinebookstore.com/category/151-akbar-birbal-storiessrsltid=AfmBOopUZUNeQQVAjYaE4bJFN90xTO4GeUXw4T3-BeNejNnIUgIES1Hu)| |
-|[every](https://every.sdf.org/?ref=deadsimplesites)| | 
-|[unlife](https://unlife.nyx.land/)| |
-|[n10](https://n10.as/)| Cool new music | |
-|[demarconia](http://www.demarconia.com/)| | 
-|[resrofworld](https://restofworld.org/series/digital-divinity/)| | 
-|[kau](https://kau.sh/blog/)| | 
+| [Edith Reisen](http://reisen.netlify.app/)                                                                                                                     | Para-academic knowledge repository and power hikikomori optimization manual |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --- | --- |
+| [Don's Directory](http://dons.directory/)                                                                                                                      | شارع بدون تبخير ساخن                                                        |     |     |
+| [Leili Laternapoiss](https://leili.netlify.app/)                                                                                                               | Your entry into the magical Enlightenment of Lanternland!                   |     |     |
+| [512]( https://512kb.club/ )                                                                                                                                   |                                                                             |     |     |
+| [Shaviro](http://shaviro.com/Othertexts/articles.html )                                                                                                        |                                                                             |     |     |
+| [.xxiivv](https://wiki.xxiivv.com/site/home.html)                                                                                                              |                                                                             |     |     |
+| [devine_lu_linvega](https://wiki.xxiivv.com/site/devine_lu_linvega.html)                                                                                       |                                                                             |     |     |
+| [michealnielsen](https://michaelnielsen.org/)                                                                                                                  |                                                                             |     |     |
+| [exo-science](http://exo-science.com/#)                                                                                                                        |                                                                             |     |     |
+| [3dtest](https://3dtestosterone.net/)                                                                                                                          |                                                                             |     |     |
+| [sip](https://sip.neocities.org/)                                                                                                                              |                                                                             |     |     |
+| [raypeat](https://raypeat.com/)                                                                                                                                |                                                                             |     |     |
+| [paulgraham](https://paulgraham.com/index.html)                                                                                                                |                                                                             |     |     |
+| [oldnickstie](https://oldnicksite.wordpress.com/)                                                                                                              |                                                                             |     |     |
+| [unqualified-Reservations](https://www.unqualified-reservations.org/)                                                                                          |                                                                             |     |     |
+| [sholars-stage](https://scholars-stage.org/)                                                                                                                   |                                                                             |     |     |
+| [acesounderglass](https://acesounderglass.com/)                                                                                                                | ( Health )                                                                  |     |     |
+| [starmodeling](https://statmodeling.stat.columbia.edu/)                                                                                                        |                                                                             |     |     |
+| [gwern](https://gwern.net/)                                                                                                                                    |                                                                             |     |     |
+| [zackmdavis](http://zackmdavis.net/blog/)                                                                                                                      |                                                                             |     |     |
+| [scottaaronson](https://scottaaronson.blog/)                                                                                                                   |                                                                             |     |     |
+| [ribbonfarm](https://www.ribbonfarm.com/)                                                                                                                      |                                                                             |     |     |
+| [ac-journal](https://ac-journal.org/journal/vol6/iss3/responses/attias/index.html)                                                                             |                                                                             |     |     |
+| [goldensight](https://goldenlight.mirror.xyz/)                                                                                                                 |                                                                             |     |     |
+| [sawanonlinebookstore](https://www.sawanonlinebookstore.com/category/151-akbar-birbal-storiessrsltid=AfmBOopUZUNeQQVAjYaE4bJFN90xTO4GeUXw4T3-BeNejNnIUgIES1Hu) |                                                                             |     |     |
+| [every](https://every.sdf.org/?ref=deadsimplesites)                                                                                                            |                                                                             |     |     |
+| [unlife](https://unlife.nyx.land/)                                                                                                                             |                                                                             |     |     |
+| [n10](https://n10.as/)                                                                                                                                         | Cool new music                                                              |     |     |
+| [demarconia](http://www.demarconia.com/)                                                                                                                       |                                                                             |     |     |
+| [resrofworld](https://restofworld.org/series/digital-divinity/)                                                                                                |                                                                             |     |     |
+| [kau](https://kau.sh/blog/)                                                                                                                                    |                                                                             |     |     |
+| [Human Bio Diversity](https://www.humanbiologicaldiversity.com/)                                                                                               |                                                                             |     |     |
+| [Pespmc1](http://pespmc1.vub.ac.be/)                                                                                                                           |                                                                             |     |     |
+| [Nick Szabo](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/index.html)                    |                                                                             |     |     |
+|                                                                                                                                                                |                                                                             |     |     |
