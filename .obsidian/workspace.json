@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(1)Bubbling/Core_Overview.md",
+                "file": "_daily/Feb-26-2025.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Core_Overview"
+              "title": "Feb-26-2025"
             }
           }
         ]
@@ -226,14 +226,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "periodic-notes:Open this week": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "39c971b5e7532110",
   "lastOpenFiles": [
-    "(3)Projects/Dakota Nahm/Wallet Structure.md",
+    "(1)Bubbling/Core_Overview.md",
+    "_daily/Feb-26-2025.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Tuckers Design Spreadsheet.md",
+    "(3)Projects/Dakota Nahm/Wallet Structure.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Token.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Outsourcing x Expenses Spreadsheet.md",
@@ -242,7 +244,6 @@
     "(2) 壳/-Logy/Map of -Logy.md",
     "(3)Projects/Dakota Nahm/(Study)/Illustration_Syllabus.md",
     "(3)Projects/Dakota Nahm/(Study)/Writing_Syllabus.md",
-    "(1)Bubbling/Core_Overview.md",
     "(2) 壳/Art+Media/Books_Fiction.md",
     "(2) 壳/Art+Media/Designers+Painters.md",
     "(2) 壳/Art+Media/Documentaries  YT Videos.md",
@@ -257,7 +258,6 @@
     "(3)Projects/David Nash/Unreleased_Project/Unreleased Spreadsheet.md",
     "(3)Projects/David Nash/Outsourcing x Expenses Spreadsheet.md",
     "(3)Projects/David Nash/Music Listening.md",
-    "(3)Projects/David Nash/Merchandise Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(3)Projects/Toss-A-Toad/Assets/Animations",
     "(3)Projects/Toss-A-Toad/Assets/Music x SFX",
