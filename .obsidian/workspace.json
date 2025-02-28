@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "(1)Index/Core_Overview.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Core_Overview"
+            }
+          },
+          {
+            "id": "2308b58de274f5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "(6)Lifecore/Lifecore 1.1.md",
                 "mode": "source",
                 "source": true
@@ -21,7 +35,8 @@
               "title": "Lifecore 1.1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,8 +244,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5946b2e8eac12533",
+  "active": "2308b58de274f5c0",
   "lastOpenFiles": [
+    "_daily/Feb-27-2025.md",
+    "_daily/Feb-28-2025.md",
+    "(6)Lifecore/Lifecore 1.1.md",
+    "(1)Index/Core_Overview.md",
     "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Attributes.md",
     "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Memes.md",
     "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Writing.md",
@@ -243,7 +262,6 @@
     "(5)Finances/Spending x Saving Rules.md",
     "(5)Finances/Personal Expenses Spreadsheet.md",
     "(5)Finances/Music Gear  Studio.md",
-    "(1)Index/Core_Overview.md",
     "(1)Index/Core_Canvas.canvas",
     "(1)Index/Old Daily Notes/Untitled 1.md",
     "(1)Index/Old Daily Notes/Untitled.md",
@@ -255,9 +273,6 @@
     "(1)Index/Aphorisms & Memories/Haleigh.md",
     "(1)Index/Aphorisms & Memories/Memories Outline.md",
     "(1)Index/Aphorisms & Memories/No Good or Evil.md",
-    "(1)Index/Aphorisms & Memories/Stupidity is the root of evil in modern society..md",
-    "(1)Index/Aphorisms & Memories/x.md",
-    "(6)Lifecore/Lifecore 1.1.md",
     "(2)壳/Langauge/Philology",
     "( i ) 壳/Langauge",
     "( i ) 壳",
