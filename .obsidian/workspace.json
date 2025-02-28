@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(5)Finances/Apartment Furnishings.md",
+                "file": "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Attributes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apartment Furnishings"
+              "title": "Sheza_Attributes"
             }
           }
         ]
@@ -225,13 +225,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "5946b2e8eac12533",
   "lastOpenFiles": [
-    "(1)Index/Core_Overview.md",
+    "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Memes.md",
+    "(6)Lifecore/Lifecore 1.1.md",
+    "_daily/Feb-28-2025.md",
     "_daily/Feb-27-2025.md",
+    "_scrapbook/Undercover.md",
+    "(5)Finances/Music Gear  Studio.md",
+    "(2)壳/Langauge/Philology",
+    "(5)Finances/Apartment Furnishings.md",
+    "(1)Index/Core_Overview.md",
     "(3)Projects/Dakota Nahm/(Fleeting)/Abraxis-Capsules.md",
     "(5)Finances/Tools x Tech.md",
     "_daily/Feb-20-2025.md",
@@ -245,7 +253,6 @@
     "( i ) 壳/Langauge",
     "( i ) 壳",
     "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Writing.md",
-    "(3)Projects/Dakota Nahm/(Fleeting)/Sheza_Memes.md",
     "(0)Drafts/Articles/Article Ideas/Article Topics.md",
     "(5)Finances/Large Items.md",
     "(3)Projects/Dakota Nahm/Sheza/Token.md",
@@ -253,11 +260,6 @@
     "(3)Projects/Dakota Nahm/Sheza/Marketing_Pipeline.md",
     "(3)Projects/Dakota Nahm/Sheza/Outsourcing x Expenses Spreadsheet.md",
     "(3)Projects/Dakota Nahm/Sheza/Sale-Autopilot.md",
-    "(3)Projects/Dakota Nahm/Sheza/Sheza_CC_Dev.md",
-    "(3)Projects/Dakota Nahm/Sheza/Sheza Keeper Design Spreadsheet.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Tuckers Design Spreadsheet.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
     "(1)Index/Core_Canvas.canvas",
     "assets/attachments/Pasted image 20250226222338.png",
     "assets/attachments/Pasted image 20250226222130.png",
@@ -268,7 +270,6 @@
     "(0)Drafts/Articles",
     "(0)Drafts",
     "(1)Bubbling/Personal Writing",
-    "(1)Bubbling/Personal/Jade_Writing",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(5)Finances/Finances Canvas.canvas",
     "(6)Lifecore/Lifecore Canvas.canvas",
