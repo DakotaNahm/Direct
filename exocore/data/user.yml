@@ -7,7 +7,7 @@ user_name: Dakota Direct
 
 
 # The URL that your name will point to ('/' means home):
-profile_link: /
+profile_link: /pages/home
 
 
 # The user image displayed on your profile card. You can edit this by dropping an image with the name 'pfp.png' into 'assets/imgs', or editing the path below:

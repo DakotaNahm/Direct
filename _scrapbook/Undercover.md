@@ -10,4 +10,4 @@ tags:
 # Undercover
 
 
-me and another person undercover in northern russian platoon
+me and another person undercover in northern Russian platoon

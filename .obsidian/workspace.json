@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a9d762e8ceccff88",
+        "id": "5e8c40ef1e921fc5",
         "type": "tabs",
         "children": [
           {
-            "id": "5946b2e8eac12533",
+            "id": "9009c5cbdee8d246",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(1)Index/Core_Overview.md",
+                "file": "(1)Index/Random/Thanksgiving Episodes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Core_Overview"
-            }
-          },
-          {
-            "id": "2308b58de274f5c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_daily/Mar-01-2025.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mar-01-2025"
+              "title": "Thanksgiving Episodes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,60 +229,60 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2308b58de274f5c0",
+  "active": "9009c5cbdee8d246",
   "lastOpenFiles": [
-    "(3)Projects/Dakota Nahm/(Study)/Illustration_Syllabus.md",
-    "(2)壳/Langauge x Writing/Writing/Writing_Syllabus.md",
-    "(2)壳/Langauge x Writing/Linguistics x Philology/Syllabus.md",
-    "(2)壳/Langauge x Writing/Writing/How to Write.md",
-    "(2)壳/Art+Media/Poets x Books.md",
-    "(2)壳/Langauge x Writing/Writing",
-    "(6)Lifecore/Lifecore 1.1.md",
-    "_daily/Mar-01-2025.md",
-    "_daily/May-11-2022.md",
+    "(1)Index/Random/Social_Media_Asset_Sizes.md",
+    "(1)Index/Random/IRL_Notebooks.md",
+    "(1)Index/Random/Funny.md",
+    "(1)Index/Random/Aug 23 2023.md",
+    "(1)Index/Random/AHFL.md",
+    "(1)Index/Old Daily Notes/Mac Writing.md",
+    "(1)Index/Old Daily Notes/Untitled 1.md",
+    "(1)Index/Old Daily Notes/Untitled.md",
+    "(1)Index/Business Ideas/Vinyl Pressing Business.md",
+    "(1)Index/Art Ideas/Supermarket Anime Idea.md",
+    "(1)Index/Art Ideas/Scary Movie.md",
+    "(1)Index/Art Ideas/Ideas Archive.md",
+    "(1)Index/Art Ideas/Corp_Industries  (YT).md",
+    "(1)Index/Aphorisms & Memories/x.md",
+    "(1)Index/Aphorisms & Memories/Stupidity is the root of evil in modern society..md",
+    "(1)Index/Aphorisms & Memories/No Good or Evil.md",
+    "(1)Index/Aphorisms & Memories/Memories Outline.md",
+    "(1)Index/Aphorisms & Memories/Haleigh.md",
+    "(1)Index/Aphorisms & Memories/Consequences of Attainment.md",
+    "(1)Index/Aphorisms & Memories/Closer when younger.md",
+    "(1)Index/Aphorisms & Memories/Archive_jade.md",
+    "(1)Index/Aphorisms & Memories/Alienation.md",
+    "_scrapbook/Undercover.md",
+    "_journal/2025-02 Learning Markdown.md",
+    "(0)Drafts/Dreams/Dreams_1.md",
+    "(0)Drafts/Articles/Work is Life.md",
+    "_site/assets/imgs/pfp.png",
+    "_site/assets/imgs/non.png",
+    "_site/assets/imgs/wink2.png",
+    "_site/assets/imgs/wink.png",
+    "_site/pages/articles.html",
+    "pages/articles.html",
+    "_site/pages/essays.html",
+    "pages/essays.html",
+    "_site/pages/Articles.html",
+    "_site/pages/essay.html",
+    "pages/essay.html",
+    "_site/pages/dreams-int.html",
+    "pages/dreams-int.html",
+    "_site/pages/Journals.html",
+    "_site/images/monke.gif",
+    "images/monke.gif",
     "images/IMG_6401.jpeg",
-    "_site/(2)壳/Nutrition+Supplementation/Supplementation_Guide.html",
-    "_site/(2)壳/Art+Media/Music Listening.html",
-    "_site/(2)壳/Art+Media/Movies.html",
-    "_site/(2)壳/Art+Media/Architects-Architecture/Étienne-Louis Boullée Architecture.html",
-    "_site/(2)壳/Art+Media/Architects-Architecture/Joseph Eichler.html",
-    "_site/(2)壳/Art+Media/Architects-Architecture",
-    "_site/scrapbook/undercover.html",
-    "_site/daily/mar-01-2025.html",
-    "_site/daily/feb-28-2025.html",
     "_site/images/Kitchen.webp",
     "_site/images/IMG_6401.jpeg",
     "_site/assets/attachments/Pasted image 20250226222338.png",
-    "_site/assets/attachments/Pasted image 20250226222130.png",
     "_site/(6)Lifecore/Lifecore Canvas.canvas",
-    "_site/(1)Index/Old Daily Notes/Untitled.md",
-    "_site/(1)Index/Old Daily Notes/Untitled 1.md",
-    "_site/(1)Index/Old Daily Notes/Mac Writing.md",
     "_site/(1)Index/Core_Canvas.canvas",
-    "_site/(0)Drafts/Articles/Article Ideas/The different ages throughout culture.md",
-    "_site/(0)Drafts/Articles/The different ages throughout culture.md",
     "_site/(3)Projects/Toss-A-Toad/System Design.canvas",
-    "_daily/Feb-28-2025.md",
-    "_daily/Feb-27-2025.md",
-    "(1)Index/Core_Overview.md",
-    "(0)Drafts/Articles/Article Ideas/The different ages throughout culture.md",
-    "(2)壳/-Logy/Religion/Religion Study Sources.md",
-    "(5)Finances/FinanceCore 1.1.md",
-    "(3)Projects/Dakota Nahm/Sheza/Assets_List.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Assets_List.md",
-    "(3)Projects/Dakota Nahm/M8/Assets_List.md",
-    "(3)Projects/Dakota Nahm/Capsules/Assets_List.md",
     "(6)Lifecore/Lifecore Canvas.canvas",
-    "(3)Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
-    "(3)Projects/David Nash/Serious Sound(13)/Musical-Theme x Story.md",
-    "(3)Projects/David Nash/Serious Sound(13)/Serious Sound Spreadsheet.md",
     "(1)Index/Core_Canvas.canvas",
-    "assets/attachments/Pasted image 20250226222338.png",
-    "assets/attachments/Pasted image 20250226222130.png",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
-    "(5)Finances/Finances Canvas.canvas",
-    "images/Kitchen.webp",
-    "_site/images/20-14-1.jpg",
-    "images/20-14-1.jpg"
+    "(5)Finances/Finances Canvas.canvas"
   ]
 }

@@ -1,0 +1,30 @@
+---
+layout: page
+title: Daily Index
+date:
+type:
+
+---
+<main>
+<section class="container-lg" style="display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+
+ <h1>Look Familiar???</h1>
+ <hr style="display: block;">
+ <img src="/images/monke.gif" alt="monke" class="monke" width="500px" height="400px">
+
+</section>
+</main>
+
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>
