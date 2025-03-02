@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(2)壳/-Logy/Art+Media/Books_Fiction x Poems.md",
+                "file": "(2)壳/-Logy/Art+Media/Architecture_Design.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Books_Fiction x Poems"
+              "title": "Architecture_Design"
             }
           }
         ]
@@ -231,7 +231,11 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
-    "(2)壳/-Logy/Art+Media/Architects.md",
+    "(2)壳/-Logy/Art+Media/Books_Fiction x Poems.md",
+    "(2)壳/-Logy/Art+Media/Architecture_Design.md",
+    "_daily/Mar-02-2025.md",
+    "(2)壳/Art+Media/Music Listening.md",
+    "(2)壳/Art+Media",
     "(2)壳/-Logy/Bio/Fundemental_Bio.md",
     "(2)壳/-Logy/History/Fundemental_History.md",
     "(2)壳/-Logy/History/Histogram.md",
@@ -242,7 +246,6 @@
     "(2)壳/Langauge x Writing/Writing/How to Write.md",
     "(2)壳/Langauge x Writing/English/English Working Dictionary.md",
     "(2)壳/Langauge x Writing/English/Untitled.md",
-    "(2)壳/-Logy/Art+Media/Books_Fiction x Poems.md",
     "(2)壳/-Logy/Psych/Fundemental_Psych.md",
     "(2)壳/-Logy/Religion/Fundemental_Religion.md",
     "(2)壳/-Logy/Philosophy/Genre_Based_Thinkers.md",
@@ -255,8 +258,6 @@
     "(2)壳/Machines+Tools+Home/Cleaners_Smells.md",
     "(3)Projects/Dakota Nahm/(Study)/Illustration_Syllabus.md",
     "(2)壳/-Logy/Art+Media/Documentaries  YT Videos.md",
-    "(2)壳/-Logy/Physics+Math/Calculus.md",
-    "(3)Projects/David Nash/Serious Sound(13)/Marketing_Pipeline.md",
     "(1)Index/Core_Canvas.canvas",
     "_site/assets/imgs/pfp.png",
     "_site/assets/imgs/non.png",
@@ -271,7 +272,6 @@
     "pages/essay.html",
     "_site/pages/dreams-int.html",
     "pages/dreams-int.html",
-    "_site/pages/Journals.html",
     "_site/images/monke.gif",
     "images/monke.gif",
     "images/IMG_6401.jpeg",
