@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(4)Calendar/0 Week/Week 09.md",
+                "file": "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 09"
+              "title": "Capsule_Dev"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(4)Calendar/0 Week/Week 09.md",
+                "file": "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week 09"
+              "title": "Backlinks for Capsule_Dev"
             }
           },
           {
@@ -231,8 +231,16 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
-    "(4)Calendar/Schedule 1.1.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsules (PDF).md",
+    "(3)Projects/Dakota Nahm/Capsules/Sale-Autopilot.md",
+    "(3)Projects/Dakota Nahm/Capsules/Pipeline.md",
+    "(3)Projects/Dakota Nahm/Capsules/Meme x Outsourcing.md",
+    "(3)Projects/Dakota Nahm/Capsules/Logos  Spreader Symbol.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule Data Backup.md",
     "(4)Calendar/0 Week/Week 09.md",
+    "(4)Calendar/Schedule 1.1.md",
     "(4)Calendar/0 Week/Week 10 2025.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Physics System.md",
@@ -249,14 +257,6 @@
     "(3)Projects/Toss-A-Toad/Backstory.md",
     "(3)Projects/Toss-A-Toad/Business_Docs.md",
     "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/Toss-A-Toad/Sale-Autopilot.md",
-    "(3)Projects/Toss-A-Toad/Logos  Spreader Symbol  Marketing.md",
-    "(3)Projects/Toss-A-Toad/Marketing_Pipeline.md",
-    "(6)Lifecore/Lifecore 1.1.md",
-    "(5)Finances/FinanceCore 1.1.md",
-    "(5)Finances/Investments.md",
-    "(5)Finances/Tools x Tech.md",
-    "(5)Finances/Apartment Furnishings.md",
     "_site/(3)Projects/Dakota Nahm/Tuck Inu/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/Sheza/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/M8/Meme x Outsourcing.html",
