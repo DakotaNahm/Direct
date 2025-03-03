@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
+                "file": "(4)Calendar/0 Week/Week 09.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cards"
+              "title": "Week 09"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(1)Bubbling/Core_Overview.md",
+                "file": "(4)Calendar/0 Week/Week 09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Core_Overview"
+              "title": "Backlinks for Week 09"
             }
           },
           {
@@ -231,9 +231,12 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "(4)Calendar/Schedule 1.1.md",
+    "(4)Calendar/0 Week/Week 09.md",
+    "(4)Calendar/0 Week/Week 10 2025.md",
+    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Physics System.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Incubation.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/30-60-90 Day Sim Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/In App Purchase Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/Toad Road Spreadsheet.md",
@@ -254,9 +257,6 @@
     "(5)Finances/Investments.md",
     "(5)Finances/Tools x Tech.md",
     "(5)Finances/Apartment Furnishings.md",
-    "(5)Finances/Large Items.md",
-    "(5)Finances/Music Gear  Studio.md",
-    "(5)Finances/Personal Expenses Spreadsheet.md",
     "_site/(3)Projects/Dakota Nahm/Tuck Inu/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/Sheza/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/M8/Meme x Outsourcing.html",
