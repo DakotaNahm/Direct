@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
+                "file": "(6)Lifecore/Lifecore 1.1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Capsule_Dev"
+              "title": "Lifecore 1.1"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
+                "file": "(6)Lifecore/Lifecore 1.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Capsule_Dev"
+              "title": "Backlinks for Lifecore 1.1"
             }
           },
           {
@@ -231,12 +231,14 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "(6)Lifecore/Lifecore Canvas.canvas",
+    "(6)Lifecore/Lifecore 1.1.md",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsules (PDF).md",
     "(3)Projects/Dakota Nahm/Capsules/Sale-Autopilot.md",
     "(3)Projects/Dakota Nahm/Capsules/Pipeline.md",
     "(3)Projects/Dakota Nahm/Capsules/Meme x Outsourcing.md",
     "(3)Projects/Dakota Nahm/Capsules/Logos  Spreader Symbol.md",
-    "(3)Projects/Dakota Nahm/Capsules/Capsule_Dev.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsule Design Spreadsheet.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsule Data Backup.md",
     "(4)Calendar/0 Week/Week 09.md",
@@ -255,8 +257,6 @@
     "(3)Projects/Toss-A-Toad/Assets/In-Game Items/Toads Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Scoring.md",
     "(3)Projects/Toss-A-Toad/Backstory.md",
-    "(3)Projects/Toss-A-Toad/Business_Docs.md",
-    "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
     "_site/(3)Projects/Dakota Nahm/Tuck Inu/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/Sheza/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/M8/Meme x Outsourcing.html",
@@ -281,7 +281,6 @@
     "_site/(6)Lifecore/Lifecore Canvas.canvas",
     "_site/(1)Index/Core_Canvas.canvas",
     "_site/(3)Projects/Toss-A-Toad/System Design.canvas",
-    "(6)Lifecore/Lifecore Canvas.canvas",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(5)Finances/Finances Canvas.canvas"
   ]
