@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
+                "file": "_daily/Mar-03-2025.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cards"
+              "title": "Mar-03-2025"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
+                "file": "_daily/Mar-03-2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cards"
+              "title": "Backlinks for Mar-03-2025"
             }
           },
           {
@@ -225,12 +225,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open this week": false
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "assets/attachments/Pasted image 20250303163609.png",
     "assets/attachments/Pasted image 20250303163607.png",
     "(6)Lifecore/Lifecore 1.1.md",
@@ -249,7 +249,6 @@
     "(4)Calendar/0 Week/Week 09.md",
     "(4)Calendar/Schedule 1.1.md",
     "(4)Calendar/0 Week/Week 10 2025.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Physics System.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Incubation.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/30-60-90 Day Sim Spreadsheet.md",
@@ -278,7 +277,6 @@
     "images/monke.gif",
     "images/IMG_6401.jpeg",
     "_site/images/Kitchen.webp",
-    "_site/images/IMG_6401.jpeg",
     "_site/(6)Lifecore/Lifecore Canvas.canvas",
     "_site/(1)Index/Core_Canvas.canvas",
     "_site/(3)Projects/Toss-A-Toad/System Design.canvas",
