@@ -11,14 +11,12 @@
             "id": "ddc980f40ca1a76b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
-                "mode": "source",
-                "source": true
+                "file": "images/IMG_6401.jpeg"
               },
-              "icon": "lucide-file",
-              "title": "Asset_Collection_System"
+              "icon": "lucide-image",
+              "title": "IMG_6401"
             }
           }
         ]
@@ -231,11 +229,16 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "images/IMG_6394.jpeg",
+    "images/IMG_4189.JPG",
+    "images/IMG_6401.jpeg",
+    "images/IMG_6404.mov",
+    "images/IMG_6405.mov",
     "_daily/Mar-04-2025.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
     "(4)Calendar/0 Week/Feb-2025 Week 09.md",
     "_scrapbook/lucid 3-3-25.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Challenges.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
@@ -259,7 +262,6 @@
     "(4)Calendar/0 Week/Week 09.md",
     "(4)Calendar/Schedule 1.1.md",
     "(4)Calendar/0 Week/Week 10 2025.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Physics System.md",
     "_site/(3)Projects/Dakota Nahm/Tuck Inu/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/Sheza/Meme x Outsourcing.html",
     "_site/(3)Projects/Dakota Nahm/M8/Meme x Outsourcing.html",
@@ -268,8 +270,6 @@
     "_site/(1)Index/Random/Milanote_Archive.html",
     "_site/(3)Projects/Dakota Nahm/Sheza/Meme_Spreadsheet.html",
     "_site/(2)壳/Workout (Physical + Spiritual )/Spiritual Workouts.html",
-    "_site/(3)Projects/Dakota Nahm/(Fleeting)/capsules_Doc.html",
-    "_site/(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.html",
     "(1)Index/Core_Canvas.canvas",
     "_site/assets/imgs/pfp.png",
     "_site/assets/imgs/non.png",
@@ -277,8 +277,6 @@
     "_site/assets/imgs/wink.png",
     "_site/images/monke.gif",
     "images/monke.gif",
-    "images/IMG_6401.jpeg",
-    "_site/images/Kitchen.webp",
     "_site/(6)Lifecore/Lifecore Canvas.canvas",
     "_site/(1)Index/Core_Canvas.canvas",
     "_site/(3)Projects/Toss-A-Toad/System Design.canvas",
