@@ -11,12 +11,14 @@
             "id": "ddc980f40ca1a76b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/IMG_6401.jpeg"
+                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "IMG_6401"
+              "icon": "lucide-file",
+              "title": "Notes On Animations"
             }
           }
         ]
@@ -229,22 +231,22 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Challenges.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
+    "images/IMG_6401.jpeg",
     "images/IMG_6394.jpeg",
     "images/IMG_4189.JPG",
-    "images/IMG_6401.jpeg",
     "images/IMG_6404.mov",
     "images/IMG_6405.mov",
     "_daily/Mar-04-2025.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
     "(4)Calendar/0 Week/Feb-2025 Week 09.md",
     "_scrapbook/lucid 3-3-25.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Challenges.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
     "_daily/Mar-03-2025.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "assets/attachments/Pasted image 20250303163609.png",
@@ -276,7 +278,6 @@
     "_site/assets/imgs/wink2.png",
     "_site/assets/imgs/wink.png",
     "_site/images/monke.gif",
-    "images/monke.gif",
     "_site/(6)Lifecore/Lifecore Canvas.canvas",
     "_site/(1)Index/Core_Canvas.canvas",
     "_site/(3)Projects/Toss-A-Toad/System Design.canvas",
