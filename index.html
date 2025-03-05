@@ -1,0 +1,56 @@
+---
+layout: page
+title: Latest
+---
+
+<div class="container-lg">
+
+    <div class="leftcolumn">
+      {% include profile-card.html %}
+    </div>
+    <!-- {% assign items = site.documents | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.documents.size | at_most: 10 %}
+    {% assign posts_total  = site.documents.size %} -->
+
+    <div class="midcolumn">
+      <article>
+        <h1 class="title-text" style="padding-top: 10px;">Welcome to Dakota Direct</h1>
+        <p style=" width: 100%; text-align: center"></p>
+      </article>
+<br>
+        <div class="home-img-container">
+          <img src="/images/caughtup.png" alt="" class="home-img">
+        </div>
+<br>
+        <article>
+            <p>Welcome to my website, this website contains <a href="/pages/gallery.html">Essays</a>, a daily <a href="/pages/Log.html">Log</a> and helpful infomation and lists for your personal development I refer to as <a href="/pages/Journals.html">Shells壳</a>. Most items are sorted via <a href="/pages/tags.html">Tags</a>, and any other data like external hyperlinks, a webring and pdfs are stored in the <a href="/pages/wissensorte.html">Wissensorte</a> or knowledge page in german. Lastly there is an image <a href="/pages/gallery.html">Gallery</a> and a <a href="/pages/dreams-int.html">Dream</a> log. You can change the theme using the change theme button. Underneath that is my twitter and some of my projects I have worked on. Thanks for visiting.</p>
+            <div class="index-card">
+            <div class="index-grid">
+            {% assign items = site.documents | sort: 'date' | reverse %}
+            {% for item in items %}	
+              <a class="index-anchor" href="{{ item.url }}">
+                <div class="index-item">
+                  <span class="index-item-title">{{ item.title}}</span>
+                </div>
+              </a>
+              {% endfor %}
+              </div>
+            </div>
+          </article>
+            <!-- {% include license.html %} -->
+<br>
+    </div>
+</div>
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>
