@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
+                "file": "(3)Projects/Toss-A-Toad/Assets/Asset_Visuals.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Deck Building"
+              "title": "Asset_Visuals"
             }
           }
         ]
@@ -231,15 +231,18 @@
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Aces + Card Modifiers.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
+    "(3)Projects/Toss-A-Toad/Assets/In_Game Assets_Spreadsheet.md",
+    "(3)Projects/Toss-A-Toad/Assets/Asset_Visuals.md",
+    "(3)Projects/Toss-A-Toad/Assets/Animations_Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Economy.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Economy.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Aces + Card Modifiers.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
     "_journal/Samgyetang Ginseng Chicken Soup (Korean Style).md",
     "index.html",
@@ -260,9 +263,6 @@
     "_daily/Feb-23-2025.md",
     "_daily/Feb-22-2025.md",
     "_daily/Feb-21-2025.md",
-    "_daily/Feb-20-2025.md",
-    "_daily/Mar-03-2025.md",
-    "_daily/Mar-01-2025.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(6)Lifecore/Lifecore Canvas.canvas",
     "_site/videos/train.webm",
