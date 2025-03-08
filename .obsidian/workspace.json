@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/All_Pages.md",
+                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "All_Pages"
+              "title": "Asset_Collection_System"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb27c5766c12553a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8311dc106e21a618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Monitzation_Methods.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Monitzation_Methods"
             }
           }
         ]
@@ -225,29 +245,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "ddc980f40ca1a76b",
+  "active": "8311dc106e21a618",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Pack_Cycle.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/All_Pages.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Aces + Card Modifiers + Upgrades +.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Monitzation_Methods.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Settings.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/All_Pages.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Card synergies - Anti Synergies.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
+    "(2)壳/Nutrition+Supplementation/Supplementation_Guide.md",
+    "_daily/Mar-08-2025.md",
+    "_daily/Mar-07-2025.md",
     "_daily/Mar-03-2025.md",
     "_daily/Mar-04-2025.md",
     "_daily/Mar-05-2025.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Settings.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/TrophiesMatch_Making.md",
-    "_daily/Mar-07-2025.md",
     "_daily/Mar-06-2025.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Economy.md",
     "(3)Projects/Toss-A-Toad/Assets/Asset_Visuals.md",
     "images/IMG_6413.mov",
@@ -257,16 +282,12 @@
     "images/IMG_6413 1.mov",
     "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Assets/Animations_Spreadsheet.md",
-    "(3)Projects/Toss-A-Toad/Assets/Music x Sfx Spreadsheet.md",
-    "(3)Projects/Toss-A-Toad/Assets/In_Game Assets_Spreadsheet.md",
-    "_journal/Samgyetang Ginseng Chicken Soup (Korean Style).md",
     "index.html",
     "_site/pages/dreams.html",
     "pages/dreams.html",
     "_site/daily/mar-05-2025.html",
     "_site/(3)Projects/Toss-A-Toad/Econ x Prog/Toad Road 1-300 Spreadsheet.html",
     "_site/(3)Projects/Toss-A-Toad/(Fleeting)/Aces.html",
-    "_journal/Notes on Remilia's New Internet.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(6)Lifecore/Lifecore Canvas.canvas",
     "_site/videos/train.webm",
