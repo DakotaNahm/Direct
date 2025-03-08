@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
+                "file": "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Notes On Animations"
+              "title": "Notes on Item Opening  Unpackaging"
             }
           }
         ]
@@ -225,30 +225,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "ddc980f40ca1a76b",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Settings.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/TrophiesMatch_Making.md",
+    "_daily/Mar-07-2025.md",
+    "_daily/Mar-06-2025.md",
+    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Marketing_Youtubers.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Economy.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Deck Building.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Card synergies - Anti Synergies.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Aces + Card Modifiers + Upgrades +.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Asset_Collection_System.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad_Brainstorm_1.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Tactile  Sound Effects.md",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Notes on Item Opening  Unpackaging.md",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Notes On Animations.md",
     "(3)Projects/Toss-A-Toad/Assets/Asset_Visuals.md",
     "images/IMG_6413.mov",
     "_daily/Mar-05-2025.md",
-    "_daily/Mar-06-2025.md",
     "images/IMG_6412.jpeg",
     "images/IMG_6412 1.jpeg",
     "images/IMG_6401.jpeg",
     "images/IMG_6413 1.mov",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Toad-Road Notes.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Assets/Animations_Spreadsheet.md",
     "(3)Projects/Toss-A-Toad/Assets/Music x Sfx Spreadsheet.md",
@@ -264,8 +268,6 @@
     "_journal/Journal Test 4.md",
     "_journal/jade-post.md",
     "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
-    "_journal/2025-02 Learning Markdown.md",
-    "_daily/Mar-04-2025.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(6)Lifecore/Lifecore Canvas.canvas",
     "_site/videos/train.webm",
