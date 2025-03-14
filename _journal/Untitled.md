@@ -1,18 +1,11 @@
 ---
 published: true
 subtitle: 
-uuid:  20250312192758
+uuid:  20250312192801
 date: 2025-03-12
 tags: 
 ---
 
-[[20250312192758]]
+[[20250312192801]]
 
-<!-- #  Modern Rights of Passage -->
-
-I am very thankful for the past few years and in some ways for the past decade. It's forced me though what I can only describe as modern rights of passage. Every society and culture has rights of passage and as the complexity of a society and culture increases so too does its rights of passage. The modern rights of passage for western society much like the society's itself is full of falsehoods and pitfalls that if not carefully observed will lead one into a sudo awakening. This form of awakening will have the individual adopt an ideological form of slave consciousness [[Feb-20-2025]] for the benefit of prevailing ideology, mainly capitalism in US culture. This is not a critique of capitalism however pursuing capital is not a right of passage no matter how hard that pursuit may be, the pursuit can however lead to a hidden right of passage unknown to the pursuer of capital. A true right of passage should be quite daunting, and the risk of total inhalation should loom on the pursuers mind. In the modern west there is no threat of death from pursuing any legal business, entering college, joining a trade, starting a family and to a lesser extent joining the armed services. These can be steps to gaining capital but are seldom foundation for the individuation of the spirit on strength like a right of passage provides. The price you pay for not entering yourself into a new form through a right of passage is the slow grinding death that the ideology performs on you in its service since you have not founded your being on its own strength. The modern rights of passages are for the most part forced upon the individual. To go out and seek such things will usually not lead you to any form resembling a right of passage but typically to fretless suffering. The young warrior should not seek out a passage, this will be given by the father or chief. God/Nature is perfect at creating the best versions of its creations and it's up to the creations to understand that and take part in its forced harshness for the benefit of the individual. The modern individual does not take advantage when given such opportunities, suffering and ultimately death is just too scary.
-
-These modern rights are hidden just out of view or replaced by sudo-rights by the grand ideology for the reason they startle and could possible expand the scope of the individual that takes place in these rights, weakening the foundation of the ideology itself. The modern world repays the sudo-right conquerers graciously for the price of servitude and comfort. Belief and action from your own strength is the only way of pursuing past servitude. Much like the young male who is forced to survive the dark woods for a set period of time by himself, total destruction must be a real possibility, but not always. In the  un-passaged individual the pushing of oneself into such harshness usually illuminates the faults within the individual such as addiction, wraith, and need for comfort or attention. Servitude does all the latter in the name of something else that isn't the individual, and does so over a lifetime, without the individuals control. To fight through, to not take part in what your body and brain are pleading for and continuing the path forward is paramount in the breaking past the servitude. The reward for forging in such ways is a chance at freedom. Even if you end up somewhere you were not expecting you have now proven your worth in the form of belief and exercise in your deep strength. Now you are able to be decisive in your action and word for they rest on your deepest character.
-
-It must also be noted that these rights present themselves in the modern world in ways that are quite hard to spot as stated earlier. And to take precaution if one determines that a right of passage is being forced upon oneself, it is imperative that the individual relinquish all addictions, all relationships that are destructive, all media consumption that does not serve in the forging of this strength.
-
+<!-- #  null -->
