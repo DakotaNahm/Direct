@@ -11,10 +11,14 @@
             "id": "1fab1e336f11ba76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_daily/Mar-14-2025.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mar-14-2025"
             }
           }
         ]
@@ -220,12 +224,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open this week": false
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "1fab1e336f11ba76",
   "lastOpenFiles": [
+    "_daily/Mar-14-2025.md",
+    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
     "(6)Personal/Lifecore 1.3.md",
     "(5)Finances/Apartment Furnishings.md",
     "videos/train.webm",
@@ -251,8 +256,6 @@
     "(3)Projects/Dakota Nahm/Tuck Inu/Out_Links.md",
     "(3)Projects/Dakota Nahm/(Fleeting)/Art_Of_Meme.md",
     "(3)Projects/Dakota Nahm/Capsules/Out_Links.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/ARG_Framework.md",
-    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
     "images/IMG_6413.mov",
     "images/IMG_6412.jpeg",
     "images/IMG_6412 1.jpeg",
