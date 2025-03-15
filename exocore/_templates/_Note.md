@@ -6,4 +6,4 @@ uuid:  <% tp.date.now("YYYYMMDDHHmmss") %>
 tags: 
 ---
 
-## <% (await tp.system.prompt("New Note entry title:", "Untitled", false)) %>
+# <% (await tp.system.prompt("New Note entry title:", "Untitled", false)) %>

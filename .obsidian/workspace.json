@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(2)壳/Art+Media/Music Listening.md",
+                "file": "(2)壳/Art+Media/Art Study.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Music Listening"
+              "title": "Art Study"
             }
           }
         ],
@@ -243,21 +243,22 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e509f202f4abd033",
+  "active": "52077c690283e77d",
   "lastOpenFiles": [
-    "(2)壳/Art+Media/Untitled.md",
+    "(2)壳/Art+Media/Architecture_Design_Painting.md",
+    "(2)壳/Art+Media/Art Study.md",
+    "exocore/_templates/_Note.md",
+    "(2)壳/Art+Media/Documentaries  YT Videos.md",
+    "(2)壳/Art+Media/Poets x Books.md",
+    "(2)壳/Art+Media/Music Listening.md",
     "(6)Personal/Lifecore 1.3.md",
     "_site/(3)Projects/Toss-A-Toad/(Fleeting)/Untitled.html",
     "_site/(2)壳/Langauge x Writing/Fundemental_Linguistics.html",
     "(3)Projects/Toss-A-Toad/(Fleeting)/Untitled.md",
     "(2)壳/Langauge x Writing/Fundemental_Linguistics.md",
     "(2)壳/Bio/Fundemental_Bio.md",
-    "(2)壳/Art+Media/Poets x Books.md",
-    "(2)壳/Art+Media/Music Listening.md",
     "(2)壳/Art+Media/Movies.md",
-    "(2)壳/Art+Media/Documentaries  YT Videos.md",
     "(2)壳/Art+Media/Books_Fiction x Poems.md",
-    "(2)壳/Art+Media/Architecture_Design_Painting.md",
     "(4)Calendar/0 Week/Mar-2025 Week 10.md",
     "_daily/Feb-20-2025.md",
     "_daily/Feb-21-2025.md",
@@ -280,7 +281,6 @@
     "_scrapbook/Dreams Feb-28-25 Undercover.md",
     "(6)Personal/Nutrition+Supplementation/Cookbook/Ginseng Chicken Tonic Soup (Chinese Style).md",
     "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
-    "_journal/2025-02 Learning Markdown.md",
     "_site/images/IMG_6412.jpeg",
     "_site/images/IMG_6412 1.jpeg",
     "_site/(6)Personal/Lifecore Canvas.canvas",
