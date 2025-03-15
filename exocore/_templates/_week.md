@@ -15,35 +15,28 @@ tags:
 [[<% tp.date.now("[Week] WW YYYY", -7) %>|↶ Previous Week]] | [[<% tp.date.now("[Week] WW YYYY", 7) %>|Following Week ↷]]
 
 ### <% tp.date.weekday("MMM-DD-YYYY", 0) %>|Monday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 1) %>|Tuesday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 2) %>|Wednesday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 3) %>|Thursday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 4) %>|Friday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 5) %>|Saturday
-Wake: 
-Sleep:
+
 
 ---
 ### <% tp.date.weekday("MMM-DD-YYYY", 6) %>|Sunday
-Wake: 
-Sleep: 
+

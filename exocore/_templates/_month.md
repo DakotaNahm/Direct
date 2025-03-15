@@ -12,5 +12,3 @@ tags:
 
 # <% tp.date.now("MMM-YYYY") %>
 
-# Goals: 
-# Bills: 

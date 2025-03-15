@@ -25,7 +25,7 @@ To collect forms of knowledge, interpret and keep knowledge in a solid place ( B
 Knowledge Wells
 - Are.na ( Good for art, fashion, quick writings, PDF's  )
 - Twitter Followers
-- Shells [[(2)]]
+- Shells
 - Deep Internet Browsing
 - Communicating with people
 - YouTube
@@ -37,13 +37,40 @@ Shells
 	- _Furthering Material_
 	- _Notes/Writing_
 
----
+Index
+- *Business & Art Ideas*
+- *Aphorisms & Random Memories*
+- *Random*
 
-Exocore ( Blog/Writing )
+**Exocore ( Blog/Writing )**
+
 *Paper Writing / note writing*
+- All Thinking and writing goes into yellow notebooks. These notebooks are not organized, but the topic is written at the Top.
+- They are manuscript type work, with topic at the top of page and ideas at top of page, drawings, etc. Random notes.
+
+Drafts
+- Essay & Story Drafts
+- Things that need to be put into Exocore.
+
+Essays
+- _Long form Writings, short stories, etc._
+Log 
+- _Journal / Daily log ( Add Season Tag)_
+Shells ( Life Advice, Aphorisms, Recipes, Etc. ) ( _Journal )
+- _Broken Down by Topic_
+- _Recreate CSS for Topic Based Aphorisms. I don't like the way tags look._
+Dreams
+- _Dreams and Interpretations_
 Webring
-PDF's
-Project Links
+- _Dreams and Interpretations_
+PDF's & Links
+- _PDF's & Links to Articles_
+Tags
+- _All Tagged posts on website_
+Gallery
+- _All Images_
+Project Links ( Dakota Nahm, Engineer David Nash, Etc.)
+- _Product Links_
 
 ---
 
@@ -71,9 +98,11 @@ Projects ( Possible Subfolder )
 
 Calendar
 - Week
-	- Each New week obsidian creates a structured week I fill in
+	- _Each New week obsidian creates a structured week I fill in_
 - Month
+	- _Goals and expansions for that month_
 - Year
+	- _Goals and expansions for that year with a review_
 
 Finances
 - Bills

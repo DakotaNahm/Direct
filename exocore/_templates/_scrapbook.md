@@ -7,4 +7,4 @@ source:
 tags: 
 ---
 
-# <% await tp.system.prompt("New scrapbook title:", "Untitled", false) %>
+# Dreams <% tp.date.now() %>: <% await tp.system.prompt("New scrapbook title:", "Untitled", false) %>
