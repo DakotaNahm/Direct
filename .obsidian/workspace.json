@@ -8,35 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1fab1e336f11ba76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(2)壳/Bio/Fundemental_Bio.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Fundemental_Bio"
-            }
-          },
-          {
             "id": "52077c690283e77d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(2)壳/Art+Media/Art Study.md",
+                "file": "(2)壳/Langauge x Writing/Writing/Fundamentals Writing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Art Study"
+              "title": "Fundamentals Writing"
+            }
+          },
+          {
+            "id": "1fab1e336f11ba76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(6)Personal/Lifecore 1.3.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lifecore 1.3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,42 +244,42 @@
   },
   "active": "52077c690283e77d",
   "lastOpenFiles": [
+    "(2)壳/Langauge x Writing/Manderin/Learning Chinese Sources.md",
+    "(2)壳/Langauge x Writing/German/learning German.md",
+    "(2)壳/Langauge x Writing/German/German Working Dictionary.md",
+    "(2)壳/Langauge x Writing/English/English Working Dictionary.md",
+    "(2)壳/Langauge x Writing/English/Untitled.md",
+    "(2)壳/Langauge x Writing/Manderin/Manderin Working Dictionary.md",
+    "(2)壳/Langauge x Writing/Fundamental Linguistics.md",
+    "(2)壳/Langauge x Writing/Writing/How to Write.md",
+    "(2)壳/Langauge x Writing/Writing/Fundamentals Writing.md",
+    "(2)壳/History/Fundamental History.md",
+    "(6)Personal/Machines+Tools+Home/Cleaners_Smells.md",
+    "(6)Personal/Machines+Tools+Home/Personal Tech.md",
+    "(6)Personal/Home Repai Car Repairr & Machines",
+    "(6)Personal/Untitled.md",
+    "(2)壳/Physics+Math/Fundamental Physics.md",
+    "(2)壳/Psych/Fundamental Psych.md",
+    "(2)壳/Religion/Fundamental Religion.md",
+    "(2)壳/Philosophy/Fundamental Philosophy.md",
+    "(6)Personal/Machines+Tools+Home/Modern_Basic_Tool_Kit.md",
+    "(6)Personal/Machines+Tools+Home/Electrics.md",
+    "(6)Personal/Machines+Tools+Home/Plumbing.md",
+    "(2)壳/Family/Fundamental Family.md",
+    "(2)壳/Computing/Fundamental Computing.md",
+    "(2)壳/Bio/Fundamental Bio.md",
+    "(2)壳/Art+Media/Fundamental Art.md",
     "(2)壳/Art+Media/Architecture_Design_Painting.md",
-    "(2)壳/Art+Media/Art Study.md",
-    "exocore/_templates/_Note.md",
-    "(2)壳/Art+Media/Documentaries  YT Videos.md",
-    "(2)壳/Art+Media/Poets x Books.md",
-    "(2)壳/Art+Media/Music Listening.md",
     "(6)Personal/Lifecore 1.3.md",
     "_site/(3)Projects/Toss-A-Toad/(Fleeting)/Untitled.html",
     "_site/(2)壳/Langauge x Writing/Fundemental_Linguistics.html",
-    "(3)Projects/Toss-A-Toad/(Fleeting)/Untitled.md",
-    "(2)壳/Langauge x Writing/Fundemental_Linguistics.md",
-    "(2)壳/Bio/Fundemental_Bio.md",
-    "(2)壳/Art+Media/Movies.md",
-    "(2)壳/Art+Media/Books_Fiction x Poems.md",
-    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
-    "_daily/Feb-20-2025.md",
-    "_daily/Feb-21-2025.md",
-    "_daily/Feb-22-2025.md",
-    "_daily/Feb-23-2025.md",
-    "_daily/Mar-14-2025, Identifying Neurosis.md",
     "_site/daily/mar-14-2025-identifying-neurosis.html",
     "_site/daily/mar-14-2025-identifying-neurosi.html",
     "_site/daily/mar-14-2025-identifying.html",
     "_site/daily/mar-14-2025-identif.html",
     "_site/daily/mar-14-2025-i.html",
-    "_Journal/Shell Test.md",
-    "_articles/Exocore Installation Instructions.md",
     "_site/journal/shell-test.html",
     "_site/journal/untitled.html",
-    "_site/journal",
-    "_Journal/Samgyetang Ginseng Chicken Soup (Korean Style).md",
-    "_daily/May-11-2022.md",
-    "_scrapbook/Dreams Feb-23-25  AA Walmart Light pole, Medical Imaging..md",
-    "_scrapbook/Dreams Feb-28-25 Undercover.md",
-    "(6)Personal/Nutrition+Supplementation/Cookbook/Ginseng Chicken Tonic Soup (Chinese Style).md",
-    "_journal/Ginseng Chicken Tonic Soup (Chinese Style).md",
     "_site/images/IMG_6412.jpeg",
     "_site/images/IMG_6412 1.jpeg",
     "_site/(6)Personal/Lifecore Canvas.canvas",

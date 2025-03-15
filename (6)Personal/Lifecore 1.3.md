@@ -33,7 +33,7 @@ Knowledge Wells
 
 Shells
 - Subject
-	- _Introductory Material_
+	- _Fundemental *_
 	- _Furthering Material_
 	- _Notes/Writing_
 
