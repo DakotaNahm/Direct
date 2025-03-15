@@ -56,21 +56,20 @@ Essays
 - _Long form Writings, short stories, etc._
 Log 
 - _Journal / Daily log ( Add Season Tag)_
-Shells ( Life Advice, Aphorisms, Recipes, Etc. ) ( _Journal )
+Shells/Tags ( Life Advice, Aphorisms, Recipes, Etc. ) ( _Journal )
 - _Broken Down by Topic_
 - _Recreate CSS for Topic Based Aphorisms. I don't like the way tags look._
+- What shells are, are original Exocore Journals with tags. These tags act as a way to display these journal entries.
 Dreams
 - _Dreams and Interpretations_
 Webring
 - _Dreams and Interpretations_
 PDF's & Links
 - _PDF's & Links to Articles_
-Tags
-- _All Tagged posts on website_
 Gallery
 - _All Images_
 Project Links ( Dakota Nahm, Engineer David Nash, Etc.)
-- _Product Links_
+- _Project Links_
 
 ---
 
@@ -139,29 +138,13 @@ Personal
 
 ---
 
-**Media**
-
-- Media_Tech_Organization
-	- Music backups
-	- Web Backup
-	- Image Backup
-	- Video Backup
-	- Movies
-	- Remaining Media Form Backup
-
-- Exocore Images & Video ( Images Used in Exocore )
-- Media Images & Video ( Images & Videos that are backed up )
-
----
-
-**Tech Setup**
+**Tech Setup & Media Storage**
 
 Main PC
 - Drive Structure ( 4tb )
 	- Main(C)
-		- Home ( Writing Programs, basic programs, etc )
-			- Personal Images
-			- Personal Stuff
+		- Home ( Writing Programs, basic programs, etc. )
+			- Personal Media ( Used in Exocore )
 			- Programs
 		- Projects
 			- David Nash
@@ -173,6 +156,8 @@ Main PC
 Mac Studio ( 4tb )
 - Drives
 	- Home
+		- Personal Media ( Used in Exocore )
+		- Programs
 	- Projects
 			- David Nash
 			- Etc.
@@ -182,6 +167,8 @@ Mac Studio ( 4tb )
 MacBook Air ( 2Tb )
 - Drive Structure 
 	- Home
+		- Personal Media ( Used in Exocore )
+		- Programs
 	- Projects
 			- David Nash
 			- Etc.
@@ -217,10 +204,11 @@ Monitor ( Large )
 Phone
 - Small Apple, jailbroken with just basic apps.
 
-- Writings
-			- **These are printed** and places somewhere, just scattered papers organized.
-
-
+- Writings & Bookshelf
+	- **These are printed** and places somewhere, just scattered papers organized.
+	- Writing Desk
+	- Bookshelf
+	- Etc.
 
 
 

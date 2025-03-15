@@ -41,22 +41,22 @@
     background-color: rgb(28, 28, 33);
     color: white;
     a {
-        color: rgb(140, 140, 250);
+        color: rgb(173, 173, 255);
     }
     .user-name{
         color: lightblue;
     }
     .index-item span{
-        color: rgb(140, 140, 250);
+        color: rgb(173, 173, 255);
     }
     .tag-grid a {
-        color: rgb(140, 140, 250);
+        color: rgb(173, 173, 255);
     }
     table, tr, td {
         background-color: none;
     }
     .library-item-title {
-        color: rgb(140, 140, 250);
+        color: rgb(173, 173, 255);
     }
     .library-item-filetype{
         color: red;
@@ -992,6 +992,7 @@ display: none;
 .tag-grid {
     display: block;
     text-align: start;
+    margin-top: 50px;
 }
 
 .tag-grid h1{

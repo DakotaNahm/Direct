@@ -1,2 +1,0 @@
-# Tuck Inu Design Spreadsheet
-

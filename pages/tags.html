@@ -11,8 +11,9 @@ title: tags
   </div>
   <div class="midcolumn">
     <article>
-      <h1 class="title-text" style="padding-top: 10px;">Tags</h1>
-      <p style=" width: 100%; text-align: center"></p>
+      <h1 class="title-text" style="padding-top: 10px;">Shells壳</h1>
+      <br>
+      <p style=" width: 100%; text-align: center">Topic based information for value driven life</p>
     </article>
   <div class="index-card">
   <br>
@@ -21,7 +22,7 @@ title: tags
     {% for tag in tags %}
     <div style="font-size: 13px; margin-bottom: 17px;" id="{{tag}}" class="tile">
       
-      <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline;">{{ tag | capitalize }}</h1>
+      <h1 style="text-align: start; margin-bottom: 5px; margin-top: 5px; font-weight: bold; text-decoration: underline; color: white;">{{ tag | capitalize }}</h1>
       
       {% for document in site.documents %}
         {% if document.tags contains tag %}

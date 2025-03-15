@@ -101,10 +101,6 @@ defaults:
 
 collections:
 
-  wiki:
-    output: true
-    permalink: /:collection/:slug
-
   journal:
     output: true
     permalink: /:collection/:slug
