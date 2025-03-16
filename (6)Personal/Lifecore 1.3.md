@@ -76,20 +76,7 @@ Project Links ( Dakota Nahm, Engineer David Nash, Etc.)
 **Projects**
 
 Projects ( Possible Subfolder )
-- Project
-	- *Fleeting
-		- _Fleeting Notes & Brainstorms_
-	- _Goal/Direction_
-	- _Study Material & Creation Material_
-	- _Links_
-		- Outsourcing
-		- Memes
-		- etc.
-	- _To-Do_
-	- _Pipeline_
-		- A cohesive collection of the thoughts that are in conjunction with the action of project creation
-- Micro-Projects
-	- _Microproject Ideas, Brainstorm, Writing_
+- Organize as needed
 
 ---
 

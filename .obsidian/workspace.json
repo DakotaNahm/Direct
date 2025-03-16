@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f3bc366071559ff2",
+        "id": "255310ea155edd8b",
         "type": "tabs",
         "children": [
           {
-            "id": "52077c690283e77d",
+            "id": "1fab1e336f11ba76",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Mar-2025 Week 10"
-            }
-          },
-          {
-            "id": "1fab1e336f11ba76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(6)Personal/Lifecore 1.3.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lifecore 1.3"
             }
           }
         ]
@@ -112,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 414.5110321044922
   },
   "right": {
     "id": "fa5c2b51a2ba60c1",
@@ -242,51 +228,90 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "52077c690283e77d",
+  "floating": {
+    "id": "5881685746b2376c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a038d08e4e002014",
+        "type": "window",
+        "children": [
+          {
+            "id": "d193f6d4d69428fb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "52077c690283e77d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "(6)Personal/Lifecore 1.3.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lifecore 1.3"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2800,
+        "y": 0,
+        "width": 1720,
+        "height": 1400,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "1fab1e336f11ba76",
   "lastOpenFiles": [
-    "(2)壳/Philosophy/Fundamental Philosophy.md",
-    "(2)壳/Physics+Math/Fundamental Physics.md",
-    "(2)壳/Psych/Fundamental Psych.md",
-    "(2)壳/Religion/Fundamental Religion.md",
-    "(2)壳/Philosophy/Genre_Based_Thinkers.md",
-    "(2)壳/Langauge x Writing/English/English Working Dictionary.md",
-    "(2)壳/Bio/Fundamental Bio.md",
-    "(2)壳/Computing/Fundamental Computing.md",
-    "(2)壳/History/Fundamental History.md",
-    "(2)壳/Langauge x Writing/Fundamental Linguistics.md",
-    "(2)壳/Langauge x Writing/Writing/Fundamentals Writing.md",
-    "(2)壳/Langauge x Writing/Manderin/Learning Chinese Sources.md",
-    "(2)壳/Langauge x Writing/German/learning German.md",
-    "(2)壳/Langauge x Writing/German/German Working Dictionary.md",
-    "(2)壳/Langauge x Writing/English/Untitled.md",
-    "(2)壳/Langauge x Writing/Manderin/Manderin Working Dictionary.md",
-    "(2)壳/Langauge x Writing/Writing/How to Write.md",
-    "(6)Personal/Machines+Tools+Home/Cleaners_Smells.md",
-    "(6)Personal/Machines+Tools+Home/Personal Tech.md",
-    "(6)Personal/Home Repai Car Repairr & Machines",
-    "(6)Personal/Untitled.md",
-    "(6)Personal/Machines+Tools+Home/Modern_Basic_Tool_Kit.md",
-    "(6)Personal/Machines+Tools+Home/Electrics.md",
-    "(6)Personal/Machines+Tools+Home/Plumbing.md",
-    "(2)壳/Family/Fundamental Family.md",
-    "(2)壳/Art+Media/Fundamental Art.md",
-    "(2)壳/Art+Media/Architecture_Design_Painting.md",
-    "_site/(3)Projects/Toss-A-Toad/(Fleeting)/Untitled.html",
-    "_site/(2)壳/Langauge x Writing/Fundemental_Linguistics.html",
-    "_site/daily/mar-14-2025-identifying-neurosis.html",
-    "_site/daily/mar-14-2025-identifying-neurosi.html",
-    "_site/daily/mar-14-2025-identifying.html",
-    "_site/daily/mar-14-2025-identif.html",
-    "_site/daily/mar-14-2025-i.html",
-    "_site/journal/shell-test.html",
-    "_site/journal/untitled.html",
+    "(0)Drafts/Journal/Midwest Obituaries.md",
+    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
+    "(6)Personal/Lifecore 1.3.md",
+    "(3)Projects/Toss-A-Toad/To-Do.md",
+    "(3)Projects/Toss-A-Toad/Sale & Broker.md",
+    "(3)Projects/Toss-A-Toad/System Design.canvas",
+    "(3)Projects/Toss-A-Toad/Marketing/Marketing_Pipeline.md",
+    "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
+    "(3)Projects/Toss-A-Toad/Assets & Animations/Logos  Spreader Symbol  Marketing.md",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Links.md",
+    "(3)Projects/Toss-A-Toad/UI & UX",
+    "(3)Projects/Toss-A-Toad/Marketing",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Goal.md",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Marketing Pipeline.md",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Tuck Notes/ARG_Framework.md",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Study & Development",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
+    "(3)Projects/Dakota Nahm/Business_Docs.md",
+    "(3)Projects/Dakota Nahm/Tuck Inu/Tuck Notes",
+    "(3)Projects/Dakota Nahm/Coin Exchanges.md",
+    "(3)Projects/Dakota Nahm/Wallet Structure.md",
+    "(3)Projects/Dakota Nahm/Sheza/Goal.md",
+    "(3)Projects/Dakota Nahm/Sheza/Links.md",
+    "(3)Projects/Dakota Nahm/Sheza/To-Do.md",
+    "(3)Projects/Dakota Nahm/Sheza/Marketing Pipeline.md",
+    "(3)Projects/Dakota Nahm/Sheza/Study & Development",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Token.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_Writing.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_Memes.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_Attributes.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Art_Of_Meme.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sale-Autopilot.md",
+    "(3)Projects/Dakota Nahm/Sheza/Sheza Notes",
+    "(3)Projects/Dakota Nahm/M8/Study & Development",
+    "(3)Projects/Dakota Nahm/Capsules/Study & Development",
+    "(3)Projects/Dakota Nahm/Capsules/Capsule Notes",
+    "(3)Projects/Toss-A-Toad/(Fleeting)",
     "_site/images/IMG_6412.jpeg",
     "_site/images/IMG_6412 1.jpeg",
     "_site/(6)Personal/Lifecore Canvas.canvas",
     "images/IMG_6412.jpeg",
     "images/IMG_6412 1.jpeg",
     "images/IMG_6401.jpeg",
-    "(3)Projects/Toss-A-Toad/System Design.canvas",
     "(6)Personal/Lifecore Canvas.canvas",
     "_site/assets/attachments/Pasted image 20250303163609.png",
     "_site/assets/attachments/Pasted image 20250303163607.png",
