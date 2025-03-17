@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "255310ea155edd8b",
+        "id": "192cc683e49716c0",
         "type": "tabs",
         "children": [
           {
-            "id": "1fab1e336f11ba76",
+            "id": "4b3a9305e5cf0b11",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Mar-2025 Week 10"
             }
-          },
-          {
-            "id": "d682fb792bc60694",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_daily/Mar-16-2025.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mar-16-2025"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,16 +224,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "d682fb792bc60694",
+  "active": "4b3a9305e5cf0b11",
   "lastOpenFiles": [
+    "(4)Calendar/0 Week/Mar-2025 Week 11.md",
+    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
+    "(4)Calendar/0 Week/Week 11 2025.md",
+    "_daily/Mar-09-2025.md",
+    "_daily/Mar-08-2025.md",
+    "_daily/Mar-10-2025.md",
+    "_daily/Mar-11-2025.md",
+    "_daily/Mar-12-2025.md",
+    "_daily/Mar-13-2025.md",
+    "_daily/Mar-14-2025, Identifying Neurosis.md",
+    "_daily/Mar-16-2025.md",
+    "_daily/May-11-2022.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Gameplay Speed.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/Toad_Aesthetics.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/Animations Brainstorm.md",
-    "(4)Calendar/0 Week/Mar-2025 Week 10.md",
-    "_daily/Mar-16-2025.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsule Notes/Capsule Data Backup.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsule Notes/Abraxis-Capsules.md",
     "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_Attributes.md",
@@ -260,20 +256,10 @@
     "(3)Projects/Dakota Nahm/M8/M8 Notes/m8_Task.md",
     "(0)Drafts/Journal/Midwest Obituaries.md",
     "(3)Projects/Toss-A-Toad/To-Do.md",
-    "(3)Projects/Toss-A-Toad/Sale & Broker.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
-    "(3)Projects/Toss-A-Toad/Marketing/Marketing_Pipeline.md",
-    "(3)Projects/Toss-A-Toad/Outsourcing x Expenses Spreadsheet.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Logos  Spreader Symbol  Marketing.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Links.md",
     "(3)Projects/Toss-A-Toad/UI & UX",
     "(3)Projects/Toss-A-Toad/Marketing",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Goal.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Marketing Pipeline.md",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Tuck Notes/ARG_Framework.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Study & Development",
-    "(3)Projects/Dakota Nahm/Tuck Inu/Sale-Autopilot.md",
-    "(3)Projects/Dakota Nahm/Business_Docs.md",
     "(3)Projects/Dakota Nahm/Tuck Inu/Tuck Notes",
     "(3)Projects/Dakota Nahm/Sheza/Study & Development",
     "(3)Projects/Dakota Nahm/Sheza/Sheza Notes",
