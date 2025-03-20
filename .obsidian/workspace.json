@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcdf4380cd404d19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(5)Finances/FinanceCore 1.1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "FinanceCore 1.1"
-            }
-          },
-          {
             "id": "81a350010cdbdd56",
             "type": "leaf",
             "state": {
@@ -36,17 +22,47 @@
             }
           },
           {
-            "id": "5c9ef4c3382b23ec",
+            "id": "1e46595910fead81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "(1)Index/Old Daily Notes/Untitled 1.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "190474596e9d4464",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/IMG_0541.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG_0541"
+            }
+          },
+          {
+            "id": "dc2dcd658b8216a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_daily/Mar-19-2025.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mar-19-2025"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -253,8 +269,36 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5c9ef4c3382b23ec",
+  "active": "dc2dcd658b8216a2",
   "lastOpenFiles": [
+    "_site/images/IMG_0043.jpeg",
+    "_site/images/IMG_0044.jpeg",
+    "images/IMG_0043.jpeg",
+    "images/IMG_0044.jpeg",
+    "_site/images/IMG_0048.jpeg",
+    "images/IMG_0048.jpeg",
+    "_site/images/IMG_0049.jpeg",
+    "images/IMG_0049.jpeg",
+    "_daily/Mar-16-2019.md",
+    "_daily/June-30-2020.md",
+    "_daily/Feb-28-2025.md",
+    "_site/daily/june-30-2020.html",
+    "_site/daily/untitled.html",
+    "(1)Index/Old Daily Notes/Untitled 1.md",
+    "_site/(6)Lifecore/Lifecore 1.3.html",
+    "_site/(6)Lifecore",
+    "_site/(3)Projects/Toss-A-Toad/Assets & Animations/D-Collector Badge.html",
+    "_site/(3)Projects/Toss-A-Toad/Econ x Prog/Level 1-99 Items.html",
+    "_site/(3)Projects/Toss-A-Toad/Assets & Animations/D-Emotes ().html",
+    "_site/(3)Projects/Dakota Nahm/M8/M8 Notes/solM8 Insp Collection.html",
+    "_site/(3)Projects/Toss-A-Toad/Gameplay/Wind.html",
+    "_site/daily/mar-19-2025.html",
+    "_site/images/strange fish.jpg",
+    "_site/images/IMG_0541.jpeg",
+    "images/IMG_0541.jpeg",
+    "(1)Index/Old Daily Notes/Untitled.md",
+    "(1)Index/Old Daily Notes/Mac Writing.md",
+    "(4)Calendar/0 Week/Mar-2025 Week 11.md",
     "(5)Finances/FinanceCore 1.1.md",
     "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_CC_Dev.md",
     "(3)Projects/Dakota Nahm/Sheza/Sheza Notes/Sheza_Attributes.md",
@@ -268,39 +312,11 @@
     "(3)Projects/Dakota Nahm/Capsules/Capsule Notes/Abraxis-Capsules.md",
     "(3)Projects/Dakota Nahm/Capsules/Capsule Notes/Capsule Data Backup.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Enhancers & Aces.md",
-    "(4)Calendar/0 Week/Mar-2025 Week 11.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Packs & IAP.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Flags.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Powerup Cards.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Stickers.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Emotes ().md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/D-Arenas & Signifiers.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/D-Card Leveling Up Aesthetic.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/D-Collector Badge.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Asset_Collection_System.md",
-    "_daily/Mar-19-2025.md",
-    "_daily/Mar-18-2025.md",
-    "_daily/Mar-13-2025.md",
-    "(6)Lifecore",
-    "_site/videos/train.mp4",
-    "videos/train.mp4",
-    "images/steel-nobg.png",
-    "_site/videos",
-    "videos",
-    "_site/assets/videos/train.mp4",
-    "_site/assets/videos",
-    "assets/videos/train.mp4",
-    "assets/videos",
-    "_site/assets/attachments/Pasted image 20250317155949.jpg",
-    "_site/assets/attachments/Pasted image 20250317155515.jpg",
-    "_site/assets/attachments/Pasted image 20250317155502.jpg",
-    "_site/assets/attachments/Pasted image 20250317155258.jpg",
-    "_site/assets/attachments/Pasted image 20250317143949.jpg",
-    "_site/assets/attachments/Pasted image 20250317143747.png",
-    "_site/assets/attachments/Pasted image 20250317143736.jpg",
-    "_site/assets/attachments/Pasted image 20250317143640.jpg",
-    "images/study-monk.png",
-    "images/train.mp4",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "_site/(6)Personal/Lifecore Canvas.canvas",
     "(6)Personal/Lifecore Canvas.canvas",
