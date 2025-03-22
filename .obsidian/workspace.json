@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "D-Powerup Cards and HP"
             }
-          },
-          {
-            "id": "881464a5ecda692f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mid Game Note"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,14 +224,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workout-tracker:Add workout": false,
       "workout-tracker:Statistic": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "periodic-notes:Open this week": false
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "881464a5ecda692f",
+  "active": "f21bfa9d8b2b550e",
   "lastOpenFiles": [
-    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
+    "_daily/Mar-05-2025.md",
+    "(4)Calendar/0 Week/Mar-2025 Week 11.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
+    "_site/(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.html",
+    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/Packs & Cycle.md",
     "(3)Projects/Toss-A-Toad/Toad notes.md",
     "_daily/Mar-21-2025 - Financial Freedom.md",
@@ -287,10 +274,7 @@
     "_site/daily/dec-15-2020.html",
     "_site/daily/dec-1-2025.html",
     "_site/daily/dec-20-2025.html",
-    "_site/daily/12-20-2025.html",
     "(1)Index/Old Daily Notes/Untitled 1.md",
-    "_daily/Dec-03-2020 - Lifecycle of the Small American Town.md",
-    "_daily/Dec-13-2020 - Describing a Void.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "_site/(6)Personal/Lifecore Canvas.canvas",
     "(6)Personal/Lifecore Canvas.canvas",
