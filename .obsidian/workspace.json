@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(3)Projects/Toss-A-Toad/Toad notes.md",
+                "file": "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Toad notes"
+              "title": "Mid Game Note"
             }
           }
         ],
@@ -245,6 +245,10 @@
   },
   "active": "881464a5ecda692f",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
+    "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
+    "(3)Projects/Toss-A-Toad/Econ x Prog/Packs & Cycle.md",
+    "(3)Projects/Toss-A-Toad/Toad notes.md",
     "_daily/Mar-21-2025 - Financial Freedom.md",
     "_site/(3)Projects/Toss-A-Toad/Assets & Animations/D-Powerup Cards and HP.html",
     "_site/images/DSC00006.jpg",
@@ -253,13 +257,11 @@
     "images/DSC00004.jpg",
     "images/DSC00006.jpg",
     "images/DSC00005.jpg",
-    "(3)Projects/Toss-A-Toad/Toad notes.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Powerup Cards and HP.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Incubation.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Gameplay Speed.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Aces + Card Modifiers + Upgrades +.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Card synergies - Anti Synergies.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Toad & Pad Catalog Brainstorm.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/Toad Stats.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/Asset_Collection_System.md",
@@ -289,7 +291,6 @@
     "(1)Index/Old Daily Notes/Untitled 1.md",
     "_daily/Dec-03-2020 - Lifecycle of the Small American Town.md",
     "_daily/Dec-13-2020 - Describing a Void.md",
-    "_daily/Dec-02-2020.md",
     "(3)Projects/Toss-A-Toad/System Design.canvas",
     "_site/(6)Personal/Lifecore Canvas.canvas",
     "(6)Personal/Lifecore Canvas.canvas",
