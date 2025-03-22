@@ -4,11 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1e9513b885fb655b",
+        "id": "e1c535de9b62db37",
         "type": "tabs",
         "children": [
           {
-            "id": "f21bfa9d8b2b550e",
+            "id": "e3abae6916168f51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(3)Projects/Toss-A-Toad/Assets & Animations/D-Toad & Pad Catalog Brainstorm.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "D-Toad & Pad Catalog Brainstorm"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f9fc19a8e0663736",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "483c54cd8bd1e7ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +40,8 @@
               "icon": "lucide-file",
               "title": "Toad notes"
             }
-          },
-          {
-            "id": "e928196351dc97ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mid Game Note"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,18 +248,26 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e928196351dc97ba",
+  "active": "e3abae6916168f51",
   "lastOpenFiles": [
+    "(3)Projects/Toss-A-Toad/Toad notes.md",
+    "(3)Projects/Toss-A-Toad/Assets & Animations/D-Toad & Pad Catalog Brainstorm.md",
+    "(3)Projects/Toss-A-Toad/Assets & Animations/Toad Stats.md",
+    "(3)Projects/Toss-A-Toad/Assets & Animations/Notes On Animations.md",
+    "(3)Projects/Toss-A-Toad/Assets & Animations/Asset_Collection_System.md",
+    "(3)Projects/Toss-A-Toad/Gameplay/Cards & Recharge.md",
+    "(3)Projects/Toss-A-Toad/Gameplay/Card synergies - Anti Synergies.md",
+    "(3)Projects/Toss-A-Toad/To-Do.md",
+    "(3)Projects/Toss-A-Toad/Sale & Broker.md",
+    "(3)Projects/Toss-A-Toad/Random Notes.md",
+    "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Pages.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Physics System.md",
-    "(3)Projects/Toss-A-Toad/Toad notes.md",
     "_daily/Mar-22-2025 - Nothing in the middle.md",
     "(4)Calendar/0 Week/Mar-2025 Week 11.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Powerup Cards and HP.md",
     "_daily/Mar-05-2025.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.md",
     "_site/(3)Projects/Toss-A-Toad/Gameplay/Mid Game Note.html",
-    "(3)Projects/Toss-A-Toad/Gameplay/Cards.md",
     "(3)Projects/Toss-A-Toad/Econ x Prog/Packs & Cycle.md",
     "_daily/Mar-21-2025 - Financial Freedom.md",
     "_site/(3)Projects/Toss-A-Toad/Assets & Animations/D-Powerup Cards and HP.html",
@@ -267,10 +280,6 @@
     "(3)Projects/Toss-A-Toad/Gameplay/Incubation.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Gameplay Speed.md",
     "(3)Projects/Toss-A-Toad/Gameplay/Aces + Card Modifiers + Upgrades +.md",
-    "(3)Projects/Toss-A-Toad/Gameplay/Card synergies - Anti Synergies.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/D-Toad & Pad Catalog Brainstorm.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Toad Stats.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Asset_Collection_System.md",
     "_site/daily/mar-21-2025-financial-freedom.html",
     "_site/images/DSC00003.jpg",
     "_site/(3)Projects/Toss-A-Toad/Toad notes.md",
@@ -279,11 +288,7 @@
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Card Leveling Up Aesthetic.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/D-Arenas & Signifiers.md",
     "(3)Projects/Toss-A-Toad/Assets & Animations/Music x Sfx Spreadsheet.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Notes on Item Opening  Unpackaging.md",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Notes On Animations.md",
     "_site/(3)Projects/Toss-A-Toad/Assets & Animations/Mid Game Animations.html",
-    "(3)Projects/Toss-A-Toad/Assets & Animations/Mid Game Animations.md",
-    "_site/(3)Projects/Toss-A-Toad/Assets & Animations/Untitled.md",
     "_site/(3)Projects/Toss-A-Toad/Assets & Animations/Untitled.html",
     "assets/attachments/Pasted image 20250317143736.jpg",
     "assets/attachments/Pasted image 20250317143949.jpg",
